@@ -1,0 +1,1 @@
+import assets from './assets.json';export const asset=(path:string)=>(assets as Record<string,string>)[path.replace(/\.jpg$/,'.webp')]??(assets as Record<string,string>)[path]??'';

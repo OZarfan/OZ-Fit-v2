@@ -1,0 +1,17 @@
+{
+  "environment": "Node VM with mocked Service Worker Cache API, not a browser install/offline test",
+  "results": [
+    {
+      "name": "Manifest icons and standalone paths exist",
+      "status": "passed"
+    },
+    {
+      "name": "Install precaches shell, activate removes only own old caches",
+      "status": "passed"
+    },
+    {
+      "name": "Navigation serves cached shell when simulated network is offline",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,5018 @@
+{
+  "results": [
+    {
+      "name": "Old profile migration preserves days, free-text rehab, identity and defaults",
+      "status": "passed"
+    },
+    {
+      "name": "108 unique exercises, old IDs preserved, two assets each, area tags and aliases",
+      "status": "passed"
+    },
+    {
+      "name": "3 sessions selected only from 5 available days",
+      "status": "passed"
+    },
+    {
+      "name": "Conservative injury / unknown plan; active areas excluded from plans and swaps",
+      "status": "passed"
+    },
+    {
+      "name": "Recovered area restores selection; acute symptoms preserve explanatory day shells",
+      "status": "passed"
+    },
+    {
+      "name": "Goal cardio, mobility blocks and duration caps; ordinary beginner min2 sets",
+      "status": "passed"
+    },
+    {
+      "name": "Preferred/disliked/exact gym selection and core rotation",
+      "status": "passed"
+    },
+    {
+      "name": "Alternative coverage across all 255 equipment category combinations",
+      "status": "partial",
+      "slotsWithoutAlternative": 574,
+      "explanation": "Unsupported combinations use explicit no-alternative/move-to-end state; never invent a movement equivalent."
+    },
+    {
+      "name": "Nutrition unspecified-sex fallback and correct percentage/macro arithmetic",
+      "status": "passed"
+    },
+    {
+      "name": "Meal vegetarian/allergen filtering, accurate displayed totals and unresolved allergy block",
+      "status": "passed"
+    },
+    {
+      "name": "4-session progression, plateau and PR accuracy",
+      "status": "passed"
+    },
+    {
+      "name": "Plate arithmetic both directions, finite quantities, round-down",
+      "status": "passed"
+    },
+    {
+      "name": "Comeback after missed scheduled session; no fabricated historic adherence",
+      "status": "passed"
+    },
+    {
+      "name": "Physio candidate map exists and remains disabled without actual review",
+      "status": "passed"
+    },
+    {
+      "name": "Same localStorage key, pre-migration backup, persistence and revision409",
+      "status": "passed"
+    }
+  ],
+  "coverage": [
+    {
+      "equipment": [
+        "machine"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "cable"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cardio"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "cardio"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "cardio"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "cardio"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "cardio"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "cardio"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "body"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "body"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "body"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "body"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "cable",
+        "body"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "body"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "body"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cardio",
+        "body"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "cardio",
+        "body"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "body"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "body"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "body"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "body"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "cardio",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "kettlebell"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "kettlebell"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "kettlebell"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "kettlebell"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "kettlebell"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "kettlebell"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "kettlebell"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "kettlebell"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "kettlebell"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "kettlebell"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "kettlebell"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "kettlebell"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "kettlebell"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "kettlebell"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "band"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "cable",
+        "band"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "band"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "band"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "band"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "band"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "cardio",
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "cardio",
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "band"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "band"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "cardio",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "body",
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "body",
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "body",
+        "band"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "body",
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "cable",
+        "body",
+        "band"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "body",
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body",
+        "band"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body",
+        "band"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Bodyweight_Squat"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Preacher_Curls"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "cable",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Incline_Cable_Chest_Press"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Dumbbell_Bench_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Incline_Dumbbell_Press"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Barbell_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Barbell_Incline_Bench_Press_-_Medium_Grip"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Bent_Over_Barbell_Row"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Reverse_Machine_Flyes"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Machine_Triceps_Extension"
+    },
+    {
+      "equipment": [
+        "machine",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Seated_Bent-Over_Rear_Delt_Raise"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Band_Assisted_Pull-Up"
+    },
+    {
+      "equipment": [
+        "machine",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    },
+    {
+      "equipment": [
+        "machine",
+        "cable",
+        "dumbbell",
+        "barbell",
+        "cardio",
+        "body",
+        "kettlebell",
+        "band"
+      ],
+      "id": "Leg_Extensions"
+    }
+  ]
+}

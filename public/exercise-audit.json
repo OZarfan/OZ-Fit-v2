@@ -1,0 +1,27 @@
+{
+  "exerciseCount": 108,
+  "existingExerciseCount": 32,
+  "newExerciseCount": 76,
+  "photoCount": 216,
+  "photoBytes": 1117838,
+  "maxDimension": 320,
+  "webpQuality": 50,
+  "licenseSource": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/LICENSE.md",
+  "datasetSource": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/dist/exercises.json",
+  "all216PhotosVisuallyReviewed": true,
+  "unavailable": [
+    "Machine-assisted pull-up: source provides band-assisted pull-up only."
+  ],
+  "notes": {
+    "Cable_Seated_Lateral_Raise": "Photos and source instructions show a seated bent-over cable rear-delt fly, not an upright lateral raise. Use rear-delt name/pattern.",
+    "Lying_Triceps_Press": "Source prose and equipment say EZ/straight bar, but both source photos depict dumbbells. Display as lying dumbbell triceps extension and use dumbbell technique/equipment.",
+    "Knee_Hip_Raise_On_Parallel_Bars": "Photos show bent-knee captain-chair raise. Source prose incorrectly calls for legs extended. Use bent-knee raise cue.",
+    "Hanging_Leg_Raise": "Photos show bent-knee hanging raise. Name may mention hanging knee/leg raise; cue bent knees to match.",
+    "Plank": "Photo 0 is kneeling setup; photo 1 shows forearm plank hold. Do not label photo 0 as plank hold.",
+    "Goblet_Squat": "Photos depict kettlebell goblet squat; do not call it dumbbell goblet squat.",
+    "Band_Assisted_Pull-Up": "Band assistance, not an assisted pull-up machine.",
+    "Split_Squat_with_Dumbbells": "Rear foot is elevated; this is a dumbbell Bulgarian split squat.",
+    "Chest_And_Front_Of_Shoulder_Stretch": "Photos and instructions use a pole/bodybar/broomstick; not equipment-free.",
+    "Seated_Floor_Hamstring_Stretch": "Photos show seated single-leg hamstring stretch with opposite knee bent."
+  }
+}

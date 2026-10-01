@@ -1,0 +1,14 @@
+import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+const {build,transform}=await import(process.env.OZ_ESBUILD||'esbuild');
+const work=path.dirname(fileURLToPath(import.meta.url));const out=process.env.OZ_OUTPUT||path.join(work,'dist');
+const assets={};for(const name of fs.readdirSync(work+'/public/exercises'))if(name.endsWith('.webp'))assets['/exercises/'+name]='data:image/webp;base64,'+fs.readFileSync(work+'/public/exercises/'+name).toString('base64');
+for(const name of ['oz-fit-logo.webp','Fitness-V2-AI-Intake-Prompt.md','PHOTO-LICENSE.md','anatomy-LICENSE.txt','anatomy-UPSTREAM-LICENSE.txt'])assets['/'+name]='data:'+(name.endsWith('.webp')?'image/webp':'text/plain;charset=utf-8')+';base64,'+fs.readFileSync(work+'/public/'+name).toString('base64');
+fs.writeFileSync(work+'/assets.json',JSON.stringify(assets));fs.writeFileSync(work+'/asset.ts',"import assets from './assets.json';export const asset=(path:string)=>(assets as Record<string,string>)[path.replace(/\\.jpg$/,'.webp')]??(assets as Record<string,string>)[path]??'';");
+await build({entryPoints:[work+'/entry.tsx'],outfile:work+'/app.js',bundle:true,format:'iife',platform:'browser',jsx:'automatic',minify:true,target:['es2020'],define:{'process.env.NODE_ENV':'"production"'},alias:{'@/lib':work+'/lib','@/components':work+'/components'},logLevel:'warning'});
+const js=fs.readFileSync(work+'/app.js','utf8').replace(/<\/script/gi,'<\\/script');const css=(await transform(fs.readFileSync(work+'/base.css','utf8')+'\n'+fs.readFileSync(work+'/app.css','utf8'),{loader:'css',minify:true})).code;
+const head=`<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#142319"><title>Oz Fit 2 — Local</title><link rel="icon" href="${assets['/oz-fit-logo.webp']}"><style>${css}</style>`;
+const body=`<div id="root"></div><noscript>JavaScript is required / التطبيق يحتاج JavaScript</noscript><script>${js}</script>`;
+fs.mkdirSync(out+'/pwa',{recursive:true});fs.writeFileSync(out+'/Oz-Fit-v2.html',`<!doctype html><html lang="ar" dir="rtl"><head>${head}</head><body>${body}</body></html>`);
+fs.writeFileSync(out+'/pwa/index.html',`<!doctype html><html lang="ar" dir="rtl"><head>${head}<link rel="manifest" href="./manifest.webmanifest"></head><body>${body}</body></html>`);
+for(const name of ['manifest.webmanifest','sw.js','icon-192.png','icon-512.png'])fs.copyFileSync(work+'/public/'+name,out+'/pwa/'+name);
+console.log('HTML bytes',fs.statSync(out+'/Oz-Fit-v2.html').size,'embedded assets',Object.keys(assets).length);
