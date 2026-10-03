@@ -1,0 +1,2021 @@
+{
+  "environment": "Headless Chromium 154.0.8037.97, isolated synthetic fixtures. Desktop viewport emulation; not a real phone or screen-reader test.",
+  "results": [
+    {
+      "lang": "en",
+      "width": 360,
+      "checks": [
+        "Finish session and eyebrow text contrast >= 4.5:1",
+        "Field names, associated errors, correction, first-invalid focus and successful logging",
+        "Both dialog headers avoid title collision; logical 44px close, localized name, click and Escape",
+        "Muscle, split, stage and Balanced selected states; report textarea accessible name and editing"
+      ],
+      "measurements": {
+        "today": {
+          "viewport": 360,
+          "documentWidth": 360,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": null
+        },
+        "logging": {
+          "viewport": 360,
+          "documentWidth": 360,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 285,
+              "y": 44,
+              "width": 44,
+              "height": 44,
+              "right": 329,
+              "bottom": 88
+            },
+            "closeName": "Close",
+            "title": "Leverage chest press",
+            "dir": "ltr",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 14,
+              "y": 27,
+              "width": 332,
+              "height": 846,
+              "right": 346,
+              "bottom": 873
+            },
+            "scrollWidth": 330,
+            "clientWidth": 330
+          }
+        },
+        "validation": {
+          "viewport": 360,
+          "documentWidth": 360,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [
+            {
+              "text": "Enter a weight from 0 to 1500 kg.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            },
+            {
+              "text": "Enter a whole number of reps from 1 to 120.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            }
+          ],
+          "header": {
+            "close": {
+              "x": 285,
+              "y": 44,
+              "width": 44,
+              "height": 44,
+              "right": 329,
+              "bottom": 88
+            },
+            "closeName": "Close",
+            "title": "Leverage chest press",
+            "dir": "ltr",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 14,
+              "y": 27,
+              "width": 332,
+              "height": 846,
+              "right": 346,
+              "bottom": 873
+            },
+            "scrollWidth": 330,
+            "clientWidth": 330
+          }
+        },
+        "finishDialog": {
+          "viewport": 360,
+          "documentWidth": 360,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 283,
+              "y": 268.4296875,
+              "width": 44,
+              "height": 44,
+              "right": 327,
+              "bottom": 312.4296875
+            },
+            "closeName": "Close",
+            "title": "Finish session",
+            "dir": "ltr",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 16,
+              "y": 251.4296875,
+              "width": 328,
+              "height": 397.140625,
+              "right": 344,
+              "bottom": 648.5703125
+            },
+            "scrollWidth": 326,
+            "clientWidth": 326
+          }
+        },
+        "plan": {
+          "viewport": 360,
+          "documentWidth": 360,
+          "finish": [],
+          "eyebrows": [
+            {
+              "text": "YOUR GOAL AND TIME",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            },
+            {
+              "text": "PRACTICAL EGYPTIAN FOOD",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 6.689857160909872
+            }
+          ],
+          "validation": [],
+          "header": null
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "checks": [
+        "Finish session and eyebrow text contrast >= 4.5:1",
+        "Field names, associated errors, correction, first-invalid focus and successful logging",
+        "Both dialog headers avoid title collision; logical 44px close, localized name, click and Escape",
+        "Muscle, split, stage and Balanced selected states; report textarea accessible name and editing"
+      ],
+      "measurements": {
+        "today": {
+          "viewport": 390,
+          "documentWidth": 390,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": null
+        },
+        "logging": {
+          "viewport": 390,
+          "documentWidth": 390,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 315,
+              "y": 44,
+              "width": 44,
+              "height": 44,
+              "right": 359,
+              "bottom": 88
+            },
+            "closeName": "Close",
+            "title": "Leverage chest press",
+            "dir": "ltr",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 14,
+              "y": 27,
+              "width": 362,
+              "height": 846,
+              "right": 376,
+              "bottom": 873
+            },
+            "scrollWidth": 360,
+            "clientWidth": 360
+          }
+        },
+        "validation": {
+          "viewport": 390,
+          "documentWidth": 390,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [
+            {
+              "text": "Enter a weight from 0 to 1500 kg.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            },
+            {
+              "text": "Enter a whole number of reps from 1 to 120.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            }
+          ],
+          "header": {
+            "close": {
+              "x": 315,
+              "y": 44,
+              "width": 44,
+              "height": 44,
+              "right": 359,
+              "bottom": 88
+            },
+            "closeName": "Close",
+            "title": "Leverage chest press",
+            "dir": "ltr",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 14,
+              "y": 27,
+              "width": 362,
+              "height": 846,
+              "right": 376,
+              "bottom": 873
+            },
+            "scrollWidth": 360,
+            "clientWidth": 360
+          }
+        },
+        "finishDialog": {
+          "viewport": 390,
+          "documentWidth": 390,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 313,
+              "y": 268.4296875,
+              "width": 44,
+              "height": 44,
+              "right": 357,
+              "bottom": 312.4296875
+            },
+            "closeName": "Close",
+            "title": "Finish session",
+            "dir": "ltr",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 16,
+              "y": 251.4296875,
+              "width": 358,
+              "height": 397.140625,
+              "right": 374,
+              "bottom": 648.5703125
+            },
+            "scrollWidth": 356,
+            "clientWidth": 356
+          }
+        },
+        "plan": {
+          "viewport": 390,
+          "documentWidth": 390,
+          "finish": [],
+          "eyebrows": [
+            {
+              "text": "YOUR GOAL AND TIME",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            },
+            {
+              "text": "PRACTICAL EGYPTIAN FOOD",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 6.689857160909872
+            }
+          ],
+          "validation": [],
+          "header": null
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "lang": "en",
+      "width": 430,
+      "checks": [
+        "Finish session and eyebrow text contrast >= 4.5:1",
+        "Field names, associated errors, correction, first-invalid focus and successful logging",
+        "Both dialog headers avoid title collision; logical 44px close, localized name, click and Escape",
+        "Muscle, split, stage and Balanced selected states; report textarea accessible name and editing"
+      ],
+      "measurements": {
+        "today": {
+          "viewport": 430,
+          "documentWidth": 430,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": null
+        },
+        "logging": {
+          "viewport": 430,
+          "documentWidth": 430,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 355,
+              "y": 44,
+              "width": 44,
+              "height": 44,
+              "right": 399,
+              "bottom": 88
+            },
+            "closeName": "Close",
+            "title": "Leverage chest press",
+            "dir": "ltr",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 14,
+              "y": 27,
+              "width": 402,
+              "height": 846,
+              "right": 416,
+              "bottom": 873
+            },
+            "scrollWidth": 400,
+            "clientWidth": 400
+          }
+        },
+        "validation": {
+          "viewport": 430,
+          "documentWidth": 430,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [
+            {
+              "text": "Enter a weight from 0 to 1500 kg.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            },
+            {
+              "text": "Enter a whole number of reps from 1 to 120.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            }
+          ],
+          "header": {
+            "close": {
+              "x": 355,
+              "y": 44,
+              "width": 44,
+              "height": 44,
+              "right": 399,
+              "bottom": 88
+            },
+            "closeName": "Close",
+            "title": "Leverage chest press",
+            "dir": "ltr",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 14,
+              "y": 27,
+              "width": 402,
+              "height": 846,
+              "right": 416,
+              "bottom": 873
+            },
+            "scrollWidth": 400,
+            "clientWidth": 400
+          }
+        },
+        "finishDialog": {
+          "viewport": 430,
+          "documentWidth": 430,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 353,
+              "y": 268.4296875,
+              "width": 44,
+              "height": 44,
+              "right": 397,
+              "bottom": 312.4296875
+            },
+            "closeName": "Close",
+            "title": "Finish session",
+            "dir": "ltr",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 16,
+              "y": 251.4296875,
+              "width": 398,
+              "height": 397.140625,
+              "right": 414,
+              "bottom": 648.5703125
+            },
+            "scrollWidth": 396,
+            "clientWidth": 396
+          }
+        },
+        "plan": {
+          "viewport": 430,
+          "documentWidth": 430,
+          "finish": [],
+          "eyebrows": [
+            {
+              "text": "YOUR GOAL AND TIME",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            },
+            {
+              "text": "PRACTICAL EGYPTIAN FOOD",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 6.689857160909872
+            }
+          ],
+          "validation": [],
+          "header": null
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "checks": [
+        "Finish session and eyebrow text contrast >= 4.5:1",
+        "Field names, associated errors, correction, first-invalid focus and successful logging",
+        "Both dialog headers avoid title collision; logical 44px close, localized name, click and Escape",
+        "Muscle, split, stage and Balanced selected states; report textarea accessible name and editing"
+      ],
+      "measurements": {
+        "today": {
+          "viewport": 1280,
+          "documentWidth": 1280,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": null
+        },
+        "logging": {
+          "viewport": 1280,
+          "documentWidth": 1280,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 1029,
+              "y": 98.3203125,
+              "width": 44,
+              "height": 44,
+              "right": 1073,
+              "bottom": 142.3203125
+            },
+            "closeName": "Close",
+            "title": "Leverage chest press",
+            "dir": "ltr",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 190,
+              "y": 81.3203125,
+              "width": 900,
+              "height": 737.359375,
+              "right": 1090,
+              "bottom": 818.6796875
+            },
+            "scrollWidth": 898,
+            "clientWidth": 898
+          }
+        },
+        "validation": {
+          "viewport": 1280,
+          "documentWidth": 1280,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [
+            {
+              "text": "Enter a weight from 0 to 1500 kg.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            },
+            {
+              "text": "Enter a whole number of reps from 1 to 120.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            }
+          ],
+          "header": {
+            "close": {
+              "x": 1029,
+              "y": 98.3203125,
+              "width": 44,
+              "height": 44,
+              "right": 1073,
+              "bottom": 142.3203125
+            },
+            "closeName": "Close",
+            "title": "Leverage chest press",
+            "dir": "ltr",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 190,
+              "y": 81.3203125,
+              "width": 900,
+              "height": 737.359375,
+              "right": 1090,
+              "bottom": 818.6796875
+            },
+            "scrollWidth": 898,
+            "clientWidth": 898
+          }
+        },
+        "finishDialog": {
+          "viewport": 1280,
+          "documentWidth": 1280,
+          "finish": [
+            {
+              "text": "Finish session",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 days this week",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 835,
+              "y": 281.625,
+              "width": 44,
+              "height": 44,
+              "right": 879,
+              "bottom": 325.625
+            },
+            "closeName": "Close",
+            "title": "Finish session",
+            "dir": "ltr",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 384,
+              "y": 264.625,
+              "width": 512,
+              "height": 370.75,
+              "right": 896,
+              "bottom": 635.375
+            },
+            "scrollWidth": 510,
+            "clientWidth": 510
+          }
+        },
+        "plan": {
+          "viewport": 1280,
+          "documentWidth": 1280,
+          "finish": [],
+          "eyebrows": [
+            {
+              "text": "YOUR GOAL AND TIME",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            },
+            {
+              "text": "PRACTICAL EGYPTIAN FOOD",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 6.689857160909872
+            }
+          ],
+          "validation": [],
+          "header": null
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "lang": "ar",
+      "width": 360,
+      "checks": [
+        "Finish session and eyebrow text contrast >= 4.5:1",
+        "Field names, associated errors, correction, first-invalid focus and successful logging",
+        "Both dialog headers avoid title collision; logical 44px close, localized name, click and Escape",
+        "Muscle, split, stage and Balanced selected states; report textarea accessible name and editing"
+      ],
+      "measurements": {
+        "today": {
+          "viewport": 360,
+          "documentWidth": 360,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": null
+        },
+        "logging": {
+          "viewport": 360,
+          "documentWidth": 360,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 31,
+              "y": 44,
+              "width": 44,
+              "height": 44,
+              "right": 75,
+              "bottom": 88
+            },
+            "closeName": "إغلاق",
+            "title": "ضغط صدر بالجهاز",
+            "dir": "rtl",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 14,
+              "y": 27,
+              "width": 332,
+              "height": 846,
+              "right": 346,
+              "bottom": 873
+            },
+            "scrollWidth": 330,
+            "clientWidth": 330
+          }
+        },
+        "validation": {
+          "viewport": 360,
+          "documentWidth": 360,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [
+            {
+              "text": "أدخل وزنًا من 0 إلى 1500 كجم.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            },
+            {
+              "text": "أدخل عدد عدات صحيحًا من 1 إلى 120.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            }
+          ],
+          "header": {
+            "close": {
+              "x": 31,
+              "y": 44,
+              "width": 44,
+              "height": 44,
+              "right": 75,
+              "bottom": 88
+            },
+            "closeName": "إغلاق",
+            "title": "ضغط صدر بالجهاز",
+            "dir": "rtl",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 14,
+              "y": 27,
+              "width": 332,
+              "height": 846,
+              "right": 346,
+              "bottom": 873
+            },
+            "scrollWidth": 330,
+            "clientWidth": 330
+          }
+        },
+        "finishDialog": {
+          "viewport": 360,
+          "documentWidth": 360,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 33,
+              "y": 281.625,
+              "width": 44,
+              "height": 44,
+              "right": 77,
+              "bottom": 325.625
+            },
+            "closeName": "إغلاق",
+            "title": "حفظ نهاية الحصة",
+            "dir": "rtl",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 16,
+              "y": 264.625,
+              "width": 328,
+              "height": 370.75,
+              "right": 344,
+              "bottom": 635.375
+            },
+            "scrollWidth": 326,
+            "clientWidth": 326
+          }
+        },
+        "plan": {
+          "viewport": 360,
+          "documentWidth": 360,
+          "finish": [],
+          "eyebrows": [
+            {
+              "text": "حسب هدفك ووقتك",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            },
+            {
+              "text": "تغذية مصرية عملية",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 6.689857160909872
+            }
+          ],
+          "validation": [],
+          "header": null
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "checks": [
+        "Finish session and eyebrow text contrast >= 4.5:1",
+        "Field names, associated errors, correction, first-invalid focus and successful logging",
+        "Both dialog headers avoid title collision; logical 44px close, localized name, click and Escape",
+        "Muscle, split, stage and Balanced selected states; report textarea accessible name and editing"
+      ],
+      "measurements": {
+        "today": {
+          "viewport": 390,
+          "documentWidth": 390,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": null
+        },
+        "logging": {
+          "viewport": 390,
+          "documentWidth": 390,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 31,
+              "y": 44,
+              "width": 44,
+              "height": 44,
+              "right": 75,
+              "bottom": 88
+            },
+            "closeName": "إغلاق",
+            "title": "ضغط صدر بالجهاز",
+            "dir": "rtl",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 14,
+              "y": 27,
+              "width": 362,
+              "height": 846,
+              "right": 376,
+              "bottom": 873
+            },
+            "scrollWidth": 360,
+            "clientWidth": 360
+          }
+        },
+        "validation": {
+          "viewport": 390,
+          "documentWidth": 390,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [
+            {
+              "text": "أدخل وزنًا من 0 إلى 1500 كجم.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            },
+            {
+              "text": "أدخل عدد عدات صحيحًا من 1 إلى 120.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            }
+          ],
+          "header": {
+            "close": {
+              "x": 31,
+              "y": 44,
+              "width": 44,
+              "height": 44,
+              "right": 75,
+              "bottom": 88
+            },
+            "closeName": "إغلاق",
+            "title": "ضغط صدر بالجهاز",
+            "dir": "rtl",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 14,
+              "y": 27,
+              "width": 362,
+              "height": 846,
+              "right": 376,
+              "bottom": 873
+            },
+            "scrollWidth": 360,
+            "clientWidth": 360
+          }
+        },
+        "finishDialog": {
+          "viewport": 390,
+          "documentWidth": 390,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 33,
+              "y": 281.625,
+              "width": 44,
+              "height": 44,
+              "right": 77,
+              "bottom": 325.625
+            },
+            "closeName": "إغلاق",
+            "title": "حفظ نهاية الحصة",
+            "dir": "rtl",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 16,
+              "y": 264.625,
+              "width": 358,
+              "height": 370.75,
+              "right": 374,
+              "bottom": 635.375
+            },
+            "scrollWidth": 356,
+            "clientWidth": 356
+          }
+        },
+        "plan": {
+          "viewport": 390,
+          "documentWidth": 390,
+          "finish": [],
+          "eyebrows": [
+            {
+              "text": "حسب هدفك ووقتك",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            },
+            {
+              "text": "تغذية مصرية عملية",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 6.689857160909872
+            }
+          ],
+          "validation": [],
+          "header": null
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "lang": "ar",
+      "width": 430,
+      "checks": [
+        "Finish session and eyebrow text contrast >= 4.5:1",
+        "Field names, associated errors, correction, first-invalid focus and successful logging",
+        "Both dialog headers avoid title collision; logical 44px close, localized name, click and Escape",
+        "Muscle, split, stage and Balanced selected states; report textarea accessible name and editing"
+      ],
+      "measurements": {
+        "today": {
+          "viewport": 430,
+          "documentWidth": 430,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": null
+        },
+        "logging": {
+          "viewport": 430,
+          "documentWidth": 430,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 31,
+              "y": 44,
+              "width": 44,
+              "height": 44,
+              "right": 75,
+              "bottom": 88
+            },
+            "closeName": "إغلاق",
+            "title": "ضغط صدر بالجهاز",
+            "dir": "rtl",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 14,
+              "y": 27,
+              "width": 402,
+              "height": 846,
+              "right": 416,
+              "bottom": 873
+            },
+            "scrollWidth": 400,
+            "clientWidth": 400
+          }
+        },
+        "validation": {
+          "viewport": 430,
+          "documentWidth": 430,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [
+            {
+              "text": "أدخل وزنًا من 0 إلى 1500 كجم.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            },
+            {
+              "text": "أدخل عدد عدات صحيحًا من 1 إلى 120.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            }
+          ],
+          "header": {
+            "close": {
+              "x": 31,
+              "y": 44,
+              "width": 44,
+              "height": 44,
+              "right": 75,
+              "bottom": 88
+            },
+            "closeName": "إغلاق",
+            "title": "ضغط صدر بالجهاز",
+            "dir": "rtl",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 14,
+              "y": 27,
+              "width": 402,
+              "height": 846,
+              "right": 416,
+              "bottom": 873
+            },
+            "scrollWidth": 400,
+            "clientWidth": 400
+          }
+        },
+        "finishDialog": {
+          "viewport": 430,
+          "documentWidth": 430,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 33,
+              "y": 281.625,
+              "width": 44,
+              "height": 44,
+              "right": 77,
+              "bottom": 325.625
+            },
+            "closeName": "إغلاق",
+            "title": "حفظ نهاية الحصة",
+            "dir": "rtl",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 16,
+              "y": 264.625,
+              "width": 398,
+              "height": 370.75,
+              "right": 414,
+              "bottom": 635.375
+            },
+            "scrollWidth": 396,
+            "clientWidth": 396
+          }
+        },
+        "plan": {
+          "viewport": 430,
+          "documentWidth": 430,
+          "finish": [],
+          "eyebrows": [
+            {
+              "text": "حسب هدفك ووقتك",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            },
+            {
+              "text": "تغذية مصرية عملية",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 6.689857160909872
+            }
+          ],
+          "validation": [],
+          "header": null
+        }
+      },
+      "status": "passed"
+    },
+    {
+      "lang": "ar",
+      "width": 1280,
+      "checks": [
+        "Finish session and eyebrow text contrast >= 4.5:1",
+        "Field names, associated errors, correction, first-invalid focus and successful logging",
+        "Both dialog headers avoid title collision; logical 44px close, localized name, click and Escape",
+        "Muscle, split, stage and Balanced selected states; report textarea accessible name and editing"
+      ],
+      "measurements": {
+        "today": {
+          "viewport": 1280,
+          "documentWidth": 1280,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": null
+        },
+        "logging": {
+          "viewport": 1280,
+          "documentWidth": 1280,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 207,
+              "y": 111.515625,
+              "width": 44,
+              "height": 44,
+              "right": 251,
+              "bottom": 155.515625
+            },
+            "closeName": "إغلاق",
+            "title": "ضغط صدر بالجهاز",
+            "dir": "rtl",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 190,
+              "y": 94.515625,
+              "width": 900,
+              "height": 710.96875,
+              "right": 1090,
+              "bottom": 805.484375
+            },
+            "scrollWidth": 898,
+            "clientWidth": 898
+          }
+        },
+        "validation": {
+          "viewport": 1280,
+          "documentWidth": 1280,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [
+            {
+              "text": "أدخل وزنًا من 0 إلى 1500 كجم.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            },
+            {
+              "text": "أدخل عدد عدات صحيحًا من 1 إلى 120.",
+              "foreground": "rgb(184, 50, 50)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 5.481882564523947
+            }
+          ],
+          "header": {
+            "close": {
+              "x": 207,
+              "y": 111.515625,
+              "width": 44,
+              "height": 44,
+              "right": 251,
+              "bottom": 155.515625
+            },
+            "closeName": "إغلاق",
+            "title": "ضغط صدر بالجهاز",
+            "dir": "rtl",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 190,
+              "y": 94.515625,
+              "width": 900,
+              "height": 710.96875,
+              "right": 1090,
+              "bottom": 805.484375
+            },
+            "scrollWidth": 898,
+            "clientWidth": 898
+          }
+        },
+        "finishDialog": {
+          "viewport": 1280,
+          "documentWidth": 1280,
+          "finish": [
+            {
+              "text": "إنهاء الحصة",
+              "foreground": "rgb(40, 51, 33)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 13.243238046372632
+            }
+          ],
+          "eyebrows": [
+            {
+              "text": "Synthetic QA · 0/4 أيام الأسبوع",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            }
+          ],
+          "validation": [],
+          "header": {
+            "close": {
+              "x": 401,
+              "y": 281.625,
+              "width": 44,
+              "height": 44,
+              "right": 445,
+              "bottom": 325.625
+            },
+            "closeName": "إغلاق",
+            "title": "حفظ نهاية الحصة",
+            "dir": "rtl",
+            "titleOverlap": false,
+            "dialog": {
+              "x": 384,
+              "y": 264.625,
+              "width": 512,
+              "height": 370.75,
+              "right": 896,
+              "bottom": 635.375
+            },
+            "scrollWidth": 510,
+            "clientWidth": 510
+          }
+        },
+        "plan": {
+          "viewport": 1280,
+          "documentWidth": 1280,
+          "finish": [],
+          "eyebrows": [
+            {
+              "text": "حسب هدفك ووقتك",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                245,
+                246,
+                247
+              ],
+              "ratio": 6.1826648180752795
+            },
+            {
+              "text": "تغذية مصرية عملية",
+              "foreground": "rgb(82, 96, 77)",
+              "background": [
+                255,
+                255,
+                255
+              ],
+              "ratio": 6.689857160909872
+            }
+          ],
+          "validation": [],
+          "header": null
+        }
+      },
+      "status": "passed"
+    }
+  ]
+}

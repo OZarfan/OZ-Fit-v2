@@ -33,6 +33,8 @@ npm run test:pwa
 
 `dist/Oz-Fit-v2.html` is the standalone output; `dist/pwa` is the installable web package. Runtime does not need npm, network, or a backend. Third-party dependencies are version-pinned in package.json; no dependency lockfile is supplied.
 
+Batch 2 browser regressions can also be run after building with `node tests/batch2-browser.cjs`. This optional development check needs Playwright and Chromium: `OZ_PLAYWRIGHT` can point to an existing Playwright module and `OZ_BROWSER` to an existing Chromium executable. It creates an isolated context with synthetic records and a temporary localhost server; it never uses a personal browser profile. Results are saved in `tests/batch2-browser-results.json`, with local screenshots under `.cache/batch2/`. These tools are not runtime dependencies.
+
 `public/exercises` contains 216 resized WebP photos from the Unlicense dataset. The original source audit/manifest and license are included. `lib/legacy.ts` preserves old exercise IDs. `lib/extra.ts` is the authoritative expanded catalog. `make-extra.py` was an intermediate generator and is not required for rebuild.
 
 ## Code map
@@ -49,4 +51,4 @@ Never silently replace corrupt or future-version records. Keep the pre-migration
 
 ## Verification limits
 
-DOM tests use jsdom; it does not calculate phone layout, exercise images, contrast or thumb reach. Its inability to parse all Tailwind CSS is recorded, not treated as visual verification. No screenshots are included because no approved browser QA workflow was available. Do not treat this as a release-approved build.
+DOM tests use jsdom; it does not calculate phone layout, exercise images, contrast or thumb reach. Its inability to parse all Tailwind CSS is recorded, not treated as visual verification. Batch 2 additionally passed focused headless Chromium checks in Arabic RTL and English at 360, 390, 430 and 1280px widths, covering logging validation, selected states, report-text naming, text contrast and dialog header geometry. This is desktop viewport emulation, not real-phone, screen-reader, installability or physical offline-start verification. See the dated changelog and browser result file for the tested scope; do not treat this as a release-approved build.

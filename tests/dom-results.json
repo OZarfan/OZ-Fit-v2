@@ -136,6 +136,126 @@
     {
       "name": "Batch1 expired persisted rest is not restarted on reload",
       "status": "passed"
+    },
+    {
+      "name": "Batch2 en muscle filters expose names and current selection",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 en invalid logging fields announce local errors, focus first invalid and never write",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 en correction removes obsolete errors and descriptions before resubmission",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 en successful logging leaves no stale validation on dialog or page",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 en logging close has localized name and shared header contract",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 en secondary dialog shares localized close contract",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 en timed exercise validation names seconds and focuses duration",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 en bodyweight zero and upper duration bound remain valid",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 en split and stage states follow saved selection",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 en report text has localized accessible name",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 en Balanced exposes and updates its selected state",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar muscle filters expose names and current selection",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar invalid logging fields announce local errors, focus first invalid and never write",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar correction removes obsolete errors and descriptions before resubmission",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar successful logging leaves no stale validation on dialog or page",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar logging close has localized name and shared header contract",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar secondary dialog shares localized close contract",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar timed exercise validation names seconds and focuses duration",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar bodyweight zero and upper duration bound remain valid",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar split and stage states follow saved selection",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar report text has localized accessible name",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar Balanced exposes and updates its selected state",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 en quota appears once inside logging dialog with preserved input and recovery",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 en quota retry saves once and clears dialog persistence error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 en conflict appears once inside logging dialog with preserved input and recovery",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 en conflict retry saves once and clears dialog persistence error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar quota appears once inside logging dialog with preserved input and recovery",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar quota retry saves once and clears dialog persistence error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar conflict appears once inside logging dialog with preserved input and recovery",
+      "status": "passed"
+    },
+    {
+      "name": "Batch2 ar conflict retry saves once and clears dialog persistence error",
+      "status": "passed"
     }
   ]
 }

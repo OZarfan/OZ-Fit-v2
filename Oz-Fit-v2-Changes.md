@@ -1,5 +1,46 @@
 # Oz Fit v2 — تقرير التنفيذ والمراجعة
 
+## Batch 2 — P1 interaction and accessibility · 2026-10-03
+
+Scope: the four requested P1 fixes only. No P2, optimization, redesign, onboarding-flow, weekly Plan, navigation or persisted-contract changes. Split/stage markup changes expose the existing selected state only.
+
+| Task | Change / evidence |
+|---|---|
+| B2.1 | Weight and reps/duration validation now appears beside the relevant input inside the logging dialog, with `aria-invalid`, an associated error description and first-invalid focus. Corrected fields clear their obsolete errors immediately. Validation does not write a page-level notice. Existing quota/conflict messages and recovery actions render once in the active dialog and receive focus; failed inputs remain editable. AR/EN tests cover invalid ranges, fractional reps/seconds, bodyweight zero, corrected inputs, successful logging, quota failure, revision conflict, reload and retry. |
+| B2.2 | The Finish session button uses the existing secondary foreground and card background tokens; eyebrow text uses the existing muted foreground token. Computed Chromium contrast: Finish session **13.24:1**, eyebrow text **6.18:1**, new inline field feedback **5.48:1**. No palette or typography redesign. |
+| B2.3 | Muscle filters, split/stage controls and Balanced expose `aria-pressed` reflecting their existing selection. Muscle filters have a localized group name. The report extracted-text textarea has a localized accessible name. AR/EN DOM and browser tests exercise state changes and report-text editing. |
+| B2.4 | Shared `DialogContent` accepts optional `closeLabel` (default `Close`) and marks whether it renders its close control. Both application callers provide the AR/EN label. Shared selectors reserve logical title space and position a 44×44px close control at inline-end on every viewport. Real browser text-range measurements found no title collision or horizontal dialog overflow in logging and confirmation dialogs. Click and Escape closing remain functional. |
+
+Validation: documented typecheck and build passed. All existing suites ran: **16 logic passes plus the unchanged partial coverage result** (574 missing alternatives), **64 DOM passes** (30 new Batch 2 checks), and **3 simulated PWA passes**. Existing old-record migration, revision/409, corruption/future-version rejection, IDs, RIR zero and Batch 1 persistence regressions still pass. The `oz-fit-html-state-v1` key, account schema 2, revision envelope, pre-v2 backup and optional rest state are unchanged.
+
+Browser evidence: all **8 combinations passed** in isolated headless Chromium 154.0.8037.97: Arabic RTL and English at **360, 390, 430 and 1280px**, each with a 900px viewport height. `tests/batch2-browser-results.json` records computed contrast, text-range collision checks, dimensions and exercised interactions. Measurements wait for the existing opening animation to finish. Narrow AR/EN validation screenshots and the desktop RTL confirmation screenshot were also visually inspected. This does not establish physical-phone keyboard/touch behavior, TalkBack/VoiceOver/NVDA announcements, actual PWA installation or offline startup on a real device; those remain acceptance limitations.
+
+Changed files and generated outputs:
+
+| File | Why |
+|---|---|
+| `app/oz-fit.tsx` | Dialog-local validation/focus, contextual persistence feedback, muscle/split/stage states and localized dialog labels. |
+| `app/body.tsx` | Expose Balanced selected state without changing selection behavior. |
+| `app/reports.tsx` | Localized name for the extracted-text textarea. |
+| `components/ui/dialog.tsx` | Optional localized close-label contract and shared close-presence marker; remove physical right positioning. |
+| `app.css` | Scoped contrast fixes, inline field-error color and shared logical close/title geometry; replace the logging-only mobile close-size rule. |
+| `public/sw.js` | Version the application shell cache for the rebuilt Batch 2 package; retain activation/offline policy. |
+| `tests/batch2-dom.cjs` | New focused bilingual interaction, validation, semantics and failure/retry regressions. |
+| `tests/dom.cjs` | Include the Batch 2 checks in the existing DOM command. |
+| `tests/dom-results.json` | Regenerated results for all 64 DOM checks. |
+| `tests/batch2-browser.cjs` | Reproducible synthetic browser checks for contrast, geometry and interactions at the requested widths. |
+| `tests/batch2-browser-results.json` | Measured results from all eight browser cases. |
+| `README.md` | Document the optional browser test command, module/executable overrides and current verification limits. |
+| `Oz-Fit-v2-Changes.md` | This task-numbered scope, evidence and file inventory. |
+| `app.js` | Regenerated browser bundle through `npm run build`. |
+| `dist/Oz-Fit-v2.html`, `dist/pwa/index.html` | Rebuilt standalone and PWA entry files containing the Batch 2 bundle/styles. |
+| `dist/pwa/sw.js` | Build copy of the versioned worker. |
+| `dist/pwa/manifest.webmanifest`, `dist/pwa/icon-192.png`, `dist/pwa/icon-512.png` | Documented build copies of unchanged PWA assets. |
+
+The build also rewrote `asset.ts` and `assets.json` with identical content. Logic/PWA test generators rewrote `tests/acceptance.cjs`, `tests/fixture.json`, `tests/results.json` and `tests/pwa-results.json` without content changes. No generated file was edited manually. Local, ignored browser screenshots are `.cache/batch2/{en,ar}-{360,390,430,1280}-{validation,finish}.png` (16 images); no personal data or browser profiles were used.
+
+Batch 2 stops here. Real-device/screen-reader limitations and the existing alternative-coverage gap are not resolved by this batch.
+
 ## Batch 1 — reliability and data integrity · 2026-10-03
 
 Scope: four requested fixes only; no design, navigation, Plan or P2 changes.
