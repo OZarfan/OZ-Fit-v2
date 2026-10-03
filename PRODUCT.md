@@ -1,6 +1,12 @@
 # Local Oz Fit v2 — product
 
+<!-- impeccable:product-schema 1 -->
+
 Updated: 2026-09-30. Documentation only; no functional changes in this pass. [Development](AGENTS.md) · [Design](DESIGN.md) · [Detailed task changelog](Oz-Fit-v2-Changes.md).
+
+## Platform
+
+web
 
 ## Purpose and audience
 
