@@ -1,0 +1,1202 @@
+{
+  "date": "2026-10-03",
+  "environment": "Codex in-app browser, desktop viewport emulation; synthetic local fixture on isolated 127.0.0.1:4183 origin; 800px viewport height",
+  "limitations": [
+    "No physical-device touch, virtual keyboard, screen-reader, Safari or installed-PWA/offline-startup testing.",
+    "Persistence/reload and storage failure/conflict paths verified by existing DOM and logic suites; preview navigation reseeds synthetic state."
+  ],
+  "results": [
+    {
+      "lang": "en",
+      "width": 360,
+      "status": "passed",
+      "checks": {
+        "restVisible": true,
+        "restActionsVisibleUncovered": true,
+        "inputsVisibleEditableUncovered": true,
+        "noPrimaryRestOverlap": true,
+        "mobilePrimaryNotSticky": true,
+        "extensionVisible": true,
+        "returnControlInFlow": true,
+        "returnReopensRest": true,
+        "dismissalRemovesRest": true,
+        "weekdayNamesIntact": true,
+        "weekdayTargets44": true,
+        "nutritionSaveKeepsMonday": true,
+        "noHorizontalOverflow": true,
+        "sharedClose44NoTitleCollision": true
+      },
+      "weekdays": [
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Saturday · Rest",
+          "oneLine": true,
+          "selected": "false",
+          "width": 44.703125
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Sunday · Train",
+          "oneLine": true,
+          "selected": "false",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Monday · Train",
+          "oneLine": true,
+          "selected": "true",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Tuesday · Rest",
+          "oneLine": true,
+          "selected": "false",
+          "width": 44.703125
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Wednesday · Train",
+          "oneLine": true,
+          "selected": "false",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Thursday · Rest",
+          "oneLine": true,
+          "selected": "false",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Friday · Train",
+          "oneLine": true,
+          "selected": "false",
+          "width": 44.71875
+        }
+      ],
+      "rest": {
+        "actions": [
+          {
+            "name": "+30s",
+            "rect": {
+              "b": 189.015625,
+              "h": 52.390625,
+              "right": 154.265625,
+              "w": 77.140625,
+              "x": 77.125,
+              "y": 136.625
+            },
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "name": "End rest",
+            "rect": {
+              "b": 189.015625,
+              "h": 52.390625,
+              "right": 267.859375,
+              "w": 101.59375,
+              "x": 166.265625,
+              "y": 136.625
+            },
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "countdown": "01:59",
+        "inputs": [
+          {
+            "editable": true,
+            "id": "log-weight",
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "editable": true,
+            "id": "log-reps",
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "primaryOverlap": false,
+        "primaryPosition": "static",
+        "rect": {
+          "b": 205.015625,
+          "h": 180.078125,
+          "right": 312,
+          "w": 279,
+          "x": 33,
+          "y": 24.9375
+        },
+        "visible": true
+      },
+      "extendedCountdown": "02:29",
+      "reopenedCountdown": "02:28",
+      "dialog": {
+        "closeHeight": 44,
+        "closeWidth": 44,
+        "horizontalOverflow": false,
+        "titleClear": true
+      },
+      "returnControl": {
+        "overlap": false,
+        "parent": "workspace",
+        "position": "static"
+      },
+      "selectedAfterNutritionSave": "Monday · Train"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "status": "passed",
+      "checks": {
+        "restVisible": true,
+        "restActionsVisibleUncovered": true,
+        "inputsVisibleEditableUncovered": true,
+        "noPrimaryRestOverlap": true,
+        "mobilePrimaryNotSticky": true,
+        "extensionVisible": true,
+        "returnControlInFlow": true,
+        "returnReopensRest": true,
+        "dismissalRemovesRest": true,
+        "weekdayNamesIntact": true,
+        "weekdayTargets44": true,
+        "nutritionSaveKeepsMonday": true,
+        "noHorizontalOverflow": true,
+        "sharedClose44NoTitleCollision": true
+      },
+      "weekdays": [
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Saturday · Rest",
+          "oneLine": true,
+          "selected": "false",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Sunday · Train",
+          "oneLine": true,
+          "selected": "false",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Monday · Train",
+          "oneLine": true,
+          "selected": "true",
+          "width": 46.4375
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Tuesday · Rest",
+          "oneLine": true,
+          "selected": "false",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Wednesday · Train",
+          "oneLine": true,
+          "selected": "false",
+          "width": 46.4375
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Thursday · Rest",
+          "oneLine": true,
+          "selected": "false",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Friday · Train",
+          "oneLine": true,
+          "selected": "false",
+          "width": 46.421875
+        }
+      ],
+      "rest": {
+        "actions": [
+          {
+            "name": "+30s",
+            "rect": {
+              "b": 189.015625,
+              "h": 52.390625,
+              "right": 169.265625,
+              "w": 77.140625,
+              "x": 92.125,
+              "y": 136.625
+            },
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "name": "End rest",
+            "rect": {
+              "b": 189.015625,
+              "h": 52.390625,
+              "right": 282.859375,
+              "w": 101.59375,
+              "x": 181.265625,
+              "y": 136.625
+            },
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "countdown": "01:59",
+        "inputs": [
+          {
+            "editable": true,
+            "id": "log-weight",
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "editable": true,
+            "id": "log-reps",
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "primaryOverlap": false,
+        "primaryPosition": "static",
+        "rect": {
+          "b": 205.015625,
+          "h": 180.078125,
+          "right": 342,
+          "w": 309,
+          "x": 33,
+          "y": 24.9375
+        },
+        "visible": true
+      },
+      "extendedCountdown": "02:29",
+      "reopenedCountdown": "02:26",
+      "dialog": {
+        "closeHeight": 44,
+        "closeWidth": 44,
+        "horizontalOverflow": false,
+        "titleClear": true
+      },
+      "returnControl": {
+        "overlap": false,
+        "parent": "workspace",
+        "position": "static"
+      },
+      "selectedAfterNutritionSave": "Monday · Train"
+    },
+    {
+      "lang": "en",
+      "width": 430,
+      "status": "passed",
+      "checks": {
+        "restVisible": true,
+        "restActionsVisibleUncovered": true,
+        "inputsVisibleEditableUncovered": true,
+        "noPrimaryRestOverlap": true,
+        "mobilePrimaryNotSticky": true,
+        "extensionVisible": true,
+        "returnControlInFlow": true,
+        "returnReopensRest": true,
+        "dismissalRemovesRest": true,
+        "weekdayNamesIntact": true,
+        "weekdayTargets44": true,
+        "nutritionSaveKeepsMonday": true,
+        "noHorizontalOverflow": true,
+        "sharedClose44NoTitleCollision": true
+      },
+      "weekdays": [
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Saturday · Rest",
+          "oneLine": true,
+          "selected": "false",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Sunday · Train",
+          "oneLine": true,
+          "selected": "false",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Monday · Train",
+          "oneLine": true,
+          "selected": "true",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Tuesday · Rest",
+          "oneLine": true,
+          "selected": "false",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Wednesday · Train",
+          "oneLine": true,
+          "selected": "false",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Thursday · Rest",
+          "oneLine": true,
+          "selected": "false",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Friday · Train",
+          "oneLine": true,
+          "selected": "false",
+          "width": 52.140625
+        }
+      ],
+      "rest": {
+        "actions": [
+          {
+            "name": "+30s",
+            "rect": {
+              "b": 189.078125,
+              "h": 52.390625,
+              "right": 189.265625,
+              "w": 77.140625,
+              "x": 112.125,
+              "y": 136.6875
+            },
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "name": "End rest",
+            "rect": {
+              "b": 189.078125,
+              "h": 52.390625,
+              "right": 302.859375,
+              "w": 101.59375,
+              "x": 201.265625,
+              "y": 136.6875
+            },
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "countdown": "01:59",
+        "inputs": [
+          {
+            "editable": true,
+            "id": "log-weight",
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "editable": true,
+            "id": "log-reps",
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "primaryOverlap": false,
+        "primaryPosition": "static",
+        "rect": {
+          "b": 205.078125,
+          "h": 180.078125,
+          "right": 382,
+          "w": 349,
+          "x": 33,
+          "y": 25
+        },
+        "visible": true
+      },
+      "extendedCountdown": "02:29",
+      "reopenedCountdown": "02:28",
+      "dialog": {
+        "closeHeight": 44,
+        "closeWidth": 44,
+        "horizontalOverflow": false,
+        "titleClear": true
+      },
+      "returnControl": {
+        "overlap": false,
+        "parent": "workspace",
+        "position": "static"
+      },
+      "selectedAfterNutritionSave": "Monday · Train"
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "status": "passed",
+      "checks": {
+        "restVisible": true,
+        "restActionsVisibleUncovered": true,
+        "inputsVisibleEditableUncovered": true,
+        "noPrimaryRestOverlap": true,
+        "mobilePrimaryNotSticky": true,
+        "extensionVisible": true,
+        "returnControlInFlow": true,
+        "returnReopensRest": true,
+        "dismissalRemovesRest": true,
+        "weekdayNamesIntact": true,
+        "weekdayTargets44": true,
+        "nutritionSaveKeepsMonday": true,
+        "noHorizontalOverflow": true,
+        "sharedClose44NoTitleCollision": true
+      },
+      "weekdays": [
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "Saturday · Rest",
+          "oneLine": true,
+          "selected": "false",
+          "width": 151.703125
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "Sunday · Train",
+          "oneLine": true,
+          "selected": "false",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "Monday · Train",
+          "oneLine": true,
+          "selected": "true",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "Tuesday · Rest",
+          "oneLine": true,
+          "selected": "false",
+          "width": 151.703125
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "Wednesday · Train",
+          "oneLine": true,
+          "selected": "false",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "Thursday · Rest",
+          "oneLine": true,
+          "selected": "false",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "Friday · Train",
+          "oneLine": true,
+          "selected": "false",
+          "width": 151.703125
+        }
+      ],
+      "rest": {
+        "actions": [
+          {
+            "name": "+30s",
+            "rect": {
+              "b": 328.078125,
+              "h": 52.390625,
+              "right": 829.265625,
+              "w": 77.140625,
+              "x": 752.125,
+              "y": 275.6875
+            },
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "name": "End rest",
+            "rect": {
+              "b": 328.078125,
+              "h": 52.390625,
+              "right": 942.859375,
+              "w": 101.59375,
+              "x": 841.265625,
+              "y": 275.6875
+            },
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "countdown": "02:00",
+        "inputs": [
+          {
+            "editable": true,
+            "id": "log-weight",
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "editable": true,
+            "id": "log-reps",
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "primaryOverlap": false,
+        "primaryPosition": "sticky",
+        "rect": {
+          "b": 344.078125,
+          "h": 180.078125,
+          "right": 1050,
+          "w": 405,
+          "x": 645,
+          "y": 164
+        },
+        "visible": true
+      },
+      "extendedCountdown": "02:29",
+      "reopenedCountdown": "02:29",
+      "dialog": {
+        "closeHeight": 44,
+        "closeWidth": 44,
+        "horizontalOverflow": false,
+        "titleClear": true
+      },
+      "returnControl": {
+        "overlap": false,
+        "parent": "workspace",
+        "position": "static"
+      },
+      "selectedAfterNutritionSave": "Monday · Train"
+    },
+    {
+      "lang": "ar",
+      "width": 360,
+      "status": "passed",
+      "checks": {
+        "restVisible": true,
+        "restActionsVisibleUncovered": true,
+        "inputsVisibleEditableUncovered": true,
+        "noPrimaryRestOverlap": true,
+        "mobilePrimaryNotSticky": true,
+        "extensionVisible": true,
+        "returnControlInFlow": true,
+        "returnReopensRest": true,
+        "dismissalRemovesRest": true,
+        "weekdayNamesIntact": true,
+        "weekdayTargets44": true,
+        "nutritionSaveKeepsMonday": true,
+        "noHorizontalOverflow": true,
+        "sharedClose44NoTitleCollision": true
+      },
+      "weekdays": [
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "السبت · راحة",
+          "oneLine": true,
+          "selected": "false",
+          "width": 44.703125
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الأحد · تمرين",
+          "oneLine": true,
+          "selected": "false",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الاثنين · تمرين",
+          "oneLine": true,
+          "selected": "true",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الثلاثاء · راحة",
+          "oneLine": true,
+          "selected": "false",
+          "width": 44.703125
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الأربعاء · تمرين",
+          "oneLine": true,
+          "selected": "false",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الخميس · راحة",
+          "oneLine": true,
+          "selected": "false",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الجمعة · تمرين",
+          "oneLine": true,
+          "selected": "false",
+          "width": 44.71875
+        }
+      ],
+      "rest": {
+        "actions": [
+          {
+            "name": "+30s",
+            "rect": {
+              "b": 189.078125,
+              "h": 52.390625,
+              "right": 283.3125,
+              "w": 77.140625,
+              "x": 206.171875,
+              "y": 136.6875
+            },
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "name": "إنهاء الراحة",
+            "rect": {
+              "b": 189.078125,
+              "h": 52.390625,
+              "right": 194.171875,
+              "w": 102.484375,
+              "x": 91.6875,
+              "y": 136.6875
+            },
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "countdown": "01:59",
+        "inputs": [
+          {
+            "editable": true,
+            "id": "log-weight",
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "editable": true,
+            "id": "log-reps",
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "primaryOverlap": false,
+        "primaryPosition": "static",
+        "rect": {
+          "b": 205.078125,
+          "h": 180.078125,
+          "right": 327,
+          "w": 279,
+          "x": 48,
+          "y": 25
+        },
+        "visible": true
+      },
+      "extendedCountdown": "02:29",
+      "reopenedCountdown": "02:28",
+      "dialog": {
+        "closeHeight": 44,
+        "closeWidth": 44,
+        "horizontalOverflow": false,
+        "titleClear": true
+      },
+      "returnControl": {
+        "overlap": false,
+        "parent": "workspace",
+        "position": "static"
+      },
+      "selectedAfterNutritionSave": "الاثنين · تمرين"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "status": "passed",
+      "checks": {
+        "restVisible": true,
+        "restActionsVisibleUncovered": true,
+        "inputsVisibleEditableUncovered": true,
+        "noPrimaryRestOverlap": true,
+        "mobilePrimaryNotSticky": true,
+        "extensionVisible": true,
+        "returnControlInFlow": true,
+        "returnReopensRest": true,
+        "dismissalRemovesRest": true,
+        "weekdayNamesIntact": true,
+        "weekdayTargets44": true,
+        "nutritionSaveKeepsMonday": true,
+        "noHorizontalOverflow": true,
+        "sharedClose44NoTitleCollision": true
+      },
+      "weekdays": [
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "السبت · راحة",
+          "oneLine": true,
+          "selected": "false",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الأحد · تمرين",
+          "oneLine": true,
+          "selected": "false",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الاثنين · تمرين",
+          "oneLine": true,
+          "selected": "true",
+          "width": 46.4375
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الثلاثاء · راحة",
+          "oneLine": true,
+          "selected": "false",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الأربعاء · تمرين",
+          "oneLine": true,
+          "selected": "false",
+          "width": 46.4375
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الخميس · راحة",
+          "oneLine": true,
+          "selected": "false",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الجمعة · تمرين",
+          "oneLine": true,
+          "selected": "false",
+          "width": 46.421875
+        }
+      ],
+      "rest": {
+        "actions": [
+          {
+            "name": "+30s",
+            "rect": {
+              "b": 189.078125,
+              "h": 52.390625,
+              "right": 298.3125,
+              "w": 77.140625,
+              "x": 221.171875,
+              "y": 136.6875
+            },
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "name": "إنهاء الراحة",
+            "rect": {
+              "b": 189.078125,
+              "h": 52.390625,
+              "right": 209.171875,
+              "w": 102.484375,
+              "x": 106.6875,
+              "y": 136.6875
+            },
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "countdown": "01:59",
+        "inputs": [
+          {
+            "editable": true,
+            "id": "log-weight",
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "editable": true,
+            "id": "log-reps",
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "primaryOverlap": false,
+        "primaryPosition": "static",
+        "rect": {
+          "b": 205.078125,
+          "h": 180.078125,
+          "right": 357,
+          "w": 309,
+          "x": 48,
+          "y": 25
+        },
+        "visible": true
+      },
+      "extendedCountdown": "02:29",
+      "reopenedCountdown": "02:28",
+      "dialog": {
+        "closeHeight": 44,
+        "closeWidth": 44,
+        "horizontalOverflow": false,
+        "titleClear": true
+      },
+      "returnControl": {
+        "overlap": false,
+        "parent": "workspace",
+        "position": "static"
+      },
+      "selectedAfterNutritionSave": "الاثنين · تمرين"
+    },
+    {
+      "lang": "ar",
+      "width": 430,
+      "status": "passed",
+      "checks": {
+        "restVisible": true,
+        "restActionsVisibleUncovered": true,
+        "inputsVisibleEditableUncovered": true,
+        "noPrimaryRestOverlap": true,
+        "mobilePrimaryNotSticky": true,
+        "extensionVisible": true,
+        "returnControlInFlow": true,
+        "returnReopensRest": true,
+        "dismissalRemovesRest": true,
+        "weekdayNamesIntact": true,
+        "weekdayTargets44": true,
+        "nutritionSaveKeepsMonday": true,
+        "noHorizontalOverflow": true,
+        "sharedClose44NoTitleCollision": true
+      },
+      "weekdays": [
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "السبت · راحة",
+          "oneLine": true,
+          "selected": "false",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الأحد · تمرين",
+          "oneLine": true,
+          "selected": "false",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الاثنين · تمرين",
+          "oneLine": true,
+          "selected": "true",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الثلاثاء · راحة",
+          "oneLine": true,
+          "selected": "false",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الأربعاء · تمرين",
+          "oneLine": true,
+          "selected": "false",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الخميس · راحة",
+          "oneLine": true,
+          "selected": "false",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الجمعة · تمرين",
+          "oneLine": true,
+          "selected": "false",
+          "width": 52.140625
+        }
+      ],
+      "rest": {
+        "actions": [
+          {
+            "name": "+30s",
+            "rect": {
+              "b": 189.078125,
+              "h": 52.390625,
+              "right": 318.3125,
+              "w": 77.140625,
+              "x": 241.171875,
+              "y": 136.6875
+            },
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "name": "إنهاء الراحة",
+            "rect": {
+              "b": 189.078125,
+              "h": 52.390625,
+              "right": 229.171875,
+              "w": 102.484375,
+              "x": 126.6875,
+              "y": 136.6875
+            },
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "countdown": "01:59",
+        "inputs": [
+          {
+            "editable": true,
+            "id": "log-weight",
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "editable": true,
+            "id": "log-reps",
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "primaryOverlap": false,
+        "primaryPosition": "static",
+        "rect": {
+          "b": 205.078125,
+          "h": 180.078125,
+          "right": 397,
+          "w": 349,
+          "x": 48,
+          "y": 25
+        },
+        "visible": true
+      },
+      "extendedCountdown": "02:29",
+      "reopenedCountdown": "02:28",
+      "dialog": {
+        "closeHeight": 44,
+        "closeWidth": 44,
+        "horizontalOverflow": false,
+        "titleClear": true
+      },
+      "returnControl": {
+        "overlap": false,
+        "parent": "workspace",
+        "position": "static"
+      },
+      "selectedAfterNutritionSave": "الاثنين · تمرين"
+    },
+    {
+      "lang": "ar",
+      "width": 1280,
+      "status": "passed",
+      "checks": {
+        "restVisible": true,
+        "restActionsVisibleUncovered": true,
+        "inputsVisibleEditableUncovered": true,
+        "noPrimaryRestOverlap": true,
+        "mobilePrimaryNotSticky": true,
+        "extensionVisible": true,
+        "returnControlInFlow": true,
+        "returnReopensRest": true,
+        "dismissalRemovesRest": true,
+        "weekdayNamesIntact": true,
+        "weekdayTargets44": true,
+        "nutritionSaveKeepsMonday": true,
+        "noHorizontalOverflow": true,
+        "sharedClose44NoTitleCollision": true
+      },
+      "weekdays": [
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "السبت · راحة",
+          "oneLine": true,
+          "selected": "false",
+          "width": 151.703125
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "الأحد · تمرين",
+          "oneLine": true,
+          "selected": "false",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "الاثنين · تمرين",
+          "oneLine": true,
+          "selected": "true",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "الثلاثاء · راحة",
+          "oneLine": true,
+          "selected": "false",
+          "width": 151.703125
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "الأربعاء · تمرين",
+          "oneLine": true,
+          "selected": "false",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "الخميس · راحة",
+          "oneLine": true,
+          "selected": "false",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "الجمعة · تمرين",
+          "oneLine": true,
+          "selected": "false",
+          "width": 151.703125
+        }
+      ],
+      "rest": {
+        "actions": [
+          {
+            "name": "+30s",
+            "rect": {
+              "b": 329.078125,
+              "h": 52.390625,
+              "right": 528.3125,
+              "w": 77.140625,
+              "x": 451.171875,
+              "y": 276.6875
+            },
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "name": "إنهاء الراحة",
+            "rect": {
+              "b": 329.078125,
+              "h": 52.390625,
+              "right": 439.171875,
+              "w": 102.484375,
+              "x": 336.6875,
+              "y": 276.6875
+            },
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "countdown": "02:00",
+        "inputs": [
+          {
+            "editable": true,
+            "id": "log-weight",
+            "uncovered": true,
+            "visible": true
+          },
+          {
+            "editable": true,
+            "id": "log-reps",
+            "uncovered": true,
+            "visible": true
+          }
+        ],
+        "primaryOverlap": false,
+        "primaryPosition": "sticky",
+        "rect": {
+          "b": 345.078125,
+          "h": 180.078125,
+          "right": 635,
+          "w": 405,
+          "x": 230,
+          "y": 165
+        },
+        "visible": true
+      },
+      "extendedCountdown": "02:29",
+      "reopenedCountdown": "02:29",
+      "dialog": {
+        "closeHeight": 44,
+        "closeWidth": 44,
+        "horizontalOverflow": false,
+        "titleClear": true
+      },
+      "returnControl": {
+        "overlap": false,
+        "parent": "workspace",
+        "position": "static"
+      },
+      "selectedAfterNutritionSave": "الاثنين · تمرين"
+    }
+  ]
+}

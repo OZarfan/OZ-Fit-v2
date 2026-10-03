@@ -1,5 +1,41 @@
 # Oz Fit v2 — تقرير التنفيذ والمراجعة
 
+## Batch 3 — bounded P2 usability and responsive fixes · 2026-10-03
+
+Only the three requested issues were changed. No onboarding-flow, weekly Plan redesign, branding, typography-system, token-system, performance or general polish work was performed.
+
+| Task | Root cause and bounded change |
+|---|---|
+| B3.1 | The mobile logger placed rest after the photo and logging fields, while its sticky logging action could cover controls; the fixed return timer sat over workout cards. Rest now precedes the logging fields, and on mobile its controls appear before the photo with a non-sticky logging action during active rest. Opening/starting rest scrolls the rest panel into view once, rather than on every countdown tick or extension. The return-to-rest button now occupies its own row in workspace flow before page content. Load/reps remain editable. Rest deadline, dismissal and save contracts are unchanged. |
+| B3.2 | Seven full weekday names competed for narrow columns and inherited arbitrary text wrapping. Today uses localized short labels below 640px, with full localized weekday and Train/Rest accessible names and unchanged pressed states. Labels cannot fragment. Targeted gaps produce at least 44px-wide targets at all requested widths, including 360px. The schedule editor and onboarding controls are unchanged. |
+| B3.3 | Every successful `saveProfile()` reset the viewed day to the first training day. It now compares prior/new training-day membership and preserves the current day for unrelated saves. A changed schedule retains a still-valid selection, otherwise selects its first training day. Creating a new profile retains the previous first-day initialization. The boolean save result, failure behavior, schedule history and all persisted schemas are unchanged. |
+
+Validation: typecheck and documented build passed. Logic: **16 passes plus the existing partial alternative-coverage result** (574 missing alternatives). DOM: **102 passes**, including **22 new AR/EN Batch 3 checks** and all 80 prior checks. PWA: **3 simulated-worker passes**. Existing migration, corruption/future-version protection, original IDs/RIR, draft/save/retry/conflict, injury history, report object URLs, dialog validation/accessibility and rest persistence checks still pass. No cross-P1 regression was found; no persistence migration was necessary.
+
+Browser verification: **all 8 combinations passed** in the Codex in-app browser using isolated synthetic local fixtures: Arabic RTL and English at **360, 390, 430 and 1280px**, with an 800px viewport height. `tests/batch3-browser-results.json` records DOM geometry and hit testing immediately after logging, after extension and after reopening rest; dismissal; non-overlapping return controls; intact weekday labels and targets; selected Monday after a nutrition save; no horizontal overflow; and retained 44px shared close controls without title collisions. Minimum weekday widths were 44.70, 46.42, 52.14 and 151.70px respectively. Rest actions and load/reps were simultaneously visible and uncovered in all cases. Screenshots were captured and visually inspected. One browser automation dispatch timed out during the profile-save matrix; the affected remaining cases were rerun successfully.
+
+Limitations: these are desktop browser viewport checks, not physical-phone touch/virtual-keyboard, Safari, screen-reader, installed-PWA or real offline-startup verification. Browser preview navigation reseeds synthetic data; persisted reload and failure/conflict paths are verified by DOM/logic tests. The existing incomplete alternative coverage remains outside Batch 3.
+
+Changed files and generated outputs:
+
+| File | Why |
+|---|---|
+| `app/oz-fit.tsx` | Bounded rest placement/visibility, weekday labels/names and selected-day preservation in the existing save contract. |
+| `app.css` | Scoped mobile rest ordering/sticky-action behavior, in-flow return timer and weekday wrapping/gaps. No color or typography-system changes. |
+| `public/sw.js` | Version the rebuilt shell cache; activation and offline policies are unchanged. |
+| `tests/batch3-dom.cjs` | Add 22 focused regressions using synthetic fixtures. |
+| `tests/dom.cjs` | Run Batch 3 regressions alongside all existing DOM checks. |
+| `tests/dom-results.json` | Regenerated artifact with 102 passing checks. |
+| `tests/batch3-browser-results.json` | Record the eight measured language/viewport cases and verification limits. |
+| `tests/batch3-en-360.jpg`, `tests/batch3-ar-360.jpg`, `tests/batch3-ar-390-weekdays.jpg` | Browser proof of visible rest/actions/editable inputs and intact Arabic weekdays. |
+| `Oz-Fit-v2-Changes.md` | Record bounded tasks, results, inventory and limitations. |
+| `app.js` | Regenerated browser bundle through the documented build. |
+| `dist/Oz-Fit-v2.html`, `dist/pwa/index.html` | Rebuilt standalone/PWA HTML containing the Batch 3 bundle and scoped CSS. |
+| `dist/pwa/sw.js` | Build copy of the versioned worker. |
+| `dist/pwa/manifest.webmanifest`, `dist/pwa/icon-192.png`, `dist/pwa/icon-512.png` | Documented build copies of unchanged PWA assets. |
+
+Build/test commands also regenerated `asset.ts`, `assets.json`, `tests/acceptance.cjs`, `tests/fixture.json`, `tests/results.json` and `tests/pwa-results.json` without content changes. No generated files were manually edited. Work stops after Batch 3.
+
 ## B1.1a — remaining P1 Active gym draft-preservation blocker · 2026-10-03
 
 Root cause: the Active gym selector called `setDraft(null)` before the existing `saveProfile(): Promise<boolean>` returned. A storage failure or revision conflict therefore discarded an unsaved gym draft even though the persisted selection did not change.

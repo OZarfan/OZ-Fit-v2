@@ -320,6 +320,94 @@
     {
       "name": "Gym selector existing/conflict: confirmed general-equipment selection retains existing behavior",
       "status": "passed"
+    },
+    {
+      "name": "Batch3 en weekdays retain full localized accessible names and short labels",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 en nutrition save preserves viewed workout day",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 en exercise preference save preserves viewed workout day",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 en injury save preserves viewed workout day and injury record",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 en unrelated settings save also preserves a viewed rest day",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 en schedule change retains a selected day that remains scheduled",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 en schedule change moves an invalid selection to first scheduled day",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 en rest return control is in workspace flow before workout content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 en active rest precedes editable load/reps in logger",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 en reordered rest actions preserve exact extension and editable draft",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 en dismissal retains persisted null deadline and exits rest layout",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 ar weekdays retain full localized accessible names and short labels",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 ar nutrition save preserves viewed workout day",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 ar exercise preference save preserves viewed workout day",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 ar injury save preserves viewed workout day and injury record",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 ar unrelated settings save also preserves a viewed rest day",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 ar schedule change retains a selected day that remains scheduled",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 ar schedule change moves an invalid selection to first scheduled day",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 ar rest return control is in workspace flow before workout content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 ar active rest precedes editable load/reps in logger",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 ar reordered rest actions preserve exact extension and editable draft",
+      "status": "passed"
+    },
+    {
+      "name": "Batch3 ar dismissal retains persisted null deadline and exits rest layout",
+      "status": "passed"
     }
   ]
 }
