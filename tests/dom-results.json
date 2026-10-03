@@ -256,6 +256,70 @@
     {
       "name": "Batch2 ar conflict retry saves once and clears dialog persistence error",
       "status": "passed"
+    },
+    {
+      "name": "Gym selector new/quota: failed selection preserves complete editable draft and stored selection",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector new/quota: draft accepts further edits after failure",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector new/quota: confirmed selection clears draft and displays saved target without saving draft",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector new/quota: confirmed general-equipment selection retains existing behavior",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector new/conflict: failed selection preserves complete editable draft and stored selection",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector new/conflict: draft accepts further edits after failure",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector new/conflict: confirmed selection clears draft and displays saved target without saving draft",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector new/conflict: confirmed general-equipment selection retains existing behavior",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector existing/quota: failed selection preserves complete editable draft and stored selection",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector existing/quota: draft accepts further edits after failure",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector existing/quota: confirmed selection clears draft and displays saved target without saving draft",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector existing/quota: confirmed general-equipment selection retains existing behavior",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector existing/conflict: failed selection preserves complete editable draft and stored selection",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector existing/conflict: draft accepts further edits after failure",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector existing/conflict: confirmed selection clears draft and displays saved target without saving draft",
+      "status": "passed"
+    },
+    {
+      "name": "Gym selector existing/conflict: confirmed general-equipment selection retains existing behavior",
+      "status": "passed"
     }
   ]
 }
