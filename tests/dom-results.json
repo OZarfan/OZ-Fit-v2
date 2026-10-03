@@ -48,6 +48,94 @@
     {
       "name": "Separate-day prescribed rehab logs without a workout",
       "status": "passed"
+    },
+    {
+      "name": "Batch1 gym: quota preserves draft and stored envelope",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 gym: successful retry saves exactly once before clearing",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 gym: conflict preserves draft and stored envelope",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 gym: successful retry saves exactly once before clearing",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 prescription: quota preserves draft and stored envelope",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 prescription: successful retry saves exactly once before clearing",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 prescription: conflict preserves draft and stored envelope",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 prescription: successful retry saves exactly once before clearing",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 report preview uses object URL directly",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 replacing report image revokes only the old object URL",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 cancelling report preview revokes URL without persisting image bytes",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 leaving report editor revokes its object URL",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 cancelling area deselection leaves injury and history unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 confirmed deselection records recovery without deleting history",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 recurrence and both status controls retain cumulative injury history",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 set and rest deadline are saved atomically",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 rest extension persists exact deadline and existing set identity",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 reloading restores extended rest countdown",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 failed rest dismissal preserves persisted and visible countdown",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 dismissed rest stays dismissed after reload",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 legacy active session restores last-set rest without rewriting storage",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 expired persisted rest is not restarted on reload",
+      "status": "passed"
     }
   ]
 }

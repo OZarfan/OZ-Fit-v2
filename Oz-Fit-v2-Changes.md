@@ -1,5 +1,26 @@
 # Oz Fit v2 — تقرير التنفيذ والمراجعة
 
+## Batch 1 — reliability and data integrity · 2026-10-03
+
+Scope: four requested fixes only; no design, navigation, Plan or P2 changes.
+
+| Task | Change / evidence |
+|---|---|
+| B1.1 | Gym and prescription editors await an explicit boolean save result. Failed/conflicting writes retain drafts, and recovery reloads keep editors mounted. DOM regressions cover storage quota failures, revision conflicts, reload/retry, concurrent saved fields and exactly-once persistence. |
+| B1.2 / P7.4 | Report previews use their owned object URL directly. Replacement, cancellation and unmount revoke the old URL. Images remain preview-only; report storage and OCR scope are unchanged. |
+| B1.3 / Q1 | Injury status changes preserve the record, original reported date and cumulative history. Deselection asks for confirmation of self-reported recovery; recurrence appends an active transition and clears previous review. No deletion action was added. |
+| B1.4 / P5 | Optional session `restState: {deadline: number \| null, totalSeconds: number}` is saved with logged sets and subsequent rest actions. Deadline is epoch milliseconds; null explicitly dismisses rest. `totalSeconds` retains the original suggested duration. Expired timers stay expired. Legacy sessions without the field use the previous last-set fallback; no past extension/dismissal is invented. |
+
+Compatibility: the `oz-fit-html-state-v1` key, `{data, revision}` envelope, account schema version 2, profile/session/set IDs, numeric RIR, raw pre-v2 backup and export formats remain unchanged. The additive optional rest field needs no eager data rewrite. Synthetic tests cover old records, unknown historical exercise IDs, RIR zero, future-version/corruption rejection and preservation of the original backup.
+
+Packaging: the service-worker shell cache is versioned for this batch so installed PWAs can receive the rebuilt HTML. Cache scope and activation policy remain unchanged; no forced activation during a workout.
+
+Validation: typecheck and documented build passed; logic suite has 16 passes plus the pre-existing partial alternative-coverage result (574 missing alternatives), DOM suite has 34 passes (22 new Batch 1 checks), and all 3 simulated PWA checks passed. DOM image tests verify URL wiring/lifecycle, not pixel rendering. Real-phone/PWA installation and physical offline-start checks were not performed in this batch.
+
+Changed source: `app/oz-fit.tsx`, `app/gym.tsx`, `app/tools.tsx`, `app/reports.tsx`, shared injury logic in `app/onboarding.tsx`, `lib/fitness.ts`, and `public/sw.js`. Tests: `tests/acceptance.ts`, `tests/dom.cjs`, new `tests/batch1-dom.cjs`, and `tests/pwa.cjs`. Build/test commands regenerate `app.js`, `assets.json`, the `dist/` HTML/PWA package, `tests/acceptance.cjs`, `tests/fixture.json`, and the three result JSON files. Generated files were not hand-edited.
+
+## Historical implementation report — 2026-09-29
+
 تاريخ البناء: 29 سبتمبر 2026. **نسخة قابلة للتجربة، مع بنود جزئية واختبارات متصفح لم تُنفّذ.** التطبيق الحالي المستضاف لم يُعدّل أو يُنشر. لا توجد بيانات عمر أو قياسات شخصية مأخوذة من ذاكرة الحساب؛ بيانات الاختبار مصطنعة.
 
 - ملف HTML مستقل، عربي مصري / English، RTL، قواعد محلية دون اعتماد على AI.

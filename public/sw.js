@@ -1,5 +1,5 @@
 // All application code, exercise images and fonts are local. No health data cached here.
-const CACHE='oz-fit-shell-v2-20260929';
+const CACHE='oz-fit-shell-v2-20261003-batch1';
 const SHELL=['./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL))));
 // Do not force a running workout onto a new build; activate after old clients close.

@@ -59,7 +59,15 @@
       "status": "passed"
     },
     {
+      "name": "Batch1 optional rest state preserves old envelopes, identities and historical zero RIR",
+      "status": "passed"
+    },
+    {
       "name": "Same localStorage key, pre-migration backup, persistence and revision409",
+      "status": "passed"
+    },
+    {
+      "name": "Batch1 corruption/future-version protection, rejected writes and original migration backup preserved",
       "status": "passed"
     }
   ],

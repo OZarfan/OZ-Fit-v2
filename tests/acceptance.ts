@@ -19,5 +19,25 @@ check('4-session progression, plateau and PR accuracy',()=>{const id=b.sessions[
 check('Plate arithmetic both directions, finite quantities, round-down',()=>{assert.equal(plateTotal(20,[{kg:10,pairs:2},{kg:5,pairs:1}]),70);const s=plateSolve(72,20,[{kg:10,pairs:2},{kg:5,pairs:1}]);assert.equal(s.total,70);assert.equal(s.exact,false);assert.equal(plateSolve(70,20,[{kg:10,pairs:2},{kg:5,pairs:1}]).exact,true);assert.equal(plateSolve(15,20,[]).total,20)});
 check('Comeback after missed scheduled session; no fabricated historic adherence',()=>{assert(comebackDue(b,new Date('2026-09-29T12:00:00')));const weeks=adherence({...b,profile:{...p,planHistory:[]}},new Date('2026-09-29'));assert(weeks.every(w=>w.planned===0&&w.percent===null))});
 check('Physio candidate map exists and remains disabled without actual review',()=>{assert(Object.values(injuryCardioMap).every(v=>v.reviewed===false));assert(fs.readFileSync('lib/fitness.ts','utf8').includes('MUST be reviewed by a qualified physiotherapist before release'))});
+check('Batch1 optional rest state preserves old envelopes, identities and historical zero RIR',()=>{
+ const historical=JSON.parse(JSON.stringify({profiles:[b],activeId:p.id,schemaVersion:2}));
+ historical.profiles[0].sessions[0].sets[0].rir=0;
+ historical.profiles[0].sessions[0].sets[0].exId='unknown-historical-exercise';
+ const raw=JSON.stringify(historical),loaded=migrate(historical);
+ assert.equal(JSON.stringify(historical),raw);assert.deepEqual(loaded,historical);
+ assert.equal(loaded.profiles[0].sessions[0].sets[0].id,b.sessions[0].sets[0].id);
+ for(const deadline of [Date.now()+120000,null]){
+  const next=JSON.parse(raw);next.profiles[0].sessions[0].restState={deadline,totalSeconds:120};
+  assert.deepEqual(migrate(next),next);assert.deepEqual(migrate(migrate(next)),next);
+ }
+ const future={...historical,schemaVersion:3};assert.throws(()=>migrate(future),/FUTURE/);
+ const invalid=JSON.parse(raw);invalid.profiles[0].sessions[0].restState={deadline:'bad',totalSeconds:120};assert.throws(()=>migrate(invalid));
+});
 const store=new Map<string,string>();(globalThis as any).localStorage={getItem:(k:string)=>store.get(k)??null,setItem:(k:string,v:string)=>store.set(k,v)};
-async function storage(){store.set(KEY,JSON.stringify({data:{profiles:[{profile:oldProfile,sessions:[],reports:[]}],activeId:'qa'},revision:5}));const loaded=await(await localState('/api/state')).json() as any;assert(loaded.data.schemaVersion===2);assert(store.has(KEY+'-pre-v2'));const result=await localState('/api/state',{method:'PUT',body:JSON.stringify({data:loaded.data,revision:5})});assert(result.ok);assert(!(await localState('/api/state',{method:'PUT',body:JSON.stringify({data:loaded.data,revision:5})})).ok);results.push({name:'Same localStorage key, pre-migration backup, persistence and revision409',status:'passed'});fs.writeFileSync('tests/results.json',JSON.stringify({results,coverage},null,2));fs.writeFileSync('tests/fixture.json',JSON.stringify({data:{...a,profiles:[b]},revision:0}));console.log('PASS storage migration and409; coverage gaps',coverage.length)}void storage();
+async function storage(){store.set(KEY,JSON.stringify({data:{profiles:[{profile:oldProfile,sessions:[],reports:[]}],activeId:'qa'},revision:5}));const loaded=await(await localState('/api/state')).json() as any;assert(loaded.data.schemaVersion===2);assert(store.has(KEY+'-pre-v2'));const result=await localState('/api/state',{method:'PUT',body:JSON.stringify({data:loaded.data,revision:5})});assert(result.ok);assert(!(await localState('/api/state',{method:'PUT',body:JSON.stringify({data:loaded.data,revision:5})})).ok);results.push({name:'Same localStorage key, pre-migration backup, persistence and revision409',status:'passed'});const backup=store.get(KEY+'-pre-v2');
+const saved=store.get(KEY)!;store.set(KEY,'not json');await assert.rejects(()=>localState('/api/state'));assert.equal(store.get(KEY),'not json');
+const future=JSON.stringify({data:{...a,schemaVersion:3},revision:9});store.set(KEY,future);await assert.rejects(()=>localState('/api/state'));assert.equal(store.get(KEY),future);
+store.set(KEY,JSON.stringify({data:{profiles:[{profile:oldProfile,sessions:[],reports:[]}],activeId:'qa'},revision:9}));await localState('/api/state');assert.equal(store.get(KEY+'-pre-v2'),backup);
+store.set(KEY,saved);const before=store.get(KEY);const bad=JSON.parse(saved);bad.data.profiles[0].sessions=[{...b.sessions[0],restState:{deadline:-1,totalSeconds:120}}];await assert.rejects(()=>localState('/api/state',{method:'PUT',body:JSON.stringify(bad)}));assert.equal(store.get(KEY),before);assert.equal(store.get(KEY+'-pre-v2'),backup);
+results.push({name:'Batch1 corruption/future-version protection, rejected writes and original migration backup preserved',status:'passed'});
+fs.writeFileSync('tests/results.json',JSON.stringify({results,coverage},null,2));fs.writeFileSync('tests/fixture.json',JSON.stringify({data:{...a,profiles:[b]},revision:0}));console.log('PASS storage migration and409; coverage gaps',coverage.length)}void storage();

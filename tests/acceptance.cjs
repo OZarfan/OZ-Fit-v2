@@ -30,7 +30,7 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 var import_strict = __toESM(require("node:assert/strict"), 1);
 var import_node_fs = __toESM(require("node:fs"), 1);
 
-// ../oz-fit/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/external.js
+// node_modules/zod/v3/external.js
 var external_exports = {};
 __export(external_exports, {
   BRAND: () => BRAND,
@@ -142,7 +142,7 @@ __export(external_exports, {
   void: () => voidType
 });
 
-// ../oz-fit/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/helpers/util.js
+// node_modules/zod/v3/helpers/util.js
 var util;
 (function(util2) {
   util2.assertEqual = (_) => {
@@ -276,7 +276,7 @@ var getParsedType = (data) => {
   }
 };
 
-// ../oz-fit/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/ZodError.js
+// node_modules/zod/v3/ZodError.js
 var ZodIssueCode = util.arrayToEnum([
   "invalid_type",
   "invalid_literal",
@@ -394,7 +394,7 @@ ZodError.create = (issues) => {
   return error;
 };
 
-// ../oz-fit/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/locales/en.js
+// node_modules/zod/v3/locales/en.js
 var errorMap = (issue, _ctx) => {
   let message;
   switch (issue.code) {
@@ -497,7 +497,7 @@ var errorMap = (issue, _ctx) => {
 };
 var en_default = errorMap;
 
-// ../oz-fit/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/errors.js
+// node_modules/zod/v3/errors.js
 var overrideErrorMap = en_default;
 function setErrorMap(map) {
   overrideErrorMap = map;
@@ -506,7 +506,7 @@ function getErrorMap() {
   return overrideErrorMap;
 }
 
-// ../oz-fit/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/helpers/parseUtil.js
+// node_modules/zod/v3/helpers/parseUtil.js
 var makeIssue = (params) => {
   const { data, path, errorMaps, issueData } = params;
   const fullPath = [...path, ...issueData.path || []];
@@ -616,14 +616,14 @@ var isDirty = (x) => x.status === "dirty";
 var isValid = (x) => x.status === "valid";
 var isAsync = (x) => typeof Promise !== "undefined" && x instanceof Promise;
 
-// ../oz-fit/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/helpers/errorUtil.js
+// node_modules/zod/v3/helpers/errorUtil.js
 var errorUtil;
 (function(errorUtil2) {
   errorUtil2.errToObj = (message) => typeof message === "string" ? { message } : message || {};
   errorUtil2.toString = (message) => typeof message === "string" ? message : message?.message;
 })(errorUtil || (errorUtil = {}));
 
-// ../oz-fit/node_modules/.pnpm/zod@3.25.76/node_modules/zod/v3/types.js
+// node_modules/zod/v3/types.js
 var ParseInputLazyPath = class {
   constructor(parent, value, path, key) {
     this._cachedPath = [];
@@ -5839,7 +5839,8 @@ var exercises = [...legacyExercises, ...extraExercises].map((e2) => ({ ...e2, lo
 var byId = Object.fromEntries(exercises.map((e2) => [e2.id, e2]));
 var slotSchema = external_exports.object({ key: external_exports.string().max(80), exId: external_exports.string().max(100), sets: f.int().min(1).max(6), low: f.min(1).max(120), high: f.min(1).max(120), rest: f.min(0).max(600) });
 var setSchema = external_exports.object({ id: external_exports.string().max(80), slotKey: external_exports.string().max(80), exId: external_exports.string().max(100), weight: f.min(0).max(1500), reps: f.int().min(1).max(120), rir: f.int().min(0).max(10), at: external_exports.string().max(40), gymId: external_exports.string().default("") });
-var sessionSchema = external_exports.object({ id: external_exports.string().max(80), date: external_exports.string().max(10), weekday, startedAt: external_exports.string().max(40), finishedAt: external_exports.string().max(40).nullable(), title: external_exports.string().max(100), titleEn: external_exports.string().max(100), targetMinutes: f.min(1).max(240), slots: external_exports.array(slotSchema).max(30), sets: external_exports.array(setSchema).max(250), skipped: external_exports.array(external_exports.string().max(80)).max(30), notes: external_exports.string().max(2e3), effort: f.min(0).max(10), extras: external_exports.array(external_exports.object({ kind: external_exports.string().max(100), minutes: f.min(0).max(120) })).max(50), swaps: external_exports.array(external_exports.object({ slot: external_exports.string(), from: external_exports.string(), to: external_exports.string(), reason: external_exports.string(), at: external_exports.string() })).max(100), gymId: external_exports.string().default(""), goalSnapshot: external_exports.string().default(""), painByArea: external_exports.record(external_exports.string(), f.min(0).max(10)).default({}), rehabDone: external_exports.array(external_exports.string()).default([]), comeback: external_exports.boolean().default(false), blocks: external_exports.array(external_exports.object({ id: external_exports.string(), kind: external_exports.string(), minutes: f, exId: external_exports.string(), optional: external_exports.boolean().default(false) })).default([]) });
+var restStateSchema = external_exports.object({ deadline: f.min(0).nullable(), totalSeconds: f.min(0).max(600) });
+var sessionSchema = external_exports.object({ restState: restStateSchema.optional(), id: external_exports.string().max(80), date: external_exports.string().max(10), weekday, startedAt: external_exports.string().max(40), finishedAt: external_exports.string().max(40).nullable(), title: external_exports.string().max(100), titleEn: external_exports.string().max(100), targetMinutes: f.min(1).max(240), slots: external_exports.array(slotSchema).max(30), sets: external_exports.array(setSchema).max(250), skipped: external_exports.array(external_exports.string().max(80)).max(30), notes: external_exports.string().max(2e3), effort: f.min(0).max(10), extras: external_exports.array(external_exports.object({ kind: external_exports.string().max(100), minutes: f.min(0).max(120) })).max(50), swaps: external_exports.array(external_exports.object({ slot: external_exports.string(), from: external_exports.string(), to: external_exports.string(), reason: external_exports.string(), at: external_exports.string() })).max(100), gymId: external_exports.string().default(""), goalSnapshot: external_exports.string().default(""), painByArea: external_exports.record(external_exports.string(), f.min(0).max(10)).default({}), rehabDone: external_exports.array(external_exports.string()).default([]), comeback: external_exports.boolean().default(false), blocks: external_exports.array(external_exports.object({ id: external_exports.string(), kind: external_exports.string(), minutes: f, exId: external_exports.string(), optional: external_exports.boolean().default(false) })).default([]) });
 var reportSchema = external_exports.object({ id: external_exports.string().max(80), fileKey: external_exports.string().max(180), date: external_exports.string().max(10), weight: f.min(0).max(300).nullable(), fat: f.min(0).max(70).nullable(), muscle: f.min(0).max(150).nullable(), bmr: f.min(0).max(5e3).nullable(), confirmed: external_exports.boolean(), raw: external_exports.string().max(1e4) });
 var bundleSchema = external_exports.object({ profile: profileSchema, sessions: external_exports.array(sessionSchema).max(1e3), reports: external_exports.array(reportSchema).max(200), rehabLogs: external_exports.array(external_exports.object({ id: external_exports.string(), date: external_exports.string(), at: external_exports.string(), prescription: rehabSchema })).max(3e3).default([]) });
 var accountSchema = external_exports.object({ profiles: external_exports.array(bundleSchema).max(20), activeId: external_exports.string().max(80), schemaVersion: external_exports.literal(2).default(2) });
@@ -6266,6 +6267,26 @@ check("Physio candidate map exists and remains disabled without actual review", 
   (0, import_strict.default)(Object.values(injuryCardioMap).every((v) => v.reviewed === false));
   (0, import_strict.default)(import_node_fs.default.readFileSync("lib/fitness.ts", "utf8").includes("MUST be reviewed by a qualified physiotherapist before release"));
 });
+check("Batch1 optional rest state preserves old envelopes, identities and historical zero RIR", () => {
+  const historical = JSON.parse(JSON.stringify({ profiles: [b], activeId: p.id, schemaVersion: 2 }));
+  historical.profiles[0].sessions[0].sets[0].rir = 0;
+  historical.profiles[0].sessions[0].sets[0].exId = "unknown-historical-exercise";
+  const raw = JSON.stringify(historical), loaded = migrate(historical);
+  import_strict.default.equal(JSON.stringify(historical), raw);
+  import_strict.default.deepEqual(loaded, historical);
+  import_strict.default.equal(loaded.profiles[0].sessions[0].sets[0].id, b.sessions[0].sets[0].id);
+  for (const deadline of [Date.now() + 12e4, null]) {
+    const next = JSON.parse(raw);
+    next.profiles[0].sessions[0].restState = { deadline, totalSeconds: 120 };
+    import_strict.default.deepEqual(migrate(next), next);
+    import_strict.default.deepEqual(migrate(migrate(next)), next);
+  }
+  const future = { ...historical, schemaVersion: 3 };
+  import_strict.default.throws(() => migrate(future), /FUTURE/);
+  const invalid = JSON.parse(raw);
+  invalid.profiles[0].sessions[0].restState = { deadline: "bad", totalSeconds: 120 };
+  import_strict.default.throws(() => migrate(invalid));
+});
 var store = /* @__PURE__ */ new Map();
 globalThis.localStorage = { getItem: (k) => store.get(k) ?? null, setItem: (k, v) => store.set(k, v) };
 async function storage() {
@@ -6277,6 +6298,26 @@ async function storage() {
   (0, import_strict.default)(result.ok);
   (0, import_strict.default)(!(await localState("/api/state", { method: "PUT", body: JSON.stringify({ data: loaded.data, revision: 5 }) })).ok);
   results.push({ name: "Same localStorage key, pre-migration backup, persistence and revision409", status: "passed" });
+  const backup = store.get(KEY + "-pre-v2");
+  const saved = store.get(KEY);
+  store.set(KEY, "not json");
+  await import_strict.default.rejects(() => localState("/api/state"));
+  import_strict.default.equal(store.get(KEY), "not json");
+  const future = JSON.stringify({ data: { ...a, schemaVersion: 3 }, revision: 9 });
+  store.set(KEY, future);
+  await import_strict.default.rejects(() => localState("/api/state"));
+  import_strict.default.equal(store.get(KEY), future);
+  store.set(KEY, JSON.stringify({ data: { profiles: [{ profile: oldProfile, sessions: [], reports: [] }], activeId: "qa" }, revision: 9 }));
+  await localState("/api/state");
+  import_strict.default.equal(store.get(KEY + "-pre-v2"), backup);
+  store.set(KEY, saved);
+  const before = store.get(KEY);
+  const bad = JSON.parse(saved);
+  bad.data.profiles[0].sessions = [{ ...b.sessions[0], restState: { deadline: -1, totalSeconds: 120 } }];
+  await import_strict.default.rejects(() => localState("/api/state", { method: "PUT", body: JSON.stringify(bad) }));
+  import_strict.default.equal(store.get(KEY), before);
+  import_strict.default.equal(store.get(KEY + "-pre-v2"), backup);
+  results.push({ name: "Batch1 corruption/future-version protection, rejected writes and original migration backup preserved", status: "passed" });
   import_node_fs.default.writeFileSync("tests/results.json", JSON.stringify({ results, coverage }, null, 2));
   import_node_fs.default.writeFileSync("tests/fixture.json", JSON.stringify({ data: { ...a, profiles: [b] }, revision: 0 }));
   console.log("PASS storage migration and409; coverage gaps", coverage.length);
