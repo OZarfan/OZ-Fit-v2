@@ -123,8 +123,7 @@ function verifyMeasurement(m, lang, dialog=false) {
         const extracted=page.getByRole('textbox',{name:lang==='ar'?'النص المستخرج للمراجعة':'Extracted text for review',exact:true});
         await page.locator('.report-editor summary').click();await extracted.fill('Synthetic review text');
         assert.equal(await extracted.inputValue(),'Synthetic review text');
-        await page.getByRole('button',{name:lang==='ar'?'تعديل':'Edit',exact:true}).click();
-        for(let n=0;n<3;n++)await page.getByRole('button',{name:lang==='ar'?'التالي':'Next',exact:true}).click();
+        await page.getByRole('button',{name:lang==='ar'?'المعدات العامة وأولوية العضلات':'General equipment & muscle priority',exact:true}).click();
         const balanced=page.getByRole('button',{name:lang==='ar'?'توازن الجسم':'Balanced',exact:true});
         await page.locator('.body-labels button').nth(1).click();assert.equal(await balanced.getAttribute('aria-pressed'),'false');
         await balanced.click();assert.equal(await balanced.getAttribute('aria-pressed'),'true');

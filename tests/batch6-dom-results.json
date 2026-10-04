@@ -1,0 +1,381 @@
+{
+  "environment": "Synthetic jsdom; no layout or device claims",
+  "results": [
+    {
+      "name": "Batch6 en initial read failure retains corruption protection",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en first setup starts with seven single-choice primary goals only",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en missing primary goal stays on step one with focused feedback",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en optional supporting goals are collapsed and separately named",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en promoting a supporting goal leaves one primary and removes its duplicate",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en first setup retains the adult minimum",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en first setup retains all six steps and required availability/equipment/health",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en failed first-time save preserves review and draft",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en first-time completion stores one valid profile with unchanged schema",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en existing profile opens without migration and exposes five direct editors",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en goals opens directly with save/cancel and no wizard",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en goals cancel preserves storage and returns focus",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en basics opens directly with save/cancel and no wizard",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en basics cancel preserves storage and returns focus",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en availability opens directly with save/cancel and no wizard",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en availability cancel preserves storage and returns focus",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en equipment opens directly with save/cancel and no wizard",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en equipment cancel preserves storage and returns focus",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en health opens directly with save/cancel and no wizard",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en health cancel preserves storage and returns focus",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en goals save changes only its section and retains history",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en basics save changes only its section and retains history",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en equipment save changes only its section and retains history",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en health save changes only its section and retains history",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en all unrelated section saves preserve the selected rest day",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en Plan availability entry saves duration without replacing custom days/history",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en invalidated schedule reselects a valid day and adds one history entry",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en goals/quota retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en goals quota retry confirms save before closing",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en basics/quota retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en basics quota retry confirms save before closing",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en availability/quota retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en availability quota retry confirms save before closing",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en equipment/quota retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en equipment quota retry confirms save before closing",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en health/quota retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en health quota retry confirms save before closing",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en goals/conflict retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en goals conflict cancel preserves the other revision",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en basics/conflict retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en basics conflict cancel preserves the other revision",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en availability/conflict retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en availability conflict cancel preserves the other revision",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en equipment/conflict retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en equipment conflict cancel preserves the other revision",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en health/conflict retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 en health conflict cancel preserves the other revision",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar initial read failure retains corruption protection",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar first setup starts with seven single-choice primary goals only",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar missing primary goal stays on step one with focused feedback",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar optional supporting goals are collapsed and separately named",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar promoting a supporting goal leaves one primary and removes its duplicate",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar first setup retains the adult minimum",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar first setup retains all six steps and required availability/equipment/health",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar failed first-time save preserves review and draft",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar first-time completion stores one valid profile with unchanged schema",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar existing profile opens without migration and exposes five direct editors",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar goals opens directly with save/cancel and no wizard",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar goals cancel preserves storage and returns focus",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar basics opens directly with save/cancel and no wizard",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar basics cancel preserves storage and returns focus",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar availability opens directly with save/cancel and no wizard",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar availability cancel preserves storage and returns focus",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar equipment opens directly with save/cancel and no wizard",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar equipment cancel preserves storage and returns focus",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar health opens directly with save/cancel and no wizard",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar health cancel preserves storage and returns focus",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar goals save changes only its section and retains history",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar basics save changes only its section and retains history",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar equipment save changes only its section and retains history",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar health save changes only its section and retains history",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar all unrelated section saves preserve the selected rest day",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar Plan availability entry saves duration without replacing custom days/history",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar invalidated schedule reselects a valid day and adds one history entry",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar goals/quota retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar goals quota retry confirms save before closing",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar basics/quota retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar basics quota retry confirms save before closing",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar availability/quota retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar availability quota retry confirms save before closing",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar equipment/quota retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar equipment quota retry confirms save before closing",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar health/quota retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar health quota retry confirms save before closing",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar goals/conflict retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar goals conflict cancel preserves the other revision",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar basics/conflict retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar basics conflict cancel preserves the other revision",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar availability/conflict retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar availability conflict cancel preserves the other revision",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar equipment/conflict retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar equipment conflict cancel preserves the other revision",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar health/conflict retains editable draft and focused in-context error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch6 ar health conflict cancel preserves the other revision",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,5 +1,15 @@
 # Oz Fit v2 — تقرير التنفيذ والمراجعة
 
+## Batch 6 — direct profile editing and clearer goal selection · 2026-10-04
+
+Returning users can open Goals, Personal details & experience, Availability & duration, General equipment & muscle priority, or Health & daily routine directly from Profile. The existing Plan availability action opens the availability section directly. These editors reuse the same fields, validation and explicit save contract as first-time setup; save closes only on confirmed success, while cancel leaves stored data intact. First-time setup retains all six steps. Primary goals remain single-choice; optional supporting goals appear in a separate collapsed disclosure after a primary goal is selected.
+
+Unrelated edits preserve training-day selection, schedule distribution/history and historical records. Availability edits preserve valid custom training days and only reschedule when the availability/session-count constraints invalidate them. Storage/revision failures retain editable drafts and contextual feedback. A first-time save failure no longer replaces the setup draft with the storage-read recovery screen; unreadable records still retain their recovery protection. No schema migration, CSS, token, timer, planning algorithm, Progress calculation or Weekly Plan layout change was made.
+
+Validation: typecheck/build pass; **16 logic passes plus the unchanged partial alternative-coverage result**, **196 DOM passes** (94 new Batch 6 checks), **3 simulated PWA passes**, **4 Batch 4 color guards**, and **25 Batch 5 derived/performance checks**. AR/EN browser checks pass at **360/390/430/1280px** for first-time completion, all direct editors, save/cancel, focus return and selected-day retention. Seven unchanged screen states match the Batch 5 baseline in each of the eight language/width cases. Previous contrast, rest visibility, 44px dialog close controls, blob previews and selected-state contracts still pass; 28 shared component color pairs match.
+
+See [Batch6-Onboarding.md](docs/Batch6-Onboarding.md) for the complete changed-file inventory, evidence, commands and real-device limits. Batch 6 stops here.
+
 ## Batch 5 — bounded P2 render and calculation performance · 2026-10-04
 
 Isolated 500ms timer renders from the app root, memoized the existing plan by its actual inputs, and cached Progress derivations with an equivalent single-pass historical PR calculation. Ten clock ticks now cause **0 root renders / 0 plan generations**, previously 10 each; three search edits cause **0 plan generations**, previously 3. For 2,000 sets, history work changes from reconstructing **1,999,000 preceding-set entries** to **2,000 set reads**. All 125 representative plans and tested Progress/PR results match Batch 4.

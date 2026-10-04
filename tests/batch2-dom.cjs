@@ -112,12 +112,8 @@ module.exports = async function batch2({boot, wait, button, click, tab, input, c
 
     const z = await boot(copy(fixture), w => w.localStorage.setItem('oz-language',lang));
     try {
-      // The existing intake reaches the shared Body picker through its normal steps.
-      tab(z.w,z.doc,t.profile);await wait();click(z.w,button(z.doc,lang==='en'?'Edit':'تعديل'));await wait();
-      for(let n=0;n<8&&!z.doc.querySelector('.body-labels');n++) {
-        const next=[...z.doc.querySelectorAll('button')].find(b=>b.textContent.trim()===(lang==='en'?'Next':'التالي'));
-        assert(next,'Missing next step before body picker');click(z.w,next);await wait();
-      }
+      // Batch 6 routes directly to the same shared Body picker.
+      tab(z.w,z.doc,t.profile);await wait();click(z.w,button(z.doc,lang==='en'?'General equipment & muscle priority':'المعدات العامة وأولوية العضلات'));await wait();
       const balanced=button(z.doc,t.balanced), choices=z.doc.querySelectorAll('.body-labels button');
       click(z.w,choices[1]);await wait();assert.equal(balanced.getAttribute('aria-pressed'),'false');
       click(z.w,balanced);await wait();

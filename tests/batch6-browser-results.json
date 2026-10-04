@@ -1,0 +1,3402 @@
+{
+  "date": "2026-10-04",
+  "environment": "Codex in-app Chromium; isolated synthetic localhost fixtures; 800px viewport height",
+  "baseline": "3eab33b Batch 5 app.js with identical CSS",
+  "results": [
+    {
+      "lang": "en",
+      "width": 360,
+      "status": "passed",
+      "setupCompleted": true,
+      "directAvailability": true,
+      "allEditorsDirect": true,
+      "selectedDayPreserved": true,
+      "states": [
+        {
+          "label": "setup-primary",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": null,
+          "step": "Your training profile1 / 6",
+          "title": "Choose your primary goal",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-primary-chosen",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": null,
+          "step": "Your training profile1 / 6",
+          "supportingCount": "Supporting goals — optional · 0",
+          "supportingOpen": false,
+          "title": "Choose your primary goal",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-supporting",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": null,
+          "step": "Your training profile1 / 6",
+          "supportingCount": "Supporting goals — optional · 1",
+          "supportingOpen": true,
+          "title": "Choose your primary goal",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-basics",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Experience",
+          "section": null,
+          "step": "Your training profile2 / 6",
+          "title": "Your starting point",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-availability",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Session duration",
+          "section": null,
+          "step": "Your training profile3 / 6",
+          "title": "Your week, your time",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-equipment",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "Your training profile4 / 6",
+          "title": "Your gym equipment",
+          "minControlHeight": 46
+        },
+        {
+          "label": "setup-health",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Health status",
+          "section": null,
+          "step": "Your training profile5 / 6",
+          "title": "Your health and routine",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-review",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "Your training profile6 / 6",
+          "title": "Review your plan",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-availability",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Session duration",
+          "section": "availability",
+          "step": null,
+          "title": "Availability & duration",
+          "minControlHeight": 44
+        },
+        {
+          "label": "profile-settings",
+          "dir": "ltr",
+          "focused": "radix-_r_g_-trigger-profile",
+          "navVisible": null,
+          "overflow": false,
+          "section": null,
+          "step": null,
+          "title": "My profile",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-goals",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": "goals",
+          "step": null,
+          "supportingCount": "Supporting goals — optional · 0",
+          "supportingOpen": false,
+          "title": "Goals",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-basics",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Experience",
+          "section": "basics",
+          "step": null,
+          "title": "Personal details & experience",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-equipment",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": "equipment",
+          "step": null,
+          "title": "General equipment & muscle priority",
+          "minControlHeight": 46
+        },
+        {
+          "label": "direct-health",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Health status",
+          "section": "health",
+          "step": null,
+          "title": "Health & daily routine",
+          "minControlHeight": 52.390625
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "status": "passed",
+      "setupCompleted": true,
+      "directAvailability": true,
+      "allEditorsDirect": true,
+      "selectedDayPreserved": true,
+      "states": [
+        {
+          "label": "setup-primary",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": null,
+          "step": "Your training profile1 / 6",
+          "title": "Choose your primary goal",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-primary-chosen",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": null,
+          "step": "Your training profile1 / 6",
+          "supportingCount": "Supporting goals — optional · 0",
+          "supportingOpen": false,
+          "title": "Choose your primary goal",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-supporting",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": null,
+          "step": "Your training profile1 / 6",
+          "supportingCount": "Supporting goals — optional · 1",
+          "supportingOpen": true,
+          "title": "Choose your primary goal",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-basics",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Experience",
+          "section": null,
+          "step": "Your training profile2 / 6",
+          "title": "Your starting point",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-availability",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Session duration",
+          "section": null,
+          "step": "Your training profile3 / 6",
+          "title": "Your week, your time",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-equipment",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "Your training profile4 / 6",
+          "title": "Your gym equipment",
+          "minControlHeight": 46
+        },
+        {
+          "label": "setup-health",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Health status",
+          "section": null,
+          "step": "Your training profile5 / 6",
+          "title": "Your health and routine",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-review",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "Your training profile6 / 6",
+          "title": "Review your plan",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-availability",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Session duration",
+          "section": "availability",
+          "step": null,
+          "title": "Availability & duration",
+          "minControlHeight": 44
+        },
+        {
+          "label": "profile-settings",
+          "dir": "ltr",
+          "focused": "radix-_r_g_-trigger-profile",
+          "navVisible": null,
+          "overflow": false,
+          "section": null,
+          "step": null,
+          "title": "My profile",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-goals",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": "goals",
+          "step": null,
+          "supportingCount": "Supporting goals — optional · 0",
+          "supportingOpen": false,
+          "title": "Goals",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-basics",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Experience",
+          "section": "basics",
+          "step": null,
+          "title": "Personal details & experience",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-equipment",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": "equipment",
+          "step": null,
+          "title": "General equipment & muscle priority",
+          "minControlHeight": 46
+        },
+        {
+          "label": "direct-health",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Health status",
+          "section": "health",
+          "step": null,
+          "title": "Health & daily routine",
+          "minControlHeight": 52.390625
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 430,
+      "status": "passed",
+      "setupCompleted": true,
+      "directAvailability": true,
+      "allEditorsDirect": true,
+      "selectedDayPreserved": true,
+      "states": [
+        {
+          "label": "setup-primary",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": null,
+          "step": "Your training profile1 / 6",
+          "title": "Choose your primary goal",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-primary-chosen",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": null,
+          "step": "Your training profile1 / 6",
+          "supportingCount": "Supporting goals — optional · 0",
+          "supportingOpen": false,
+          "title": "Choose your primary goal",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-supporting",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": null,
+          "step": "Your training profile1 / 6",
+          "supportingCount": "Supporting goals — optional · 1",
+          "supportingOpen": true,
+          "title": "Choose your primary goal",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-basics",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Experience",
+          "section": null,
+          "step": "Your training profile2 / 6",
+          "title": "Your starting point",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-availability",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Session duration",
+          "section": null,
+          "step": "Your training profile3 / 6",
+          "title": "Your week, your time",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-equipment",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "Your training profile4 / 6",
+          "title": "Your gym equipment",
+          "minControlHeight": 46
+        },
+        {
+          "label": "setup-health",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Health status",
+          "section": null,
+          "step": "Your training profile5 / 6",
+          "title": "Your health and routine",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-review",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "Your training profile6 / 6",
+          "title": "Review your plan",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-availability",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Session duration",
+          "section": "availability",
+          "step": null,
+          "title": "Availability & duration",
+          "minControlHeight": 44
+        },
+        {
+          "label": "profile-settings",
+          "dir": "ltr",
+          "focused": "radix-_r_g_-trigger-profile",
+          "navVisible": null,
+          "overflow": false,
+          "section": null,
+          "step": null,
+          "title": "My profile",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-goals",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": "goals",
+          "step": null,
+          "supportingCount": "Supporting goals — optional · 0",
+          "supportingOpen": false,
+          "title": "Goals",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-basics",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Experience",
+          "section": "basics",
+          "step": null,
+          "title": "Personal details & experience",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-equipment",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": "equipment",
+          "step": null,
+          "title": "General equipment & muscle priority",
+          "minControlHeight": 46
+        },
+        {
+          "label": "direct-health",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Health status",
+          "section": "health",
+          "step": null,
+          "title": "Health & daily routine",
+          "minControlHeight": 52.390625
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "status": "passed",
+      "setupCompleted": true,
+      "directAvailability": true,
+      "allEditorsDirect": true,
+      "selectedDayPreserved": true,
+      "states": [
+        {
+          "label": "setup-primary",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": null,
+          "step": "Your training profile1 / 6",
+          "title": "Choose your primary goal",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-primary-chosen",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": null,
+          "step": "Your training profile1 / 6",
+          "supportingCount": "Supporting goals — optional · 0",
+          "supportingOpen": false,
+          "title": "Choose your primary goal",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-supporting",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": null,
+          "step": "Your training profile1 / 6",
+          "supportingCount": "Supporting goals — optional · 1",
+          "supportingOpen": true,
+          "title": "Choose your primary goal",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-basics",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Experience",
+          "section": null,
+          "step": "Your training profile2 / 6",
+          "title": "Your starting point",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-availability",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Session duration",
+          "section": null,
+          "step": "Your training profile3 / 6",
+          "title": "Your week, your time",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-equipment",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "Your training profile4 / 6",
+          "title": "Your gym equipment",
+          "minControlHeight": 48.390625
+        },
+        {
+          "label": "setup-health",
+          "dir": "ltr",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Health status",
+          "section": null,
+          "step": "Your training profile5 / 6",
+          "title": "Your health and routine",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-review",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "Your training profile6 / 6",
+          "title": "Review your plan",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-availability",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Session duration",
+          "section": "availability",
+          "step": null,
+          "title": "Availability & duration",
+          "minControlHeight": 44
+        },
+        {
+          "label": "profile-settings",
+          "dir": "ltr",
+          "focused": "radix-_r_g_-trigger-profile",
+          "navVisible": null,
+          "overflow": false,
+          "section": null,
+          "step": null,
+          "title": "My profile",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-goals",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Primary goal",
+          "section": "goals",
+          "step": null,
+          "supportingCount": "Supporting goals — optional · 0",
+          "supportingOpen": false,
+          "title": "Goals",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-basics",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Experience",
+          "section": "basics",
+          "step": null,
+          "title": "Personal details & experience",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-equipment",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": "equipment",
+          "step": null,
+          "title": "General equipment & muscle priority",
+          "minControlHeight": 48.390625
+        },
+        {
+          "label": "direct-health",
+          "dir": "ltr",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "Health status",
+          "section": "health",
+          "step": null,
+          "title": "Health & daily routine",
+          "minControlHeight": 52.390625
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 360,
+      "status": "passed",
+      "setupCompleted": true,
+      "directAvailability": true,
+      "allEditorsDirect": true,
+      "selectedDayPreserved": true,
+      "states": [
+        {
+          "label": "setup-primary",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": null,
+          "step": "ملفك الرياضي1 / 6",
+          "title": "اختار هدفك الأساسي",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-primary-chosen",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": null,
+          "step": "ملفك الرياضي1 / 6",
+          "supportingCount": "أهداف مساندة — اختياري · 0",
+          "supportingOpen": false,
+          "title": "اختار هدفك الأساسي",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-supporting",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": null,
+          "step": "ملفك الرياضي1 / 6",
+          "supportingCount": "أهداف مساندة — اختياري · 1",
+          "supportingOpen": true,
+          "title": "اختار هدفك الأساسي",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-basics",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الخبرة",
+          "section": null,
+          "step": "ملفك الرياضي2 / 6",
+          "title": "نبدأ ببياناتك",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-availability",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "مدة الحصة",
+          "section": null,
+          "step": "ملفك الرياضي3 / 6",
+          "title": "أيامك… على وقتك",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-equipment",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "ملفك الرياضي4 / 6",
+          "title": "معدات الجيم",
+          "minControlHeight": 46
+        },
+        {
+          "label": "setup-health",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الحالة الصحية",
+          "section": null,
+          "step": "ملفك الرياضي5 / 6",
+          "title": "نراعي جسمك",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-review",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "ملفك الرياضي6 / 6",
+          "title": "راجع خطتك",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-availability",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "مدة الحصة",
+          "section": "availability",
+          "step": null,
+          "title": "الإتاحة ومدة الحصة",
+          "minControlHeight": 44
+        },
+        {
+          "label": "profile-settings",
+          "dir": "rtl",
+          "focused": "radix-_r_g_-trigger-profile",
+          "navVisible": null,
+          "overflow": false,
+          "section": null,
+          "step": null,
+          "title": "ملفي",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-goals",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": "goals",
+          "step": null,
+          "supportingCount": "أهداف مساندة — اختياري · 0",
+          "supportingOpen": false,
+          "title": "الأهداف",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-basics",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الخبرة",
+          "section": "basics",
+          "step": null,
+          "title": "البيانات الشخصية والخبرة",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-equipment",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": "equipment",
+          "step": null,
+          "title": "المعدات العامة وأولوية العضلات",
+          "minControlHeight": 46
+        },
+        {
+          "label": "direct-health",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الحالة الصحية",
+          "section": "health",
+          "step": null,
+          "title": "الصحة والروتين اليومي",
+          "minControlHeight": 52.390625
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "status": "passed",
+      "setupCompleted": true,
+      "directAvailability": true,
+      "allEditorsDirect": true,
+      "selectedDayPreserved": true,
+      "states": [
+        {
+          "label": "setup-primary",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": null,
+          "step": "ملفك الرياضي1 / 6",
+          "title": "اختار هدفك الأساسي",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-primary-chosen",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": null,
+          "step": "ملفك الرياضي1 / 6",
+          "supportingCount": "أهداف مساندة — اختياري · 0",
+          "supportingOpen": false,
+          "title": "اختار هدفك الأساسي",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-supporting",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": null,
+          "step": "ملفك الرياضي1 / 6",
+          "supportingCount": "أهداف مساندة — اختياري · 1",
+          "supportingOpen": true,
+          "title": "اختار هدفك الأساسي",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-basics",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الخبرة",
+          "section": null,
+          "step": "ملفك الرياضي2 / 6",
+          "title": "نبدأ ببياناتك",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-availability",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "مدة الحصة",
+          "section": null,
+          "step": "ملفك الرياضي3 / 6",
+          "title": "أيامك… على وقتك",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-equipment",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "ملفك الرياضي4 / 6",
+          "title": "معدات الجيم",
+          "minControlHeight": 46
+        },
+        {
+          "label": "setup-health",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الحالة الصحية",
+          "section": null,
+          "step": "ملفك الرياضي5 / 6",
+          "title": "نراعي جسمك",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-review",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "ملفك الرياضي6 / 6",
+          "title": "راجع خطتك",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-availability",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "مدة الحصة",
+          "section": "availability",
+          "step": null,
+          "title": "الإتاحة ومدة الحصة",
+          "minControlHeight": 44
+        },
+        {
+          "label": "profile-settings",
+          "dir": "rtl",
+          "focused": "radix-_r_g_-trigger-profile",
+          "navVisible": null,
+          "overflow": false,
+          "section": null,
+          "step": null,
+          "title": "ملفي",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-goals",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": "goals",
+          "step": null,
+          "supportingCount": "أهداف مساندة — اختياري · 0",
+          "supportingOpen": false,
+          "title": "الأهداف",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-basics",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الخبرة",
+          "section": "basics",
+          "step": null,
+          "title": "البيانات الشخصية والخبرة",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-equipment",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": "equipment",
+          "step": null,
+          "title": "المعدات العامة وأولوية العضلات",
+          "minControlHeight": 46
+        },
+        {
+          "label": "direct-health",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الحالة الصحية",
+          "section": "health",
+          "step": null,
+          "title": "الصحة والروتين اليومي",
+          "minControlHeight": 52.390625
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 430,
+      "status": "passed",
+      "setupCompleted": true,
+      "directAvailability": true,
+      "allEditorsDirect": true,
+      "selectedDayPreserved": true,
+      "states": [
+        {
+          "label": "setup-primary",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": null,
+          "step": "ملفك الرياضي1 / 6",
+          "title": "اختار هدفك الأساسي",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-primary-chosen",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": null,
+          "step": "ملفك الرياضي1 / 6",
+          "supportingCount": "أهداف مساندة — اختياري · 0",
+          "supportingOpen": false,
+          "title": "اختار هدفك الأساسي",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-supporting",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": null,
+          "step": "ملفك الرياضي1 / 6",
+          "supportingCount": "أهداف مساندة — اختياري · 1",
+          "supportingOpen": true,
+          "title": "اختار هدفك الأساسي",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-basics",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الخبرة",
+          "section": null,
+          "step": "ملفك الرياضي2 / 6",
+          "title": "نبدأ ببياناتك",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-availability",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "مدة الحصة",
+          "section": null,
+          "step": "ملفك الرياضي3 / 6",
+          "title": "أيامك… على وقتك",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-equipment",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "ملفك الرياضي4 / 6",
+          "title": "معدات الجيم",
+          "minControlHeight": 46
+        },
+        {
+          "label": "setup-health",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الحالة الصحية",
+          "section": null,
+          "step": "ملفك الرياضي5 / 6",
+          "title": "نراعي جسمك",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-review",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "ملفك الرياضي6 / 6",
+          "title": "راجع خطتك",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-availability",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "مدة الحصة",
+          "section": "availability",
+          "step": null,
+          "title": "الإتاحة ومدة الحصة",
+          "minControlHeight": 44
+        },
+        {
+          "label": "profile-settings",
+          "dir": "rtl",
+          "focused": "radix-_r_g_-trigger-profile",
+          "navVisible": null,
+          "overflow": false,
+          "section": null,
+          "step": null,
+          "title": "ملفي",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-goals",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": "goals",
+          "step": null,
+          "supportingCount": "أهداف مساندة — اختياري · 0",
+          "supportingOpen": false,
+          "title": "الأهداف",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-basics",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الخبرة",
+          "section": "basics",
+          "step": null,
+          "title": "البيانات الشخصية والخبرة",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-equipment",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": "equipment",
+          "step": null,
+          "title": "المعدات العامة وأولوية العضلات",
+          "minControlHeight": 46
+        },
+        {
+          "label": "direct-health",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الحالة الصحية",
+          "section": "health",
+          "step": null,
+          "title": "الصحة والروتين اليومي",
+          "minControlHeight": 52.390625
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 1280,
+      "status": "passed",
+      "setupCompleted": true,
+      "directAvailability": true,
+      "allEditorsDirect": true,
+      "selectedDayPreserved": true,
+      "states": [
+        {
+          "label": "setup-primary",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": null,
+          "step": "ملفك الرياضي1 / 6",
+          "title": "اختار هدفك الأساسي",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-primary-chosen",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": null,
+          "step": "ملفك الرياضي1 / 6",
+          "supportingCount": "أهداف مساندة — اختياري · 0",
+          "supportingOpen": false,
+          "title": "اختار هدفك الأساسي",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-supporting",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": null,
+          "step": "ملفك الرياضي1 / 6",
+          "supportingCount": "أهداف مساندة — اختياري · 1",
+          "supportingOpen": true,
+          "title": "اختار هدفك الأساسي",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-basics",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الخبرة",
+          "section": null,
+          "step": "ملفك الرياضي2 / 6",
+          "title": "نبدأ ببياناتك",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-availability",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "مدة الحصة",
+          "section": null,
+          "step": "ملفك الرياضي3 / 6",
+          "title": "أيامك… على وقتك",
+          "minControlHeight": 44
+        },
+        {
+          "label": "setup-equipment",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "ملفك الرياضي4 / 6",
+          "title": "معدات الجيم",
+          "minControlHeight": 48.390625
+        },
+        {
+          "label": "setup-health",
+          "dir": "rtl",
+          "focused": "",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الحالة الصحية",
+          "section": null,
+          "step": "ملفك الرياضي5 / 6",
+          "title": "نراعي جسمك",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "setup-review",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": null,
+          "step": "ملفك الرياضي6 / 6",
+          "title": "راجع خطتك",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-availability",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "مدة الحصة",
+          "section": "availability",
+          "step": null,
+          "title": "الإتاحة ومدة الحصة",
+          "minControlHeight": 44
+        },
+        {
+          "label": "profile-settings",
+          "dir": "rtl",
+          "focused": "radix-_r_g_-trigger-profile",
+          "navVisible": null,
+          "overflow": false,
+          "section": null,
+          "step": null,
+          "title": "ملفي",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-goals",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الهدف الأساسي",
+          "section": "goals",
+          "step": null,
+          "supportingCount": "أهداف مساندة — اختياري · 0",
+          "supportingOpen": false,
+          "title": "الأهداف",
+          "minControlHeight": 44
+        },
+        {
+          "label": "direct-basics",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الخبرة",
+          "section": "basics",
+          "step": null,
+          "title": "البيانات الشخصية والخبرة",
+          "minControlHeight": 52.390625
+        },
+        {
+          "label": "direct-equipment",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "section": "equipment",
+          "step": null,
+          "title": "المعدات العامة وأولوية العضلات",
+          "minControlHeight": 48.390625
+        },
+        {
+          "label": "direct-health",
+          "dir": "rtl",
+          "focused": "profile-section-title",
+          "navVisible": true,
+          "overflow": false,
+          "primary": "الحالة الصحية",
+          "section": "health",
+          "step": null,
+          "title": "الصحة والروتين اليومي",
+          "minControlHeight": 52.390625
+        }
+      ]
+    }
+  ],
+  "crossBatch": [
+    {
+      "lang": "en",
+      "width": 360,
+      "status": "passed",
+      "differences": [],
+      "elementsCompared": 219,
+      "states": {
+        "today": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 44.703125
+        },
+        "invalid": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": [
+              5.481882564523947,
+              5.481882564523947
+            ]
+          },
+          "focus": "log-weight",
+          "header": {
+            "close": {
+              "bottom": -263,
+              "height": 44,
+              "right": 314,
+              "width": 44,
+              "x": 270,
+              "y": -307
+            },
+            "dir": "ltr",
+            "name": "Close",
+            "overlap": false
+          },
+          "invalid": [
+            {
+              "description": "log-weight-error",
+              "id": "log-weight"
+            },
+            {
+              "description": "log-reps-error",
+              "id": "log-reps"
+            }
+          ],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 44.703125
+        },
+        "rest": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": -91,
+              "height": 44,
+              "right": 314,
+              "width": 44,
+              "x": 270,
+              "y": -135
+            },
+            "dir": "ltr",
+            "name": "Close",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": true,
+          "selected": 0,
+          "weekdayMin": 44.703125
+        },
+        "return": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 44.703125,
+          "floating": {
+            "height": 50.390625,
+            "overlap": false,
+            "position": "static",
+            "present": true,
+            "width": 118.046875
+          }
+        },
+        "finish-dialog": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": 262.4296875,
+              "height": 44,
+              "right": 327,
+              "width": 44,
+              "x": 283,
+              "y": 218.4296875
+            },
+            "dir": "ltr",
+            "name": "Close",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 44.703125
+        },
+        "plan": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795,
+              6.689857160909872
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-plan",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 1,
+          "weekdayMin": null
+        },
+        "progress": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-progress",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": null
+        }
+      }
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "status": "passed",
+      "differences": [],
+      "elementsCompared": 219,
+      "states": {
+        "today": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 46.421875
+        },
+        "invalid": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": [
+              5.481882564523947,
+              5.481882564523947
+            ]
+          },
+          "focus": "log-weight",
+          "header": {
+            "close": {
+              "bottom": -263,
+              "height": 44,
+              "right": 344,
+              "width": 44,
+              "x": 300,
+              "y": -307
+            },
+            "dir": "ltr",
+            "name": "Close",
+            "overlap": false
+          },
+          "invalid": [
+            {
+              "description": "log-weight-error",
+              "id": "log-weight"
+            },
+            {
+              "description": "log-reps-error",
+              "id": "log-reps"
+            }
+          ],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 46.421875
+        },
+        "rest": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": -91,
+              "height": 44,
+              "right": 344,
+              "width": 44,
+              "x": 300,
+              "y": -135
+            },
+            "dir": "ltr",
+            "name": "Close",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": true,
+          "selected": 0,
+          "weekdayMin": 46.421875
+        },
+        "return": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 46.421875,
+          "floating": {
+            "height": 50.390625,
+            "overlap": false,
+            "position": "static",
+            "present": true,
+            "width": 118.046875
+          }
+        },
+        "finish-dialog": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": 262.4296875,
+              "height": 44,
+              "right": 357,
+              "width": 44,
+              "x": 313,
+              "y": 218.4296875
+            },
+            "dir": "ltr",
+            "name": "Close",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 46.421875
+        },
+        "plan": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795,
+              6.689857160909872
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-plan",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 1,
+          "weekdayMin": null
+        },
+        "progress": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-progress",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": null
+        }
+      }
+    },
+    {
+      "lang": "en",
+      "width": 430,
+      "status": "passed",
+      "differences": [],
+      "elementsCompared": 219,
+      "states": {
+        "today": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 52.140625
+        },
+        "invalid": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": [
+              5.481882564523947,
+              5.481882564523947
+            ]
+          },
+          "focus": "log-weight",
+          "header": {
+            "close": {
+              "bottom": -213,
+              "height": 44,
+              "right": 384,
+              "width": 44,
+              "x": 340,
+              "y": -257
+            },
+            "dir": "ltr",
+            "name": "Close",
+            "overlap": false
+          },
+          "invalid": [
+            {
+              "description": "log-weight-error",
+              "id": "log-weight"
+            },
+            {
+              "description": "log-reps-error",
+              "id": "log-reps"
+            }
+          ],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 52.140625
+        },
+        "rest": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": -41,
+              "height": 44,
+              "right": 384,
+              "width": 44,
+              "x": 340,
+              "y": -85
+            },
+            "dir": "ltr",
+            "name": "Close",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": true,
+          "selected": 0,
+          "weekdayMin": 52.140625
+        },
+        "return": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 52.140625,
+          "floating": {
+            "height": 50.390625,
+            "overlap": false,
+            "position": "static",
+            "present": true,
+            "width": 118.046875
+          }
+        },
+        "finish-dialog": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": 262.4296875,
+              "height": 44,
+              "right": 397,
+              "width": 44,
+              "x": 353,
+              "y": 218.4296875
+            },
+            "dir": "ltr",
+            "name": "Close",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 52.140625
+        },
+        "plan": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795,
+              6.689857160909872
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-plan",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 1,
+          "weekdayMin": null
+        },
+        "progress": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-progress",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": null
+        }
+      }
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "status": "passed",
+      "differences": [],
+      "elementsCompared": 219,
+      "states": {
+        "today": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 151.703125
+        },
+        "invalid": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": [
+              5.481882564523947,
+              5.481882564523947
+            ]
+          },
+          "focus": "log-weight",
+          "header": {
+            "close": {
+              "bottom": 92,
+              "height": 44,
+              "right": 1058,
+              "width": 44,
+              "x": 1014,
+              "y": 48
+            },
+            "dir": "ltr",
+            "name": "Close",
+            "overlap": false
+          },
+          "invalid": [
+            {
+              "description": "log-weight-error",
+              "id": "log-weight"
+            },
+            {
+              "description": "log-reps-error",
+              "id": "log-reps"
+            }
+          ],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 151.703125
+        },
+        "rest": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": 92,
+              "height": 44,
+              "right": 1058,
+              "width": 44,
+              "x": 1014,
+              "y": 48
+            },
+            "dir": "ltr",
+            "name": "Close",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": true,
+          "selected": 0,
+          "weekdayMin": 151.703125
+        },
+        "return": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 151.703125,
+          "floating": {
+            "height": 50.390625,
+            "overlap": false,
+            "position": "static",
+            "present": true,
+            "width": 118.046875
+          }
+        },
+        "finish-dialog": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": 275.625,
+              "height": 44,
+              "right": 879,
+              "width": 44,
+              "x": 835,
+              "y": 231.625
+            },
+            "dir": "ltr",
+            "name": "Close",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 151.703125
+        },
+        "plan": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795,
+              6.689857160909872
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-plan",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 1,
+          "weekdayMin": null
+        },
+        "progress": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-progress",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": null
+        }
+      }
+    },
+    {
+      "lang": "ar",
+      "width": 360,
+      "status": "passed",
+      "differences": [],
+      "elementsCompared": 219,
+      "states": {
+        "today": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 44.703125
+        },
+        "invalid": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": [
+              5.481882564523947,
+              5.481882564523947
+            ]
+          },
+          "focus": "log-weight",
+          "header": {
+            "close": {
+              "bottom": -213,
+              "height": 44,
+              "right": 90,
+              "width": 44,
+              "x": 46,
+              "y": -257
+            },
+            "dir": "rtl",
+            "name": "إغلاق",
+            "overlap": false
+          },
+          "invalid": [
+            {
+              "description": "log-weight-error",
+              "id": "log-weight"
+            },
+            {
+              "description": "log-reps-error",
+              "id": "log-reps"
+            }
+          ],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 44.703125
+        },
+        "rest": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": -41,
+              "height": 44,
+              "right": 90,
+              "width": 44,
+              "x": 46,
+              "y": -85
+            },
+            "dir": "rtl",
+            "name": "إغلاق",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": true,
+          "selected": 0,
+          "weekdayMin": 44.703125
+        },
+        "return": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 44.703125,
+          "floating": {
+            "height": 50.390625,
+            "overlap": false,
+            "position": "static",
+            "present": true,
+            "width": 118.046875
+          }
+        },
+        "finish-dialog": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": 275.625,
+              "height": 44,
+              "right": 77,
+              "width": 44,
+              "x": 33,
+              "y": 231.625
+            },
+            "dir": "rtl",
+            "name": "إغلاق",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 44.703125
+        },
+        "plan": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795,
+              6.689857160909872
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-plan",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 1,
+          "weekdayMin": null
+        },
+        "progress": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-progress",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": null
+        }
+      }
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "status": "passed",
+      "differences": [],
+      "elementsCompared": 219,
+      "states": {
+        "today": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 46.421875
+        },
+        "invalid": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": [
+              5.481882564523947,
+              5.481882564523947
+            ]
+          },
+          "focus": "log-weight",
+          "header": {
+            "close": {
+              "bottom": -213,
+              "height": 44,
+              "right": 90,
+              "width": 44,
+              "x": 46,
+              "y": -257
+            },
+            "dir": "rtl",
+            "name": "إغلاق",
+            "overlap": false
+          },
+          "invalid": [
+            {
+              "description": "log-weight-error",
+              "id": "log-weight"
+            },
+            {
+              "description": "log-reps-error",
+              "id": "log-reps"
+            }
+          ],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 46.421875
+        },
+        "rest": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": -41,
+              "height": 44,
+              "right": 90,
+              "width": 44,
+              "x": 46,
+              "y": -85
+            },
+            "dir": "rtl",
+            "name": "إغلاق",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": true,
+          "selected": 0,
+          "weekdayMin": 46.421875
+        },
+        "return": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 46.421875,
+          "floating": {
+            "height": 50.390625,
+            "overlap": false,
+            "position": "static",
+            "present": true,
+            "width": 118.046875
+          }
+        },
+        "finish-dialog": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": 275.625,
+              "height": 44,
+              "right": 77,
+              "width": 44,
+              "x": 33,
+              "y": 231.625
+            },
+            "dir": "rtl",
+            "name": "إغلاق",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 46.421875
+        },
+        "plan": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795,
+              6.689857160909872
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-plan",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 1,
+          "weekdayMin": null
+        },
+        "progress": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-progress",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": null
+        }
+      }
+    },
+    {
+      "lang": "ar",
+      "width": 430,
+      "status": "passed",
+      "differences": [],
+      "elementsCompared": 219,
+      "states": {
+        "today": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 52.140625
+        },
+        "invalid": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": [
+              5.481882564523947,
+              5.481882564523947
+            ]
+          },
+          "focus": "log-weight",
+          "header": {
+            "close": {
+              "bottom": -190,
+              "height": 44,
+              "right": 90,
+              "width": 44,
+              "x": 46,
+              "y": -234
+            },
+            "dir": "rtl",
+            "name": "إغلاق",
+            "overlap": false
+          },
+          "invalid": [
+            {
+              "description": "log-weight-error",
+              "id": "log-weight"
+            },
+            {
+              "description": "log-reps-error",
+              "id": "log-reps"
+            }
+          ],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 52.140625
+        },
+        "rest": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": -41,
+              "height": 44,
+              "right": 90,
+              "width": 44,
+              "x": 46,
+              "y": -85
+            },
+            "dir": "rtl",
+            "name": "إغلاق",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": true,
+          "selected": 0,
+          "weekdayMin": 52.140625
+        },
+        "return": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 52.140625,
+          "floating": {
+            "height": 50.390625,
+            "overlap": false,
+            "position": "static",
+            "present": true,
+            "width": 118.046875
+          }
+        },
+        "finish-dialog": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": 275.625,
+              "height": 44,
+              "right": 77,
+              "width": 44,
+              "x": 33,
+              "y": 231.625
+            },
+            "dir": "rtl",
+            "name": "إغلاق",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 52.140625
+        },
+        "plan": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795,
+              6.689857160909872
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-plan",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 1,
+          "weekdayMin": null
+        },
+        "progress": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-progress",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": null
+        }
+      }
+    },
+    {
+      "lang": "ar",
+      "width": 1280,
+      "status": "passed",
+      "differences": [],
+      "elementsCompared": 219,
+      "states": {
+        "today": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 151.703125
+        },
+        "invalid": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": [
+              5.481882564523947,
+              5.481882564523947
+            ]
+          },
+          "focus": "log-weight",
+          "header": {
+            "close": {
+              "bottom": 105.515625,
+              "height": 44,
+              "right": 251,
+              "width": 44,
+              "x": 207,
+              "y": 61.515625
+            },
+            "dir": "rtl",
+            "name": "إغلاق",
+            "overlap": false
+          },
+          "invalid": [
+            {
+              "description": "log-weight-error",
+              "id": "log-weight"
+            },
+            {
+              "description": "log-reps-error",
+              "id": "log-reps"
+            }
+          ],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 151.703125
+        },
+        "rest": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": 93,
+              "height": 44,
+              "right": 266,
+              "width": 44,
+              "x": 222,
+              "y": 49
+            },
+            "dir": "rtl",
+            "name": "إغلاق",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": true,
+          "selected": 0,
+          "weekdayMin": 151.703125
+        },
+        "return": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 151.703125,
+          "floating": {
+            "height": 50.390625,
+            "overlap": false,
+            "position": "static",
+            "present": true,
+            "width": 118.046875
+          }
+        },
+        "finish-dialog": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [
+              13.243238046372632
+            ],
+            "small": [
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419,
+              5.833598196230419
+            ],
+            "validation": []
+          },
+          "focus": "",
+          "header": {
+            "close": {
+              "bottom": 275.625,
+              "height": 44,
+              "right": 445,
+              "width": 44,
+              "x": 401,
+              "y": 231.625
+            },
+            "dir": "rtl",
+            "name": "إغلاق",
+            "overlap": false
+          },
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": 151.703125
+        },
+        "plan": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795,
+              6.689857160909872
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-plan",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 1,
+          "weekdayMin": null
+        },
+        "progress": {
+          "contrast": {
+            "eyebrow": [
+              6.1826648180752795
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "focus": "radix-_r_0_-trigger-progress",
+          "header": null,
+          "invalid": [],
+          "overflow": false,
+          "restVisible": null,
+          "selected": 0,
+          "weekdayMin": null
+        }
+      }
+    }
+  ],
+  "additional": [
+    {
+      "lang": "en",
+      "width": 360,
+      "status": "passed",
+      "checks": [
+        "stage and split selected states",
+        "report blob preview decoded",
+        "localized extracted-text name/editing",
+        "Balanced name and selected state"
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "status": "passed",
+      "checks": [
+        "stage and split selected states",
+        "report blob preview decoded",
+        "localized extracted-text name/editing",
+        "Balanced name and selected state"
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 430,
+      "status": "passed",
+      "checks": [
+        "stage and split selected states",
+        "report blob preview decoded",
+        "localized extracted-text name/editing",
+        "Balanced name and selected state"
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "status": "passed",
+      "checks": [
+        "stage and split selected states",
+        "report blob preview decoded",
+        "localized extracted-text name/editing",
+        "Balanced name and selected state"
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 360,
+      "status": "passed",
+      "checks": [
+        "stage and split selected states",
+        "report blob preview decoded",
+        "localized extracted-text name/editing",
+        "Balanced name and selected state"
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "status": "passed",
+      "checks": [
+        "stage and split selected states",
+        "report blob preview decoded",
+        "localized extracted-text name/editing",
+        "Balanced name and selected state"
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 430,
+      "status": "passed",
+      "checks": [
+        "stage and split selected states",
+        "report blob preview decoded",
+        "localized extracted-text name/editing",
+        "Balanced name and selected state"
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 1280,
+      "status": "passed",
+      "checks": [
+        "stage and split selected states",
+        "report blob preview decoded",
+        "localized extracted-text name/editing",
+        "Balanced name and selected state"
+      ]
+    }
+  ],
+  "componentContracts": {
+    "compared": 28,
+    "differences": [],
+    "ghostHover": {
+      "background": "rgb(231, 244, 212)",
+      "foreground": "rgb(35, 53, 20)",
+      "hover": true
+    },
+    "keyboardFocus": {
+      "name": "light link",
+      "outline": "3px"
+    },
+    "dialog": {
+      "background": "rgb(245, 246, 247)",
+      "foreground": "rgb(20, 35, 25)",
+      "overlay": "oklab(0 0 0 / 0.5)"
+    }
+  },
+  "limits": [
+    "Desktop viewport checks do not establish real-phone touch or virtual-keyboard behavior, Safari or screen-reader announcements.",
+    "Fixture navigation reseeds synthetic data. Persistence reload, failure and conflict checks are exercised by logic/DOM tests.",
+    "PWA tests simulate worker behavior; actual installation, installed updates and real offline startup remain unverified."
+  ]
+}
