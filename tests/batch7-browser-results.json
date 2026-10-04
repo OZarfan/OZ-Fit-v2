@@ -1,0 +1,938 @@
+{
+  "environment": "Codex in-app Chromium; synthetic isolated fixtures; viewport height 800px. Browser UI operated through CUA. No physical-device, screen-reader or installation claims.",
+  "baseline": "6f62388 (completed Batch 6) browser bundle. Both versions use current CSS; the only CSS additions are scoped to the new Weekly Plan classes.",
+  "weekly": [
+    {
+      "lang": "en",
+      "width": 360,
+      "status": "passed",
+      "checks": [
+        "weekly outcome first",
+        "keyboard exercise/configuration disclosures",
+        "split/stage save",
+        "saved recommendation distinction",
+        "schedule save remaps days",
+        "selected day retained",
+        "direct availability edit/cancel"
+      ],
+      "states": [
+        "initial",
+        "expanded",
+        "advanced",
+        "saved"
+      ],
+      "dayMapping": [
+        {
+          "day": "0",
+          "weekday": "Sunday",
+          "title": "Upper A",
+          "duration": "≈ 28 min30 min available"
+        },
+        {
+          "day": "1",
+          "weekday": "Monday",
+          "title": "Lower A",
+          "duration": "≈ 27 min60 min available"
+        },
+        {
+          "day": "3",
+          "weekday": "Wednesday",
+          "title": "Upper B",
+          "duration": "≈ 32 min45 min available"
+        },
+        {
+          "day": "5",
+          "weekday": "Friday",
+          "title": "Lower B",
+          "duration": "≈ 32 min75 min available"
+        }
+      ],
+      "savedDays": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "minimumTargetHeight": 44,
+      "noOverflow": true,
+      "weekdayNoWrap": true
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "status": "passed",
+      "checks": [
+        "weekly outcome first",
+        "keyboard exercise/configuration disclosures",
+        "split/stage save",
+        "saved recommendation distinction",
+        "schedule save remaps days",
+        "selected day retained",
+        "direct availability edit/cancel"
+      ],
+      "states": [
+        "initial",
+        "expanded",
+        "advanced",
+        "saved"
+      ],
+      "dayMapping": [
+        {
+          "day": "0",
+          "weekday": "Sunday",
+          "title": "Upper A",
+          "duration": "≈ 28 min30 min available"
+        },
+        {
+          "day": "1",
+          "weekday": "Monday",
+          "title": "Lower A",
+          "duration": "≈ 27 min60 min available"
+        },
+        {
+          "day": "3",
+          "weekday": "Wednesday",
+          "title": "Upper B",
+          "duration": "≈ 32 min45 min available"
+        },
+        {
+          "day": "5",
+          "weekday": "Friday",
+          "title": "Lower B",
+          "duration": "≈ 32 min75 min available"
+        }
+      ],
+      "savedDays": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "minimumTargetHeight": 44,
+      "noOverflow": true,
+      "weekdayNoWrap": true
+    },
+    {
+      "lang": "en",
+      "width": 430,
+      "status": "passed",
+      "checks": [
+        "weekly outcome first",
+        "keyboard exercise/configuration disclosures",
+        "split/stage save",
+        "saved recommendation distinction",
+        "schedule save remaps days",
+        "selected day retained",
+        "direct availability edit/cancel"
+      ],
+      "states": [
+        "initial",
+        "expanded",
+        "advanced",
+        "saved"
+      ],
+      "dayMapping": [
+        {
+          "day": "0",
+          "weekday": "Sunday",
+          "title": "Upper A",
+          "duration": "≈ 28 min30 min available"
+        },
+        {
+          "day": "1",
+          "weekday": "Monday",
+          "title": "Lower A",
+          "duration": "≈ 27 min60 min available"
+        },
+        {
+          "day": "3",
+          "weekday": "Wednesday",
+          "title": "Upper B",
+          "duration": "≈ 32 min45 min available"
+        },
+        {
+          "day": "5",
+          "weekday": "Friday",
+          "title": "Lower B",
+          "duration": "≈ 32 min75 min available"
+        }
+      ],
+      "savedDays": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "minimumTargetHeight": 44,
+      "noOverflow": true,
+      "weekdayNoWrap": true
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "status": "passed",
+      "checks": [
+        "weekly outcome first",
+        "keyboard exercise/configuration disclosures",
+        "split/stage save",
+        "saved recommendation distinction",
+        "schedule save remaps days",
+        "selected day retained",
+        "direct availability edit/cancel"
+      ],
+      "states": [
+        "initial",
+        "expanded",
+        "advanced",
+        "saved"
+      ],
+      "dayMapping": [
+        {
+          "day": "0",
+          "weekday": "Sunday",
+          "title": "Upper A",
+          "duration": "≈ 28 min30 min available"
+        },
+        {
+          "day": "1",
+          "weekday": "Monday",
+          "title": "Lower A",
+          "duration": "≈ 27 min60 min available"
+        },
+        {
+          "day": "3",
+          "weekday": "Wednesday",
+          "title": "Upper B",
+          "duration": "≈ 32 min45 min available"
+        },
+        {
+          "day": "5",
+          "weekday": "Friday",
+          "title": "Lower B",
+          "duration": "≈ 32 min75 min available"
+        }
+      ],
+      "savedDays": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "minimumTargetHeight": 44,
+      "noOverflow": true,
+      "weekdayNoWrap": true
+    },
+    {
+      "lang": "ar",
+      "width": 360,
+      "status": "passed",
+      "checks": [
+        "weekly outcome first",
+        "keyboard exercise/configuration disclosures",
+        "split/stage save",
+        "saved recommendation distinction",
+        "schedule save remaps days",
+        "selected day retained",
+        "direct availability edit/cancel"
+      ],
+      "states": [
+        "initial",
+        "expanded",
+        "advanced",
+        "saved"
+      ],
+      "dayMapping": [
+        {
+          "day": "0",
+          "weekday": "الأحد",
+          "title": "علوي A",
+          "duration": "≈ 28 دقيقة30 دقيقة متاحة"
+        },
+        {
+          "day": "1",
+          "weekday": "الاثنين",
+          "title": "سفلي A",
+          "duration": "≈ 27 دقيقة60 دقيقة متاحة"
+        },
+        {
+          "day": "3",
+          "weekday": "الأربعاء",
+          "title": "علوي B",
+          "duration": "≈ 32 دقيقة45 دقيقة متاحة"
+        },
+        {
+          "day": "5",
+          "weekday": "الجمعة",
+          "title": "سفلي B",
+          "duration": "≈ 32 دقيقة75 دقيقة متاحة"
+        }
+      ],
+      "savedDays": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "minimumTargetHeight": 44,
+      "noOverflow": true,
+      "weekdayNoWrap": true
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "status": "passed",
+      "checks": [
+        "weekly outcome first",
+        "keyboard exercise/configuration disclosures",
+        "split/stage save",
+        "saved recommendation distinction",
+        "schedule save remaps days",
+        "selected day retained",
+        "direct availability edit/cancel"
+      ],
+      "states": [
+        "initial",
+        "expanded",
+        "advanced",
+        "saved"
+      ],
+      "dayMapping": [
+        {
+          "day": "0",
+          "weekday": "الأحد",
+          "title": "علوي A",
+          "duration": "≈ 28 دقيقة30 دقيقة متاحة"
+        },
+        {
+          "day": "1",
+          "weekday": "الاثنين",
+          "title": "سفلي A",
+          "duration": "≈ 27 دقيقة60 دقيقة متاحة"
+        },
+        {
+          "day": "3",
+          "weekday": "الأربعاء",
+          "title": "علوي B",
+          "duration": "≈ 32 دقيقة45 دقيقة متاحة"
+        },
+        {
+          "day": "5",
+          "weekday": "الجمعة",
+          "title": "سفلي B",
+          "duration": "≈ 32 دقيقة75 دقيقة متاحة"
+        }
+      ],
+      "savedDays": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "minimumTargetHeight": 44,
+      "noOverflow": true,
+      "weekdayNoWrap": true
+    },
+    {
+      "lang": "ar",
+      "width": 430,
+      "status": "passed",
+      "checks": [
+        "weekly outcome first",
+        "keyboard exercise/configuration disclosures",
+        "split/stage save",
+        "saved recommendation distinction",
+        "schedule save remaps days",
+        "selected day retained",
+        "direct availability edit/cancel"
+      ],
+      "states": [
+        "initial",
+        "expanded",
+        "advanced",
+        "saved"
+      ],
+      "dayMapping": [
+        {
+          "day": "0",
+          "weekday": "الأحد",
+          "title": "علوي A",
+          "duration": "≈ 28 دقيقة30 دقيقة متاحة"
+        },
+        {
+          "day": "1",
+          "weekday": "الاثنين",
+          "title": "سفلي A",
+          "duration": "≈ 27 دقيقة60 دقيقة متاحة"
+        },
+        {
+          "day": "3",
+          "weekday": "الأربعاء",
+          "title": "علوي B",
+          "duration": "≈ 32 دقيقة45 دقيقة متاحة"
+        },
+        {
+          "day": "5",
+          "weekday": "الجمعة",
+          "title": "سفلي B",
+          "duration": "≈ 32 دقيقة75 دقيقة متاحة"
+        }
+      ],
+      "savedDays": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "minimumTargetHeight": 44,
+      "noOverflow": true,
+      "weekdayNoWrap": true
+    },
+    {
+      "lang": "ar",
+      "width": 1280,
+      "status": "passed",
+      "checks": [
+        "weekly outcome first",
+        "keyboard exercise/configuration disclosures",
+        "split/stage save",
+        "saved recommendation distinction",
+        "schedule save remaps days",
+        "selected day retained",
+        "direct availability edit/cancel"
+      ],
+      "states": [
+        "initial",
+        "expanded",
+        "advanced",
+        "saved"
+      ],
+      "dayMapping": [
+        {
+          "day": "0",
+          "weekday": "الأحد",
+          "title": "علوي A",
+          "duration": "≈ 28 دقيقة30 دقيقة متاحة"
+        },
+        {
+          "day": "1",
+          "weekday": "الاثنين",
+          "title": "سفلي A",
+          "duration": "≈ 27 دقيقة60 دقيقة متاحة"
+        },
+        {
+          "day": "3",
+          "weekday": "الأربعاء",
+          "title": "علوي B",
+          "duration": "≈ 32 دقيقة45 دقيقة متاحة"
+        },
+        {
+          "day": "5",
+          "weekday": "الجمعة",
+          "title": "سفلي B",
+          "duration": "≈ 32 دقيقة75 دقيقة متاحة"
+        }
+      ],
+      "savedDays": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "minimumTargetHeight": 44,
+      "noOverflow": true,
+      "weekdayNoWrap": true
+    }
+  ],
+  "crossBatch": [
+    {
+      "lang": "en",
+      "width": 360,
+      "status": "passed",
+      "differences": [],
+      "states": [
+        "today",
+        "invalid",
+        "rest",
+        "return",
+        "finish-dialog",
+        "progress"
+      ],
+      "contrasts": {
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "finish": [
+          13.243238046372632
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      },
+      "finishContrast": [
+        13.243238046372632
+      ],
+      "restVisible": true,
+      "floating": {
+        "height": 50.390625,
+        "overlap": false,
+        "position": "static",
+        "present": true,
+        "width": 118.046875
+      },
+      "minimumWeekdayWidth": 44.703125,
+      "close": {
+        "close": {
+          "bottom": -263,
+          "height": 44,
+          "right": 314,
+          "width": 44,
+          "x": 270,
+          "y": -307
+        },
+        "dir": "ltr",
+        "name": "Close",
+        "overlap": false
+      },
+      "validationFocus": "log-weight"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "status": "passed",
+      "differences": [],
+      "states": [
+        "today",
+        "invalid",
+        "rest",
+        "return",
+        "finish-dialog",
+        "progress"
+      ],
+      "contrasts": {
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "finish": [
+          13.243238046372632
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      },
+      "finishContrast": [
+        13.243238046372632
+      ],
+      "restVisible": true,
+      "floating": {
+        "height": 50.390625,
+        "overlap": false,
+        "position": "static",
+        "present": true,
+        "width": 118.046875
+      },
+      "minimumWeekdayWidth": 46.421875,
+      "close": {
+        "close": {
+          "bottom": -263,
+          "height": 44,
+          "right": 344,
+          "width": 44,
+          "x": 300,
+          "y": -307
+        },
+        "dir": "ltr",
+        "name": "Close",
+        "overlap": false
+      },
+      "validationFocus": "log-weight"
+    },
+    {
+      "lang": "en",
+      "width": 430,
+      "status": "passed",
+      "differences": [],
+      "states": [
+        "today",
+        "invalid",
+        "rest",
+        "return",
+        "finish-dialog",
+        "progress"
+      ],
+      "contrasts": {
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "finish": [
+          13.243238046372632
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      },
+      "finishContrast": [
+        13.243238046372632
+      ],
+      "restVisible": true,
+      "floating": {
+        "height": 50.390625,
+        "overlap": false,
+        "position": "static",
+        "present": true,
+        "width": 118.046875
+      },
+      "minimumWeekdayWidth": 52.140625,
+      "close": {
+        "close": {
+          "bottom": -213,
+          "height": 44,
+          "right": 384,
+          "width": 44,
+          "x": 340,
+          "y": -257
+        },
+        "dir": "ltr",
+        "name": "Close",
+        "overlap": false
+      },
+      "validationFocus": "log-weight"
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "status": "passed",
+      "differences": [],
+      "states": [
+        "today",
+        "invalid",
+        "rest",
+        "return",
+        "finish-dialog",
+        "progress"
+      ],
+      "contrasts": {
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "finish": [
+          13.243238046372632
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      },
+      "finishContrast": [
+        13.243238046372632
+      ],
+      "restVisible": true,
+      "floating": {
+        "height": 50.390625,
+        "overlap": false,
+        "position": "static",
+        "present": true,
+        "width": 118.046875
+      },
+      "minimumWeekdayWidth": 151.703125,
+      "close": {
+        "close": {
+          "bottom": 92,
+          "height": 44,
+          "right": 1058,
+          "width": 44,
+          "x": 1014,
+          "y": 48
+        },
+        "dir": "ltr",
+        "name": "Close",
+        "overlap": false
+      },
+      "validationFocus": "log-weight"
+    },
+    {
+      "lang": "ar",
+      "width": 360,
+      "status": "passed",
+      "differences": [],
+      "states": [
+        "today",
+        "invalid",
+        "rest",
+        "return",
+        "finish-dialog",
+        "progress"
+      ],
+      "contrasts": {
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "finish": [
+          13.243238046372632
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      },
+      "finishContrast": [
+        13.243238046372632
+      ],
+      "restVisible": true,
+      "floating": {
+        "height": 50.390625,
+        "overlap": false,
+        "position": "static",
+        "present": true,
+        "width": 118.046875
+      },
+      "minimumWeekdayWidth": 44.703125,
+      "close": {
+        "close": {
+          "bottom": -213,
+          "height": 44,
+          "right": 90,
+          "width": 44,
+          "x": 46,
+          "y": -257
+        },
+        "dir": "rtl",
+        "name": "إغلاق",
+        "overlap": false
+      },
+      "validationFocus": "log-weight"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "status": "passed",
+      "differences": [],
+      "states": [
+        "today",
+        "invalid",
+        "rest",
+        "return",
+        "finish-dialog",
+        "progress"
+      ],
+      "contrasts": {
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "finish": [
+          13.243238046372632
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      },
+      "finishContrast": [
+        13.243238046372632
+      ],
+      "restVisible": true,
+      "floating": {
+        "height": 50.390625,
+        "overlap": false,
+        "position": "static",
+        "present": true,
+        "width": 118.046875
+      },
+      "minimumWeekdayWidth": 46.421875,
+      "close": {
+        "close": {
+          "bottom": -213,
+          "height": 44,
+          "right": 90,
+          "width": 44,
+          "x": 46,
+          "y": -257
+        },
+        "dir": "rtl",
+        "name": "إغلاق",
+        "overlap": false
+      },
+      "validationFocus": "log-weight"
+    },
+    {
+      "lang": "ar",
+      "width": 430,
+      "status": "passed",
+      "differences": [],
+      "states": [
+        "today",
+        "invalid",
+        "rest",
+        "return",
+        "finish-dialog",
+        "progress"
+      ],
+      "contrasts": {
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "finish": [
+          13.243238046372632
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      },
+      "finishContrast": [
+        13.243238046372632
+      ],
+      "restVisible": true,
+      "floating": {
+        "height": 50.390625,
+        "overlap": false,
+        "position": "static",
+        "present": true,
+        "width": 118.046875
+      },
+      "minimumWeekdayWidth": 52.140625,
+      "close": {
+        "close": {
+          "bottom": -190,
+          "height": 44,
+          "right": 90,
+          "width": 44,
+          "x": 46,
+          "y": -234
+        },
+        "dir": "rtl",
+        "name": "إغلاق",
+        "overlap": false
+      },
+      "validationFocus": "log-weight"
+    },
+    {
+      "lang": "ar",
+      "width": 1280,
+      "status": "passed",
+      "differences": [],
+      "states": [
+        "today",
+        "invalid",
+        "rest",
+        "return",
+        "finish-dialog",
+        "progress"
+      ],
+      "contrasts": {
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "finish": [
+          13.243238046372632
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      },
+      "finishContrast": [
+        13.243238046372632
+      ],
+      "restVisible": true,
+      "floating": {
+        "height": 50.390625,
+        "overlap": false,
+        "position": "static",
+        "present": true,
+        "width": 118.046875
+      },
+      "minimumWeekdayWidth": 151.703125,
+      "close": {
+        "close": {
+          "bottom": 105.515625,
+          "height": 44,
+          "right": 251,
+          "width": 44,
+          "x": 207,
+          "y": 61.515625
+        },
+        "dir": "rtl",
+        "name": "إغلاق",
+        "overlap": false
+      },
+      "validationFocus": "log-weight"
+    }
+  ],
+  "screenshots": [
+    ".cache/batch7/before-en-390-plan.jpg",
+    ".cache/batch7/after-ar-390-plan.jpg",
+    ".cache/batch7/after-ar-390-configuration.jpg",
+    ".cache/batch7/after-en-1280-plan.jpg"
+  ],
+  "limitations": [
+    "Navigation reseeds the fixture; persistence and reload evidence is from logic/DOM tests.",
+    "Viewport emulation does not establish real-phone touch, virtual keyboards, Safari, screen-reader announcements or installed/offline PWA behavior."
+  ]
+}

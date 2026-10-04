@@ -112,6 +112,7 @@ function verifyMeasurement(m, lang, dialog=false) {
         await page.locator('[role=dialog] .primary').click();
         await page.getByRole('button',{name:lang==='ar'?'إغلاق':'Close',exact:true}).click();
         await page.getByRole('tab',{name:lang==='ar'?'خطتي':'Plan',exact:true}).click();
+        await page.locator('.weekly-advanced summary').click();
         evidence.measurements.plan=await page.evaluate(measure);verifyMeasurement(evidence.measurements.plan,lang);
         assert.equal(await page.locator('.split-card[aria-pressed=true]').count(),1);
         const stage=page.getByRole('button',{name:lang==='ar'?'مرحلة 2':'Stage 2',exact:true});await stage.click();

@@ -99,3 +99,17 @@ button:disabled{opacity:var(--disabled-opacity)}
 .main-nav [data-slot=tabs-trigger]{color:var(--navigation-foreground)}
 .main-nav [data-state=active]{color:var(--navigation-active-foreground)!important;border-bottom-color:var(--navigation-indicator)!important}
 @media(max-width:620px){.main-nav [data-state=active]{color:var(--navigation-mobile-active-foreground)!important;background:var(--navigation-mobile-active-surface)!important;border-bottom-color:var(--navigation-mobile-active-foreground)!important}}
+
+/* Batch 7: weekly outcome rows; existing surfaces, tokens and type scale. */
+.weekly-sessions{list-style:none;margin:0;padding:0}
+.weekly-session{padding-block:16px;border-bottom:1px solid var(--divider)}
+.weekly-session-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.weekly-session-heading h3,.weekly-duration,.weekly-muscles{margin:0}
+.weekly-weekday{display:block;white-space:nowrap;overflow-wrap:normal}
+.weekly-session-title{display:block}
+.weekly-duration{flex-shrink:0;text-align:end}
+.weekly-duration small{display:block;color:var(--muted-foreground)}
+.weekly-exercises ul{padding-inline-start:20px}
+.weekly-settings .chips button{white-space:nowrap;overflow-wrap:normal}
+.weekly-settings .split-card .badge{white-space:nowrap;overflow-wrap:normal}
+@media(max-width:370px){.weekly-session-heading{flex-wrap:wrap}.weekly-duration{text-align:start}}

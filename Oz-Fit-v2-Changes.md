@@ -1,5 +1,15 @@
 # Oz Fit v2 — تقرير التنفيذ والمراجعة
 
+## Batch 7 — weekly outcome before configuration · 2026-10-04
+
+Plan now leads with the selected training days, their actual generated sessions, estimated durations and available time. Optional exercise details make each session understandable without duplicating logging. The existing recommendation explanation follows, distinguishing a user's saved split from an unapplied recommendation. Schedule/direct availability editing stays available below the outcome, and all split/stage controls remain inside a native disclosure. Planning algorithms, stored schemas, selected-day ownership and Today execution are unchanged.
+
+The new configuration failure tests exposed an existing schedule-modal issue: it closed before persistence completed. It now awaits confirmed success and keeps its editable draft/error on quota failure or revision conflict. No new storage fields or migration were introduced. New CSS is scoped to the weekly presentation and uses existing tokens; the PWA shell cache was versioned through the documented build.
+
+Validation: typecheck/build pass; **16 logic passes plus the unchanged partial alternative-coverage result**, **238 DOM passes** (42 new Batch 7 checks), **3 simulated PWA passes**, **4 Batch 4 color guards**, and **25 Batch 5 derivation/performance checks**. All 196 prior DOM checks remain passing. All five splits map exactly to Today in both languages; the 125-plan parity checks also pass. AR/EN browser checks pass at **360/390/430/1280px**, including configuration, schedule remapping and selected-day retention. Six unchanged Today/logging/rest/Progress states match the Batch 6 baseline in each of the eight cases. Existing contrast and 44px/RTL dialog contracts remain intact.
+
+See [Batch7-Weekly-Plan.md](docs/Batch7-Weekly-Plan.md) for every changed/generated file, evidence and real-device limitations. Batch 7 stops here; no polish or final audit was started.
+
 ## Batch 6 — direct profile editing and clearer goal selection · 2026-10-04
 
 Returning users can open Goals, Personal details & experience, Availability & duration, General equipment & muscle priority, or Health & daily routine directly from Profile. The existing Plan availability action opens the availability section directly. These editors reuse the same fields, validation and explicit save contract as first-time setup; save closes only on confirmed success, while cancel leaves stored data intact. First-time setup retains all six steps. Primary goals remain single-choice; optional supporting goals appear in a separate collapsed disclosure after a primary goal is selected.

@@ -1,0 +1,173 @@
+{
+  "environment": "Synthetic jsdom; no layout or device claims",
+  "results": [
+    {
+      "name": "Batch7 en week is visible before recommendation and collapsed configuration",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en recommendation uses current inputs and separate available/rest days",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en explicit split change updates the week and distinguishes saved choice from recommendation",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en stage selection retains progression gates and all five split options",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en viewing the week and changing split/stage preserve the selected rest day",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en upper maps weekdays, session titles, duration and exercises exactly to Today",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en full maps weekdays, session titles, duration and exercises exactly to Today",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en ppl maps weekdays, session titles, duration and exercises exactly to Today",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en bro maps weekdays, session titles, duration and exercises exactly to Today",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en arnold maps weekdays, session titles, duration and exercises exactly to Today",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en split/quota keeps confirmed week, selected state and recoverable error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en split retries successfully through the existing save contract",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en stage/quota keeps confirmed week, selected state and recoverable error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en stage retries successfully through the existing save contract",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en schedule/quota keeps confirmed week, selected state and recoverable error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en schedule retries successfully through the existing save contract",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en split/conflict keeps confirmed week, selected state and recoverable error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en stage/conflict keeps confirmed week, selected state and recoverable error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en schedule/conflict keeps confirmed week, selected state and recoverable error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en active-session configuration remains locked while the week stays readable",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 en blocked days never appear as executable five-minute workouts",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar week is visible before recommendation and collapsed configuration",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar recommendation uses current inputs and separate available/rest days",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar explicit split change updates the week and distinguishes saved choice from recommendation",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar stage selection retains progression gates and all five split options",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar viewing the week and changing split/stage preserve the selected rest day",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar upper maps weekdays, session titles, duration and exercises exactly to Today",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar full maps weekdays, session titles, duration and exercises exactly to Today",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar ppl maps weekdays, session titles, duration and exercises exactly to Today",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar bro maps weekdays, session titles, duration and exercises exactly to Today",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar arnold maps weekdays, session titles, duration and exercises exactly to Today",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar split/quota keeps confirmed week, selected state and recoverable error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar split retries successfully through the existing save contract",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar stage/quota keeps confirmed week, selected state and recoverable error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar stage retries successfully through the existing save contract",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar schedule/quota keeps confirmed week, selected state and recoverable error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar schedule retries successfully through the existing save contract",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar split/conflict keeps confirmed week, selected state and recoverable error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar stage/conflict keeps confirmed week, selected state and recoverable error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar schedule/conflict keeps confirmed week, selected state and recoverable error",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar active-session configuration remains locked while the week stays readable",
+      "status": "passed"
+    },
+    {
+      "name": "Batch7 ar blocked days never appear as executable five-minute workouts",
+      "status": "passed"
+    }
+  ]
+}

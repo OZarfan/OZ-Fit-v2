@@ -89,7 +89,7 @@ module.exports = async function batch2({boot, wait, button, click, tab, input, c
 
     const y = await boot(copy(fixture), w => w.localStorage.setItem('oz-language',lang));
     try {
-      tab(y.w,y.doc,t.plan); await wait();
+      tab(y.w,y.doc,t.plan); await wait();click(y.w,y.doc.querySelector('.weekly-advanced summary'));await wait();
       const splits = [...y.doc.querySelectorAll('.split-card')];
       const stages = [...y.doc.querySelector('.split-grid').closest('section').querySelectorAll('.chips')].at(-1).querySelectorAll('button');
       click(y.w,stages[1]); await wait();
