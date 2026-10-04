@@ -1,0 +1,337 @@
+{
+  "date": "2026-10-04",
+  "environment": "Codex Chromium in-app browser, synthetic isolated preview; height 800px",
+  "baseline": "866d444 built app.js with identical current CSS",
+  "results": [
+    {
+      "lang": "en",
+      "width": 360,
+      "differences": [],
+      "status": "passed",
+      "elementsCompared": 218,
+      "restVisible": true,
+      "titleClear": true,
+      "closeSize": {
+        "height": 44,
+        "width": 44
+      },
+      "contrast": {
+        "finish": [
+          13.243238046372632
+        ],
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      }
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "differences": [],
+      "status": "passed",
+      "elementsCompared": 218,
+      "restVisible": true,
+      "titleClear": true,
+      "closeSize": {
+        "height": 44,
+        "width": 44
+      },
+      "contrast": {
+        "finish": [
+          13.243238046372632
+        ],
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      }
+    },
+    {
+      "lang": "en",
+      "width": 430,
+      "differences": [],
+      "status": "passed",
+      "elementsCompared": 218,
+      "restVisible": true,
+      "titleClear": true,
+      "closeSize": {
+        "height": 44,
+        "width": 44
+      },
+      "contrast": {
+        "finish": [
+          13.243238046372632
+        ],
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      }
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "differences": [],
+      "status": "passed",
+      "elementsCompared": 218,
+      "restVisible": true,
+      "titleClear": true,
+      "closeSize": {
+        "height": 44,
+        "width": 44
+      },
+      "contrast": {
+        "finish": [
+          13.243238046372632
+        ],
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      }
+    },
+    {
+      "lang": "ar",
+      "width": 360,
+      "differences": [],
+      "status": "passed",
+      "elementsCompared": 218,
+      "restVisible": true,
+      "titleClear": true,
+      "closeSize": {
+        "height": 44,
+        "width": 44
+      },
+      "contrast": {
+        "finish": [
+          13.243238046372632
+        ],
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      }
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "differences": [],
+      "status": "passed",
+      "elementsCompared": 218,
+      "restVisible": true,
+      "titleClear": true,
+      "closeSize": {
+        "height": 44,
+        "width": 44
+      },
+      "contrast": {
+        "finish": [
+          13.243238046372632
+        ],
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      }
+    },
+    {
+      "lang": "ar",
+      "width": 430,
+      "differences": [],
+      "status": "passed",
+      "elementsCompared": 218,
+      "restVisible": true,
+      "titleClear": true,
+      "closeSize": {
+        "height": 44,
+        "width": 44
+      },
+      "contrast": {
+        "finish": [
+          13.243238046372632
+        ],
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      }
+    },
+    {
+      "lang": "ar",
+      "width": 1280,
+      "differences": [],
+      "status": "passed",
+      "elementsCompared": 218,
+      "restVisible": true,
+      "titleClear": true,
+      "closeSize": {
+        "height": 44,
+        "width": 44
+      },
+      "contrast": {
+        "finish": [
+          13.243238046372632
+        ],
+        "eyebrow": [
+          6.1826648180752795
+        ],
+        "small": [
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419,
+          5.833598196230419
+        ],
+        "validation": [
+          5.481882564523947,
+          5.481882564523947
+        ]
+      }
+    }
+  ],
+  "componentContracts": {
+    "compared": 28,
+    "differences": [],
+    "ghostHover": {
+      "foreground": "rgb(35, 53, 20)",
+      "background": "rgb(231, 244, 212)"
+    },
+    "keyboardFocusOutline": "3px",
+    "dialog": {
+      "background": "rgb(245, 246, 247)",
+      "foreground": "rgb(20, 35, 25)",
+      "overlay": "oklab(0 0 0 / 0.5)"
+    }
+  },
+  "finalBuildConfirmation": [
+    {
+      "lang": "en",
+      "width": 360,
+      "differences": [],
+      "status": "passed"
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "differences": [],
+      "status": "passed"
+    },
+    {
+      "lang": "en",
+      "width": 430,
+      "differences": [],
+      "status": "passed",
+      "initialObservation": "Floating-state comparison differed immediately after dialog close; the settled recheck below waits for dialog detachment.",
+      "settledRecheck": "37 element observations match the baseline after dialog detachment."
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "differences": [],
+      "status": "passed"
+    },
+    {
+      "lang": "ar",
+      "width": 360,
+      "differences": [],
+      "status": "passed"
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "differences": [],
+      "status": "passed"
+    },
+    {
+      "lang": "ar",
+      "width": 430,
+      "differences": [],
+      "status": "passed"
+    },
+    {
+      "lang": "ar",
+      "width": 1280,
+      "differences": [],
+      "status": "passed"
+    }
+  ]
+}

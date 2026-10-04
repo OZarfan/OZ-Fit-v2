@@ -1,0 +1,157 @@
+{
+  "environment": "Synthetic jsdom; instrumented production-mode source; controlled 500ms clock ticks. No wall-time or device-speed claims.",
+  "baseline": {
+    "progressTenTicks": {
+      "root": 10,
+      "makePlan": 10,
+      "progress": 10,
+      "exerciseTrend": 10,
+      "weeklyVolume": 10,
+      "adherence": 10,
+      "loadAdvice": 10,
+      "prTypes": 80,
+      "prHistory": 0,
+      "previousEntries": 280
+    },
+    "threeSearchEdits": {
+      "root": 3,
+      "makePlan": 3,
+      "progress": 0,
+      "exerciseTrend": 0,
+      "weeklyVolume": 0,
+      "adherence": 0,
+      "loadAdvice": 0,
+      "prTypes": 0,
+      "prHistory": 0,
+      "previousEntries": 0
+    },
+    "activeTenTicks": {
+      "root": 10,
+      "makePlan": 10,
+      "progress": 0,
+      "exerciseTrend": 0,
+      "weeklyVolume": 0,
+      "adherence": 0,
+      "loadAdvice": 0,
+      "prTypes": 0,
+      "prHistory": 0,
+      "previousEntries": 0
+    }
+  },
+  "measurements": {
+    "progressTenTicks": {
+      "root": 0,
+      "makePlan": 0,
+      "progress": 0,
+      "exerciseTrend": 0,
+      "weeklyVolume": 0,
+      "adherence": 0,
+      "loadAdvice": 0,
+      "prTypes": 0,
+      "prHistory": 0,
+      "previousEntries": 0
+    },
+    "threeSearchEdits": {
+      "root": 3,
+      "makePlan": 0,
+      "progress": 0,
+      "exerciseTrend": 0,
+      "weeklyVolume": 0,
+      "adherence": 0,
+      "loadAdvice": 0,
+      "prTypes": 0,
+      "prHistory": 0,
+      "previousEntries": 0
+    },
+    "activeTenTicks": {
+      "root": 0,
+      "makePlan": 0,
+      "progress": 0,
+      "exerciseTrend": 0,
+      "weeklyVolume": 0,
+      "adherence": 0,
+      "loadAdvice": 0,
+      "prTypes": 0,
+      "prHistory": 0,
+      "previousEntries": 0
+    }
+  },
+  "results": [
+    {
+      "name": "Progress contents remain identical across ten clock ticks",
+      "status": "passed"
+    },
+    {
+      "name": "Progress DOM equals pre-optimization output",
+      "status": "passed"
+    },
+    {
+      "name": "No runtime errors in measured flow",
+      "status": "passed"
+    },
+    {
+      "name": "Session elapsed time and rest countdown advance five seconds",
+      "status": "passed"
+    },
+    {
+      "name": "progressTenTicks: zero app, plan or history work",
+      "status": "passed"
+    },
+    {
+      "name": "activeTenTicks: zero app, plan or history work",
+      "status": "passed"
+    },
+    {
+      "name": "Search edits do not regenerate the plan",
+      "status": "passed"
+    },
+    {
+      "name": "Unrelated nutrition persistence does not regenerate plan",
+      "status": "passed"
+    },
+    {
+      "name": "Planner preference persistence regenerates exactly once",
+      "status": "passed"
+    },
+    {
+      "name": "Language-only Progress render reuses all derived history",
+      "status": "passed"
+    },
+    {
+      "name": "Session target alerts once while rest remains active",
+      "status": "passed"
+    },
+    {
+      "name": "Rest expiry uses current language and preserves editable input",
+      "status": "passed"
+    },
+    {
+      "name": "Expired timers do not repeat alerts or mutate persisted rest deadline",
+      "status": "passed"
+    },
+    {
+      "name": "Reminder waits until configured time",
+      "status": "passed"
+    },
+    {
+      "name": "Foreground reminder still fires at configured time",
+      "status": "passed"
+    },
+    {
+      "name": "Dismissed reminder does not repeat",
+      "status": "passed"
+    },
+    {
+      "name": "Midnight refreshes calendar-derived Progress data without regenerating plan or PRs",
+      "status": "passed"
+    },
+    {
+      "name": "Noon refresh preserves the existing comeback threshold",
+      "status": "passed"
+    },
+    {
+      "name": "DST crossing refreshes comeback at its exact 13:00 elapsed-time boundary",
+      "status": "passed"
+    }
+  ]
+}

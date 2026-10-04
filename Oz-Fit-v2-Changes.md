@@ -1,5 +1,13 @@
 # Oz Fit v2 — تقرير التنفيذ والمراجعة
 
+## Batch 5 — bounded P2 render and calculation performance · 2026-10-04
+
+Isolated 500ms timer renders from the app root, memoized the existing plan by its actual inputs, and cached Progress derivations with an equivalent single-pass historical PR calculation. Ten clock ticks now cause **0 root renders / 0 plan generations**, previously 10 each; three search edits cause **0 plan generations**, previously 3. For 2,000 sets, history work changes from reconstructing **1,999,000 preceding-set entries** to **2,000 set reads**. All 125 representative plans and tested Progress/PR results match Batch 4.
+
+Typecheck/build pass; existing suites report **16 logic passes + the unchanged partial coverage result**, **102 DOM passes**, **3 simulated PWA passes**, and **4 Batch 4 color guards**. New focused suites pass **25 checks**. Browser comparisons pass all **8 AR/EN cases at 360/390/430/1280px** across six states with no observed style/geometry drift, plus 28 shared component color pairs and their hover/focus/dialog contracts. P1 and Batch 3 behavior remain covered; no persistence schemas or CSS changed. The PWA shell cache was versioned through the normal build workflow.
+
+See [Batch5-Performance.md](docs/Batch5-Performance.md) for the complete dependency analysis, before/after evidence, every changed/generated file, test commands, deferred optimizations and real-device limits. Batch 5 stops here.
+
 ## Batch 4 — bounded P2 semantic color contracts · 2026-10-04
 
 Consolidated repeated colors into existing/new semantic roles, with explicit foreground/background contracts for custom actions, shared Button variants, selected states, dark panels, forms, dialogs and navigation. Existing green variants retain their exact values. The shared transparent link/ghost and dark-panel subtle-action contracts now select compatible text colors. No state/persistence code, onboarding or Plan UX, typography, geometry, Batch 3 responsive behavior, theme switching or performance behavior changed.

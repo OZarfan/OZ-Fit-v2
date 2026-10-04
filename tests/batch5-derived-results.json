@@ -1,0 +1,34 @@
+{
+  "reference": "866d444 (completed Batch 4)",
+  "measurements": {
+    "sets": 2000,
+    "beforePreviousEntries": 1999000,
+    "afterSetReads": 2000
+  },
+  "results": [
+    {
+      "name": "125 representative plans exactly match Batch 4",
+      "status": "passed"
+    },
+    {
+      "name": "Plan keys track all planner inputs and ignore unrelated profile/gym metadata",
+      "status": "passed"
+    },
+    {
+      "name": "PR history preserves ties, baseline, gyms, unknown/assisted/bodyweight/hold exercises, >12 reps and stored order",
+      "status": "passed"
+    },
+    {
+      "name": "Progress trends, volume, adherence and load advice match Batch 4",
+      "status": "passed"
+    },
+    {
+      "name": "Extracted comeback deadline preserves the old elapsed-time rule and dismissal",
+      "status": "passed"
+    },
+    {
+      "name": "Historical PR processing visits each set once",
+      "status": "passed"
+    }
+  ]
+}

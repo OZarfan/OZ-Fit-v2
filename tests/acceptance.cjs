@@ -6034,16 +6034,20 @@ function adherence(b2, now = /* @__PURE__ */ new Date()) {
     return { date: localDate(start), planned, done, percent: planned ? Math.min(100, Math.round(done / planned * 100)) : null };
   });
 }
-function comebackDue(b2, now = /* @__PURE__ */ new Date()) {
-  const today = localDate(now);
-  if (b2.profile.comebackDismissed === today || !b2.sessions.some((s) => s.finishedAt)) return false;
+function comebackDeadline(b2) {
   const last = b2.sessions.filter((s) => s.finishedAt).at(-1);
+  if (!last) return null;
   for (let n = 1; n <= 14; n++) {
     const d = /* @__PURE__ */ new Date(last.date + "T12:00:00");
     d.setDate(d.getDate() + n);
-    if (b2.profile.days.includes(d.getDay()) && !b2.sessions.some((s) => s.finishedAt && s.date === localDate(d))) return (+now - +d) / 864e5 >= 4;
+    if (b2.profile.days.includes(d.getDay()) && !b2.sessions.some((s) => s.finishedAt && s.date === localDate(d))) return +d + 4 * 864e5;
   }
-  return false;
+  return null;
+}
+function comebackDue(b2, now = /* @__PURE__ */ new Date()) {
+  if (b2.profile.comebackDismissed === localDate(now)) return false;
+  const deadline = comebackDeadline(b2);
+  return deadline !== null && +now >= deadline;
 }
 function plateTotal(bar, plates) {
   return bar + 2 * plates.reduce((n, p2) => n + p2.kg * p2.pairs, 0);
