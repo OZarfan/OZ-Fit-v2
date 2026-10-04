@@ -1,0 +1,4584 @@
+{
+  "date": "2026-10-04",
+  "environment": "Codex in-app Chromium browser; synthetic isolated local preview; 800px viewport height",
+  "baseline": "dce251c (Batch 3), built before source edits",
+  "comparison": "Computed colors, opacity, shadows, typography, spacing, positioning and dimensions; no production geometry/state changes",
+  "results": [
+    {
+      "lang": "en",
+      "width": 360,
+      "status": "passed",
+      "propertiesCompared": 9480,
+      "differences": [],
+      "states": {
+        "today": {
+          "elementsCompared": 71,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "validation": {
+          "elementsCompared": 109,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "pageOverflow": false
+        },
+        "rest": {
+          "elementsCompared": 111,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "plan": {
+          "elementsCompared": 104,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "pageOverflow": false
+        }
+      },
+      "responsivePass": true,
+      "contrastPass": true,
+      "responsive": {
+        "lang": "en",
+        "width": 360,
+        "rest": {
+          "actions": [
+            {
+              "name": "+30s",
+              "rect": {
+                "b": 189.015625,
+                "h": 52.390625,
+                "right": 154.265625,
+                "w": 77.140625,
+                "x": 77.125,
+                "y": 136.625
+              },
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "name": "End rest",
+              "rect": {
+                "b": 189.015625,
+                "h": 52.390625,
+                "right": 267.859375,
+                "w": 101.59375,
+                "x": 166.265625,
+                "y": 136.625
+              },
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "countdown": "02:00",
+          "inputs": [
+            {
+              "editable": true,
+              "id": "log-weight",
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "editable": true,
+              "id": "log-reps",
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "primaryOverlap": false,
+          "primaryPosition": "static",
+          "rect": {
+            "b": 205.015625,
+            "h": 180.078125,
+            "right": 312,
+            "w": 279,
+            "x": 33,
+            "y": 24.9375
+          },
+          "visible": true
+        },
+        "dialog": {
+          "closeHeight": 44,
+          "closeWidth": 44,
+          "horizontalOverflow": false,
+          "titleClear": true
+        },
+        "week": [
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Saturday · Rest",
+            "oneLine": true,
+            "selected": "false",
+            "width": 44.703125
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Sunday · Train",
+            "oneLine": true,
+            "selected": "true",
+            "width": 44.71875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Monday · Train",
+            "oneLine": true,
+            "selected": "false",
+            "width": 44.71875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Tuesday · Rest",
+            "oneLine": true,
+            "selected": "false",
+            "width": 44.703125
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Wednesday · Train",
+            "oneLine": true,
+            "selected": "false",
+            "width": 44.71875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Thursday · Rest",
+            "oneLine": true,
+            "selected": "false",
+            "width": 44.71875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Friday · Train",
+            "oneLine": true,
+            "selected": "false",
+            "width": 44.71875
+          }
+        ]
+      }
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "status": "passed",
+      "propertiesCompared": 9480,
+      "differences": [],
+      "states": {
+        "today": {
+          "elementsCompared": 71,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "validation": {
+          "elementsCompared": 109,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "pageOverflow": false
+        },
+        "rest": {
+          "elementsCompared": 111,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "plan": {
+          "elementsCompared": 104,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "pageOverflow": false
+        }
+      },
+      "responsivePass": true,
+      "contrastPass": true,
+      "responsive": {
+        "lang": "en",
+        "width": 390,
+        "rest": {
+          "actions": [
+            {
+              "name": "+30s",
+              "rect": {
+                "b": 189.015625,
+                "h": 52.390625,
+                "right": 169.265625,
+                "w": 77.140625,
+                "x": 92.125,
+                "y": 136.625
+              },
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "name": "End rest",
+              "rect": {
+                "b": 189.015625,
+                "h": 52.390625,
+                "right": 282.859375,
+                "w": 101.59375,
+                "x": 181.265625,
+                "y": 136.625
+              },
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "countdown": "01:59",
+          "inputs": [
+            {
+              "editable": true,
+              "id": "log-weight",
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "editable": true,
+              "id": "log-reps",
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "primaryOverlap": false,
+          "primaryPosition": "static",
+          "rect": {
+            "b": 205.015625,
+            "h": 180.078125,
+            "right": 342,
+            "w": 309,
+            "x": 33,
+            "y": 24.9375
+          },
+          "visible": true
+        },
+        "dialog": {
+          "closeHeight": 44,
+          "closeWidth": 44,
+          "horizontalOverflow": false,
+          "titleClear": true
+        },
+        "week": [
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Saturday · Rest",
+            "oneLine": true,
+            "selected": "false",
+            "width": 46.421875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Sunday · Train",
+            "oneLine": true,
+            "selected": "true",
+            "width": 46.421875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Monday · Train",
+            "oneLine": true,
+            "selected": "false",
+            "width": 46.4375
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Tuesday · Rest",
+            "oneLine": true,
+            "selected": "false",
+            "width": 46.421875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Wednesday · Train",
+            "oneLine": true,
+            "selected": "false",
+            "width": 46.4375
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Thursday · Rest",
+            "oneLine": true,
+            "selected": "false",
+            "width": 46.421875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Friday · Train",
+            "oneLine": true,
+            "selected": "false",
+            "width": 46.421875
+          }
+        ]
+      }
+    },
+    {
+      "lang": "en",
+      "width": 430,
+      "status": "passed",
+      "propertiesCompared": 9480,
+      "differences": [],
+      "states": {
+        "today": {
+          "elementsCompared": 71,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "validation": {
+          "elementsCompared": 109,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "pageOverflow": false
+        },
+        "rest": {
+          "elementsCompared": 111,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "plan": {
+          "elementsCompared": 104,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "pageOverflow": false
+        }
+      },
+      "responsivePass": true,
+      "contrastPass": true,
+      "responsive": {
+        "lang": "en",
+        "width": 430,
+        "rest": {
+          "actions": [
+            {
+              "name": "+30s",
+              "rect": {
+                "b": 189.078125,
+                "h": 52.390625,
+                "right": 189.265625,
+                "w": 77.140625,
+                "x": 112.125,
+                "y": 136.6875
+              },
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "name": "End rest",
+              "rect": {
+                "b": 189.078125,
+                "h": 52.390625,
+                "right": 302.859375,
+                "w": 101.59375,
+                "x": 201.265625,
+                "y": 136.6875
+              },
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "countdown": "01:59",
+          "inputs": [
+            {
+              "editable": true,
+              "id": "log-weight",
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "editable": true,
+              "id": "log-reps",
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "primaryOverlap": false,
+          "primaryPosition": "static",
+          "rect": {
+            "b": 205.078125,
+            "h": 180.078125,
+            "right": 382,
+            "w": 349,
+            "x": 33,
+            "y": 25
+          },
+          "visible": true
+        },
+        "dialog": {
+          "closeHeight": 44,
+          "closeWidth": 44,
+          "horizontalOverflow": false,
+          "titleClear": true
+        },
+        "week": [
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Saturday · Rest",
+            "oneLine": true,
+            "selected": "false",
+            "width": 52.140625
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Sunday · Train",
+            "oneLine": true,
+            "selected": "true",
+            "width": 52.140625
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Monday · Train",
+            "oneLine": true,
+            "selected": "false",
+            "width": 52.140625
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Tuesday · Rest",
+            "oneLine": true,
+            "selected": "false",
+            "width": 52.140625
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Wednesday · Train",
+            "oneLine": true,
+            "selected": "false",
+            "width": 52.140625
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Thursday · Rest",
+            "oneLine": true,
+            "selected": "false",
+            "width": 52.140625
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "Friday · Train",
+            "oneLine": true,
+            "selected": "false",
+            "width": 52.140625
+          }
+        ]
+      }
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "status": "passed",
+      "propertiesCompared": 9480,
+      "differences": [],
+      "states": {
+        "today": {
+          "elementsCompared": 71,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "validation": {
+          "elementsCompared": 109,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "pageOverflow": false
+        },
+        "rest": {
+          "elementsCompared": 111,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "plan": {
+          "elementsCompared": 104,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "pageOverflow": false
+        }
+      },
+      "responsivePass": true,
+      "contrastPass": true,
+      "responsive": {
+        "lang": "en",
+        "width": 1280,
+        "rest": {
+          "actions": [
+            {
+              "name": "+30s",
+              "rect": {
+                "b": 328.078125,
+                "h": 52.390625,
+                "right": 829.265625,
+                "w": 77.140625,
+                "x": 752.125,
+                "y": 275.6875
+              },
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "name": "End rest",
+              "rect": {
+                "b": 328.078125,
+                "h": 52.390625,
+                "right": 942.859375,
+                "w": 101.59375,
+                "x": 841.265625,
+                "y": 275.6875
+              },
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "countdown": "02:00",
+          "inputs": [
+            {
+              "editable": true,
+              "id": "log-weight",
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "editable": true,
+              "id": "log-reps",
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "primaryOverlap": false,
+          "primaryPosition": "sticky",
+          "rect": {
+            "b": 344.078125,
+            "h": 180.078125,
+            "right": 1050,
+            "w": 405,
+            "x": 645,
+            "y": 164
+          },
+          "visible": true
+        },
+        "dialog": {
+          "closeHeight": 44,
+          "closeWidth": 44,
+          "horizontalOverflow": false,
+          "titleClear": true
+        },
+        "week": [
+          {
+            "height": 73.890625,
+            "labelFits": true,
+            "name": "Saturday · Rest",
+            "oneLine": true,
+            "selected": "false",
+            "width": 151.703125
+          },
+          {
+            "height": 73.890625,
+            "labelFits": true,
+            "name": "Sunday · Train",
+            "oneLine": true,
+            "selected": "true",
+            "width": 151.71875
+          },
+          {
+            "height": 73.890625,
+            "labelFits": true,
+            "name": "Monday · Train",
+            "oneLine": true,
+            "selected": "false",
+            "width": 151.71875
+          },
+          {
+            "height": 73.890625,
+            "labelFits": true,
+            "name": "Tuesday · Rest",
+            "oneLine": true,
+            "selected": "false",
+            "width": 151.703125
+          },
+          {
+            "height": 73.890625,
+            "labelFits": true,
+            "name": "Wednesday · Train",
+            "oneLine": true,
+            "selected": "false",
+            "width": 151.71875
+          },
+          {
+            "height": 73.890625,
+            "labelFits": true,
+            "name": "Thursday · Rest",
+            "oneLine": true,
+            "selected": "false",
+            "width": 151.71875
+          },
+          {
+            "height": 73.890625,
+            "labelFits": true,
+            "name": "Friday · Train",
+            "oneLine": true,
+            "selected": "false",
+            "width": 151.703125
+          }
+        ]
+      }
+    },
+    {
+      "lang": "ar",
+      "width": 360,
+      "status": "passed",
+      "propertiesCompared": 9480,
+      "differences": [],
+      "states": {
+        "today": {
+          "elementsCompared": 71,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "validation": {
+          "elementsCompared": 109,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "pageOverflow": false
+        },
+        "rest": {
+          "elementsCompared": 111,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "plan": {
+          "elementsCompared": 104,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "pageOverflow": false
+        }
+      },
+      "responsivePass": true,
+      "contrastPass": true,
+      "responsive": {
+        "lang": "ar",
+        "width": 360,
+        "rest": {
+          "actions": [
+            {
+              "name": "+30s",
+              "rect": {
+                "b": 189.078125,
+                "h": 52.390625,
+                "right": 283.3125,
+                "w": 77.140625,
+                "x": 206.171875,
+                "y": 136.6875
+              },
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "name": "إنهاء الراحة",
+              "rect": {
+                "b": 189.078125,
+                "h": 52.390625,
+                "right": 194.171875,
+                "w": 102.484375,
+                "x": 91.6875,
+                "y": 136.6875
+              },
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "countdown": "02:00",
+          "inputs": [
+            {
+              "editable": true,
+              "id": "log-weight",
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "editable": true,
+              "id": "log-reps",
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "primaryOverlap": false,
+          "primaryPosition": "static",
+          "rect": {
+            "b": 205.078125,
+            "h": 180.078125,
+            "right": 327,
+            "w": 279,
+            "x": 48,
+            "y": 25
+          },
+          "visible": true
+        },
+        "dialog": {
+          "closeHeight": 44,
+          "closeWidth": 44,
+          "horizontalOverflow": false,
+          "titleClear": true
+        },
+        "week": [
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "السبت · راحة",
+            "oneLine": true,
+            "selected": "false",
+            "width": 44.703125
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الأحد · تمرين",
+            "oneLine": true,
+            "selected": "true",
+            "width": 44.71875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الاثنين · تمرين",
+            "oneLine": true,
+            "selected": "false",
+            "width": 44.71875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الثلاثاء · راحة",
+            "oneLine": true,
+            "selected": "false",
+            "width": 44.703125
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الأربعاء · تمرين",
+            "oneLine": true,
+            "selected": "false",
+            "width": 44.71875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الخميس · راحة",
+            "oneLine": true,
+            "selected": "false",
+            "width": 44.71875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الجمعة · تمرين",
+            "oneLine": true,
+            "selected": "false",
+            "width": 44.71875
+          }
+        ]
+      }
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "status": "passed",
+      "propertiesCompared": 9480,
+      "differences": [],
+      "states": {
+        "today": {
+          "elementsCompared": 71,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "validation": {
+          "elementsCompared": 109,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "pageOverflow": false
+        },
+        "rest": {
+          "elementsCompared": 111,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "plan": {
+          "elementsCompared": 104,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "pageOverflow": false
+        }
+      },
+      "responsivePass": true,
+      "contrastPass": true,
+      "responsive": {
+        "lang": "ar",
+        "width": 390,
+        "rest": {
+          "actions": [
+            {
+              "name": "+30s",
+              "rect": {
+                "b": 189.078125,
+                "h": 52.390625,
+                "right": 298.3125,
+                "w": 77.140625,
+                "x": 221.171875,
+                "y": 136.6875
+              },
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "name": "إنهاء الراحة",
+              "rect": {
+                "b": 189.078125,
+                "h": 52.390625,
+                "right": 209.171875,
+                "w": 102.484375,
+                "x": 106.6875,
+                "y": 136.6875
+              },
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "countdown": "01:59",
+          "inputs": [
+            {
+              "editable": true,
+              "id": "log-weight",
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "editable": true,
+              "id": "log-reps",
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "primaryOverlap": false,
+          "primaryPosition": "static",
+          "rect": {
+            "b": 205.078125,
+            "h": 180.078125,
+            "right": 357,
+            "w": 309,
+            "x": 48,
+            "y": 25
+          },
+          "visible": true
+        },
+        "dialog": {
+          "closeHeight": 44,
+          "closeWidth": 44,
+          "horizontalOverflow": false,
+          "titleClear": true
+        },
+        "week": [
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "السبت · راحة",
+            "oneLine": true,
+            "selected": "false",
+            "width": 46.421875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الأحد · تمرين",
+            "oneLine": true,
+            "selected": "true",
+            "width": 46.421875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الاثنين · تمرين",
+            "oneLine": true,
+            "selected": "false",
+            "width": 46.4375
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الثلاثاء · راحة",
+            "oneLine": true,
+            "selected": "false",
+            "width": 46.421875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الأربعاء · تمرين",
+            "oneLine": true,
+            "selected": "false",
+            "width": 46.4375
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الخميس · راحة",
+            "oneLine": true,
+            "selected": "false",
+            "width": 46.421875
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الجمعة · تمرين",
+            "oneLine": true,
+            "selected": "false",
+            "width": 46.421875
+          }
+        ]
+      }
+    },
+    {
+      "lang": "ar",
+      "width": 430,
+      "status": "passed",
+      "propertiesCompared": 9480,
+      "differences": [],
+      "states": {
+        "today": {
+          "elementsCompared": 71,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "validation": {
+          "elementsCompared": 109,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "pageOverflow": false
+        },
+        "rest": {
+          "elementsCompared": 111,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "plan": {
+          "elementsCompared": 104,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "pageOverflow": false
+        }
+      },
+      "responsivePass": true,
+      "contrastPass": true,
+      "responsive": {
+        "lang": "ar",
+        "width": 430,
+        "rest": {
+          "actions": [
+            {
+              "name": "+30s",
+              "rect": {
+                "b": 189.078125,
+                "h": 52.390625,
+                "right": 318.3125,
+                "w": 77.140625,
+                "x": 241.171875,
+                "y": 136.6875
+              },
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "name": "إنهاء الراحة",
+              "rect": {
+                "b": 189.078125,
+                "h": 52.390625,
+                "right": 229.171875,
+                "w": 102.484375,
+                "x": 126.6875,
+                "y": 136.6875
+              },
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "countdown": "01:59",
+          "inputs": [
+            {
+              "editable": true,
+              "id": "log-weight",
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "editable": true,
+              "id": "log-reps",
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "primaryOverlap": false,
+          "primaryPosition": "static",
+          "rect": {
+            "b": 205.078125,
+            "h": 180.078125,
+            "right": 397,
+            "w": 349,
+            "x": 48,
+            "y": 25
+          },
+          "visible": true
+        },
+        "dialog": {
+          "closeHeight": 44,
+          "closeWidth": 44,
+          "horizontalOverflow": false,
+          "titleClear": true
+        },
+        "week": [
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "السبت · راحة",
+            "oneLine": true,
+            "selected": "false",
+            "width": 52.140625
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الأحد · تمرين",
+            "oneLine": true,
+            "selected": "true",
+            "width": 52.140625
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الاثنين · تمرين",
+            "oneLine": true,
+            "selected": "false",
+            "width": 52.140625
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الثلاثاء · راحة",
+            "oneLine": true,
+            "selected": "false",
+            "width": 52.140625
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الأربعاء · تمرين",
+            "oneLine": true,
+            "selected": "false",
+            "width": 52.140625
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الخميس · راحة",
+            "oneLine": true,
+            "selected": "false",
+            "width": 52.140625
+          },
+          {
+            "height": 72,
+            "labelFits": true,
+            "name": "الجمعة · تمرين",
+            "oneLine": true,
+            "selected": "false",
+            "width": 52.140625
+          }
+        ]
+      }
+    },
+    {
+      "lang": "ar",
+      "width": 1280,
+      "status": "passed",
+      "propertiesCompared": 9480,
+      "differences": [],
+      "states": {
+        "today": {
+          "elementsCompared": 71,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "validation": {
+          "elementsCompared": 109,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              },
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(184, 50, 50)",
+                "ratio": 5.481882564523947
+              }
+            ]
+          },
+          "pageOverflow": false
+        },
+        "rest": {
+          "elementsCompared": 111,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              }
+            ],
+            "finish": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(40, 51, 33)",
+                "ratio": 13.243238046372632
+              }
+            ],
+            "small": [
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(91, 105, 86)",
+                "ratio": 5.833598196230419
+              }
+            ],
+            "validation": []
+          },
+          "pageOverflow": false
+        },
+        "plan": {
+          "elementsCompared": 104,
+          "contrastBefore": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "contrastAfter": {
+            "eyebrow": [
+              {
+                "background": [
+                  245,
+                  246,
+                  247
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.1826648180752795
+              },
+              {
+                "background": [
+                  255,
+                  255,
+                  255
+                ],
+                "color": "rgb(82, 96, 77)",
+                "ratio": 6.689857160909872
+              }
+            ],
+            "finish": [],
+            "small": [],
+            "validation": []
+          },
+          "pageOverflow": false
+        }
+      },
+      "responsivePass": true,
+      "contrastPass": true,
+      "responsive": {
+        "lang": "ar",
+        "width": 1280,
+        "rest": {
+          "actions": [
+            {
+              "name": "+30s",
+              "rect": {
+                "b": 329.078125,
+                "h": 52.390625,
+                "right": 528.3125,
+                "w": 77.140625,
+                "x": 451.171875,
+                "y": 276.6875
+              },
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "name": "إنهاء الراحة",
+              "rect": {
+                "b": 329.078125,
+                "h": 52.390625,
+                "right": 439.171875,
+                "w": 102.484375,
+                "x": 336.6875,
+                "y": 276.6875
+              },
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "countdown": "01:59",
+          "inputs": [
+            {
+              "editable": true,
+              "id": "log-weight",
+              "uncovered": true,
+              "visible": true
+            },
+            {
+              "editable": true,
+              "id": "log-reps",
+              "uncovered": true,
+              "visible": true
+            }
+          ],
+          "primaryOverlap": false,
+          "primaryPosition": "sticky",
+          "rect": {
+            "b": 345.078125,
+            "h": 180.078125,
+            "right": 635,
+            "w": 405,
+            "x": 230,
+            "y": 165
+          },
+          "visible": true
+        },
+        "dialog": {
+          "closeHeight": 44,
+          "closeWidth": 44,
+          "horizontalOverflow": false,
+          "titleClear": true
+        },
+        "week": [
+          {
+            "height": 73.890625,
+            "labelFits": true,
+            "name": "السبت · راحة",
+            "oneLine": true,
+            "selected": "false",
+            "width": 151.703125
+          },
+          {
+            "height": 73.890625,
+            "labelFits": true,
+            "name": "الأحد · تمرين",
+            "oneLine": true,
+            "selected": "true",
+            "width": 151.71875
+          },
+          {
+            "height": 73.890625,
+            "labelFits": true,
+            "name": "الاثنين · تمرين",
+            "oneLine": true,
+            "selected": "false",
+            "width": 151.71875
+          },
+          {
+            "height": 73.890625,
+            "labelFits": true,
+            "name": "الثلاثاء · راحة",
+            "oneLine": true,
+            "selected": "false",
+            "width": 151.703125
+          },
+          {
+            "height": 73.890625,
+            "labelFits": true,
+            "name": "الأربعاء · تمرين",
+            "oneLine": true,
+            "selected": "false",
+            "width": 151.71875
+          },
+          {
+            "height": 73.890625,
+            "labelFits": true,
+            "name": "الخميس · راحة",
+            "oneLine": true,
+            "selected": "false",
+            "width": 151.71875
+          },
+          {
+            "height": 73.890625,
+            "labelFits": true,
+            "name": "الجمعة · تمرين",
+            "oneLine": true,
+            "selected": "false",
+            "width": 151.703125
+          }
+        ]
+      }
+    }
+  ],
+  "componentContracts": {
+    "results": [
+      {
+        "background": "rgb(196, 244, 119)",
+        "context": "light",
+        "contrast": 13.260600253811752,
+        "disabled": false,
+        "effectiveBackground": [
+          196,
+          244,
+          119
+        ],
+        "foreground": "rgb(23, 32, 12)",
+        "name": "light default",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(184, 50, 50)",
+        "context": "light",
+        "contrast": 5.931586525980257,
+        "disabled": false,
+        "effectiveBackground": [
+          184,
+          50,
+          50
+        ],
+        "foreground": "rgb(255, 255, 255)",
+        "name": "light destructive",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(245, 246, 247)",
+        "context": "light",
+        "contrast": 15.112882460246098,
+        "disabled": false,
+        "effectiveBackground": [
+          245,
+          246,
+          247
+        ],
+        "foreground": "rgb(20, 35, 25)",
+        "name": "light outline",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(235, 238, 232)",
+        "context": "light",
+        "contrast": 11.305617896737004,
+        "disabled": false,
+        "effectiveBackground": [
+          235,
+          238,
+          232
+        ],
+        "foreground": "rgb(40, 51, 33)",
+        "name": "light secondary",
+        "opacity": "1"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "context": "light",
+        "contrast": 16.352661501734275,
+        "disabled": false,
+        "effectiveBackground": [
+          255,
+          255,
+          255
+        ],
+        "foreground": "rgb(20, 35, 25)",
+        "name": "light ghost",
+        "opacity": "1"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "context": "light",
+        "contrast": 4.847230423815383,
+        "disabled": false,
+        "effectiveBackground": [
+          255,
+          255,
+          255
+        ],
+        "foreground": "rgb(84, 125, 33)",
+        "name": "light link",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(196, 244, 119)",
+        "context": "light",
+        "contrast": 13.260600253811752,
+        "disabled": true,
+        "effectiveBackground": [
+          196,
+          244,
+          119
+        ],
+        "foreground": "rgb(23, 32, 12)",
+        "name": "light disabled",
+        "opacity": "0.45"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "context": "light",
+        "contrast": 16.352661501734275,
+        "disabled": true,
+        "effectiveBackground": [
+          255,
+          255,
+          255
+        ],
+        "foreground": "rgb(20, 35, 25)",
+        "name": "light disabled checkbox",
+        "opacity": "0.45"
+      },
+      {
+        "background": "rgb(196, 244, 119)",
+        "context": "light",
+        "contrast": 13.260600253811752,
+        "disabled": false,
+        "effectiveBackground": [
+          196,
+          244,
+          119
+        ],
+        "foreground": "rgb(23, 32, 12)",
+        "name": "light checked checkbox",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(196, 244, 119)",
+        "context": "light",
+        "contrast": 11.901422600691156,
+        "disabled": false,
+        "effectiveBackground": [
+          196,
+          244,
+          119
+        ],
+        "foreground": "rgb(29, 42, 16)",
+        "name": "light app primary",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "context": "light",
+        "contrast": 16.352661501734275,
+        "disabled": false,
+        "effectiveBackground": [
+          255,
+          255,
+          255
+        ],
+        "foreground": "rgb(20, 35, 25)",
+        "name": "light app secondary",
+        "opacity": "1"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "context": "light",
+        "contrast": 6.71894216929762,
+        "disabled": false,
+        "effectiveBackground": [
+          255,
+          255,
+          255
+        ],
+        "foreground": "rgb(82, 96, 72)",
+        "name": "light app subtle",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(25, 37, 29)",
+        "context": "light",
+        "contrast": 12.744316585202744,
+        "disabled": false,
+        "effectiveBackground": [
+          25,
+          37,
+          29
+        ],
+        "foreground": "rgb(208, 242, 157)",
+        "name": "light selected chip",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(245, 246, 247)",
+        "context": "light",
+        "contrast": 15.112882460246098,
+        "disabled": false,
+        "effectiveBackground": [
+          245,
+          246,
+          247
+        ],
+        "foreground": "rgb(20, 35, 25)",
+        "name": "light dialog",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(196, 244, 119)",
+        "context": "dark",
+        "contrast": 13.260600253811752,
+        "disabled": false,
+        "effectiveBackground": [
+          196,
+          244,
+          119
+        ],
+        "foreground": "rgb(23, 32, 12)",
+        "name": "dark default",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(184, 50, 50)",
+        "context": "dark",
+        "contrast": 5.931586525980257,
+        "disabled": false,
+        "effectiveBackground": [
+          184,
+          50,
+          50
+        ],
+        "foreground": "rgb(255, 255, 255)",
+        "name": "dark destructive",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(245, 246, 247)",
+        "context": "dark",
+        "contrast": 15.112882460246098,
+        "disabled": false,
+        "effectiveBackground": [
+          245,
+          246,
+          247
+        ],
+        "foreground": "rgb(20, 35, 25)",
+        "name": "dark outline",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(235, 238, 232)",
+        "context": "dark",
+        "contrast": 11.305617896737004,
+        "disabled": false,
+        "effectiveBackground": [
+          235,
+          238,
+          232
+        ],
+        "foreground": "rgb(40, 51, 33)",
+        "name": "dark secondary",
+        "opacity": "1"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "context": "dark",
+        "contrast": 14.44257229153227,
+        "disabled": false,
+        "effectiveBackground": [
+          24,
+          40,
+          29
+        ],
+        "foreground": "rgb(244, 249, 239)",
+        "name": "dark ghost",
+        "opacity": "1"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "context": "dark",
+        "contrast": 12.171054514922218,
+        "disabled": false,
+        "effectiveBackground": [
+          24,
+          40,
+          29
+        ],
+        "foreground": "rgb(196, 244, 119)",
+        "name": "dark link",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(196, 244, 119)",
+        "context": "dark",
+        "contrast": 13.260600253811752,
+        "disabled": true,
+        "effectiveBackground": [
+          196,
+          244,
+          119
+        ],
+        "foreground": "rgb(23, 32, 12)",
+        "name": "dark disabled",
+        "opacity": "0.45"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "context": "dark",
+        "contrast": 14.44257229153227,
+        "disabled": true,
+        "effectiveBackground": [
+          24,
+          40,
+          29
+        ],
+        "foreground": "rgb(244, 249, 239)",
+        "name": "dark disabled checkbox",
+        "opacity": "0.45"
+      },
+      {
+        "background": "rgb(196, 244, 119)",
+        "context": "dark",
+        "contrast": 13.260600253811752,
+        "disabled": false,
+        "effectiveBackground": [
+          196,
+          244,
+          119
+        ],
+        "foreground": "rgb(23, 32, 12)",
+        "name": "dark checked checkbox",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(196, 244, 119)",
+        "context": "dark",
+        "contrast": 11.901422600691156,
+        "disabled": false,
+        "effectiveBackground": [
+          196,
+          244,
+          119
+        ],
+        "foreground": "rgb(29, 42, 16)",
+        "name": "dark app primary",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(255, 255, 255)",
+        "context": "dark",
+        "contrast": 13.243238046372632,
+        "disabled": false,
+        "effectiveBackground": [
+          255,
+          255,
+          255
+        ],
+        "foreground": "rgb(40, 51, 33)",
+        "name": "dark app secondary",
+        "opacity": "1"
+      },
+      {
+        "background": "rgba(0, 0, 0, 0)",
+        "context": "dark",
+        "contrast": 14.44257229153227,
+        "disabled": false,
+        "effectiveBackground": [
+          24,
+          40,
+          29
+        ],
+        "foreground": "rgb(244, 249, 239)",
+        "name": "dark app subtle",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(25, 37, 29)",
+        "context": "dark",
+        "contrast": 12.744316585202744,
+        "disabled": false,
+        "effectiveBackground": [
+          25,
+          37,
+          29
+        ],
+        "foreground": "rgb(208, 242, 157)",
+        "name": "dark selected chip",
+        "opacity": "1"
+      },
+      {
+        "background": "rgb(245, 246, 247)",
+        "context": "dark",
+        "contrast": 15.112882460246098,
+        "disabled": false,
+        "effectiveBackground": [
+          245,
+          246,
+          247
+        ],
+        "foreground": "rgb(20, 35, 25)",
+        "name": "dark dialog",
+        "opacity": "1"
+      }
+    ],
+    "status": "passed",
+    "ghostHover": {
+      "foreground": "rgb(35, 53, 20)",
+      "background": "rgb(231, 244, 212)",
+      "verified": true
+    },
+    "keyboardFocus": {
+      "visibleOutlinePixels": 3,
+      "verified": true
+    },
+    "dialogFromDarkPanel": {
+      "foreground": "rgb(20, 35, 25)",
+      "background": "rgb(245, 246, 247)",
+      "overlay": "oklab(0 0 0 / 0.5)"
+    }
+  },
+  "screenshots": [
+    ".cache/batch4/before-en-390.jpg",
+    ".cache/batch4/after-en-390.jpg",
+    ".cache/batch4/before-ar-360-rest.jpg",
+    ".cache/batch4/after-ar-360-rest.jpg",
+    ".cache/batch4/final-en-390.jpg"
+  ],
+  "limitations": [
+    "Desktop viewport emulation, not physical-phone touch or keyboard testing.",
+    "No screen-reader, Safari, installed-PWA or real offline startup test.",
+    "Baseline is current single-theme UI; no dark/light switching was introduced."
+  ],
+  "fixtureNote": "Run crossed midnight; final comparison explicitly selected the same Saturday as the captured baseline. This removes calendar state differences without changing app code.",
+  "finalWeekdayGuard": [
+    {
+      "lang": "en",
+      "width": 360,
+      "status": "passed",
+      "weekdays": [
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Saturday · Rest",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 44.703125
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Sunday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Monday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Tuesday · Rest",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 44.703125
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Wednesday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Thursday · Rest",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Friday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 44.71875
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 390,
+      "status": "passed",
+      "weekdays": [
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Saturday · Rest",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Sunday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Monday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 46.4375
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Tuesday · Rest",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Wednesday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 46.4375
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Thursday · Rest",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Friday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 46.421875
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 430,
+      "status": "passed",
+      "weekdays": [
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Saturday · Rest",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Sunday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Monday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Tuesday · Rest",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Wednesday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Thursday · Rest",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "Friday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 52.140625
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "width": 1280,
+      "status": "passed",
+      "weekdays": [
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "Saturday · Rest",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 151.703125
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "Sunday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "Monday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "Tuesday · Rest",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 151.703125
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "Wednesday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "Thursday · Rest",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "Friday · Train",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 151.703125
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 360,
+      "status": "passed",
+      "weekdays": [
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "السبت · راحة",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 44.703125
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الأحد · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الاثنين · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الثلاثاء · راحة",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 44.703125
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الأربعاء · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الخميس · راحة",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 44.71875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الجمعة · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 44.71875
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 390,
+      "status": "passed",
+      "weekdays": [
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "السبت · راحة",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الأحد · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الاثنين · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 46.4375
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الثلاثاء · راحة",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الأربعاء · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 46.4375
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الخميس · راحة",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 46.421875
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الجمعة · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 46.421875
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 430,
+      "status": "passed",
+      "weekdays": [
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "السبت · راحة",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الأحد · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الاثنين · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الثلاثاء · راحة",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الأربعاء · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الخميس · راحة",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 52.140625
+        },
+        {
+          "height": 72,
+          "labelFits": true,
+          "name": "الجمعة · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 52.140625
+        }
+      ]
+    },
+    {
+      "lang": "ar",
+      "width": 1280,
+      "status": "passed",
+      "weekdays": [
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "السبت · راحة",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 151.703125
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "الأحد · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "الاثنين · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "الثلاثاء · راحة",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 151.703125
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "الأربعاء · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "الخميس · راحة",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 151.71875
+        },
+        {
+          "height": 73.890625,
+          "labelFits": true,
+          "name": "الجمعة · تمرين",
+          "oneLine": true,
+          "whiteSpace": "nowrap",
+          "width": 151.703125
+        }
+      ]
+    }
+  ],
+  "sourceContracts": {
+    "test": "tests/batch4-colors.cjs",
+    "passed": 4,
+    "originalNonColorDeclarationsUnchanged": 336
+  },
+  "finalScreenshotMatchesBaseline": true
+}

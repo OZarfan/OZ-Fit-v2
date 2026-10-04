@@ -1,0 +1,55 @@
+{
+  "environment": "CSS source-contract checks; not a browser contrast/layout test",
+  "counting": "Declaration values only; CSS variable identifiers excluded; black/white UI utilities included",
+  "counts": {
+    "tokenPigments": 49,
+    "directPigments": 5,
+    "transparencyKeywords": 6,
+    "sharedPigmentUtilities": 0
+  },
+  "direct": [
+    {
+      "selector": ".pr-toast",
+      "property": "background",
+      "color": "#203b17"
+    },
+    {
+      "selector": ".pr-toast",
+      "property": "color",
+      "color": "#d5ff9e"
+    },
+    {
+      "selector": ".pr-toast",
+      "property": "border",
+      "color": "#c1ef76"
+    },
+    {
+      "selector": ".pr-toast",
+      "property": "box-shadow",
+      "color": "#0003"
+    },
+    {
+      "selector": ".chart text",
+      "property": "fill",
+      "color": "#43573a"
+    }
+  ],
+  "results": [
+    {
+      "name": "Color substitutions never change CSS property names",
+      "status": "passed"
+    },
+    {
+      "name": "Batch 3 weekday non-wrapping contract remains intact",
+      "status": "passed"
+    },
+    {
+      "name": "Direct pigment literals are limited to intentional toast/chart one-offs",
+      "status": "passed"
+    },
+    {
+      "name": "App color references resolve to declared semantic roles",
+      "status": "passed"
+    }
+  ]
+}
