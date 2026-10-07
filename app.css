@@ -113,3 +113,142 @@ button:disabled{opacity:var(--disabled-opacity)}
 .weekly-settings .chips button{white-space:nowrap;overflow-wrap:normal}
 .weekly-settings .split-card .badge{white-space:nowrap;overflow-wrap:normal}
 @media(max-width:370px){.weekly-session-heading{flex-wrap:wrap}.weekly-duration{text-align:start}}
+
+/* Batch 8: shared visual rhythm, using the established palette and font family. */
+:root{--surface-radius:16px;--control-radius:12px;--section-space:24px;--form-gap:16px}
+h1,h2,h3{font-weight:700;text-wrap:balance}
+.page-heading h1{font-size:clamp(1.875rem,3vw,2.25rem);line-height:1.25;letter-spacing:-.025em}
+.onboarding h1{font-size:clamp(1.75rem,4vw,2.5rem);line-height:1.3;letter-spacing:-.025em}
+[dir=rtl] h1{letter-spacing:normal}
+h2{font-size:1.375rem;line-height:1.4;margin-block:0 12px}
+h3{font-size:1.0625rem;line-height:1.45;margin-block:20px 8px}
+.page-heading{margin-block-end:var(--section-space)}
+.eyebrow{letter-spacing:normal;font-weight:600}
+.panel{border-radius:var(--surface-radius);padding:24px;margin-block-end:var(--section-space)}
+.panel>p,.panel>fieldset>p,.onboarding>fieldset>p{margin-block:12px}
+.panel>:first-child,.panel>fieldset>:first-child{margin-block-start:0}
+.panel>:last-child,.panel>fieldset>:last-child{margin-block-end:0}
+.panel>.section-line:first-child{margin-block-start:0}
+.section-line h2{margin-block:0 12px}
+.panel>h3:not(:first-child){margin-block-start:24px}
+.panel details{margin-block:16px}
+.panel>details:last-child{margin-block-end:0}
+summary{line-height:1.5;border-radius:8px}
+summary:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+details[open]>summary{margin-block-end:12px}
+.muted,.intro p{color:var(--muted-foreground);line-height:1.65}
+.intro{margin-block:24px}
+.intro h1{margin-block-end:8px}
+.intro p{font-size:1rem}
+.note,.error,.notice{border-radius:var(--control-radius);line-height:1.6}
+.note{color:var(--foreground)}
+
+/* A field owns label/control spacing; the grid owns spacing between fields. */
+.form-grid{gap:var(--form-gap);align-items:start}
+.field{margin:0}
+.panel label{margin-block-start:0}
+.field>label{display:block;margin-block-end:6px}
+label>input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=hidden]),label>select,label>textarea{margin-block-start:6px}
+input:not([type=checkbox]):not([type=radio]):not([type=file]):not([type=hidden]),select,textarea{border-radius:var(--control-radius);line-height:1.5;padding:10px 12px;min-height:46px;caret-color:var(--foreground)}
+.search-label input{margin:0;padding-inline:0}
+.panel>label:not(.option):not(.file-label),.panel>fieldset>label:not(.option),.onboarding>fieldset>label:not(.option){display:block;margin-block:16px}
+.panel>.form-grid,.panel>fieldset>.form-grid,.onboarding>fieldset>.form-grid{margin-block:16px}
+.form-grid>label,.form-grid>.field{margin:0;min-width:0}
+.log-field-error{margin-block-start:6px;font-weight:400;line-height:1.5}
+
+/* Large labels remain the hit targets; the indicators retain square geometry. */
+.option{border-radius:var(--control-radius);min-height:48px;line-height:1.5;min-width:0;padding:14px;gap:10px}
+.chips>.option{flex-basis:140px;min-width:min(140px,100%)}
+.option [data-slot=radio-group-item],.option [data-slot=checkbox]{width:20px;height:20px;min-width:20px;min-height:20px;flex-shrink:0}
+.option [data-slot=radio-group-item]{color:var(--focus);border-color:var(--focus);box-shadow:none}
+.option [data-slot=radio-group-item] svg{fill:currentColor}
+.option [data-slot=checkbox]{border-color:var(--focus);box-shadow:none}
+.choices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-block:12px 24px}
+.choices .option{min-width:0;width:100%;height:100%}
+.body-picker{border-radius:var(--surface-radius);padding:20px}
+.catalog-card{border-radius:var(--control-radius)}
+.catalog-card [data-slot=checkbox]{width:24px;height:24px;min-height:24px}
+
+.primary,.secondary,.subtle,.danger,.file-label{border-radius:var(--control-radius);line-height:1.5;font-weight:600;gap:8px}
+.primary{font-weight:700}
+.primary>svg,.secondary>svg,.subtle>svg,.file-label>svg{width:18px;height:18px;flex-shrink:0}
+.row{gap:12px}
+.panel>.row{margin-block:12px}
+.row>.file-label{margin:0}
+[data-slot=button][data-size^=icon]{min-width:44px;min-height:44px}
+.main-nav [role=tab]{font-weight:500}
+.main-nav [role=tab][data-state=active]{font-weight:700}
+.week-day.rest-day:not(.chosen),.week-day:not(.chosen) small{color:var(--muted-foreground)}
+.week-day,.chip{line-height:1.5}
+
+/* Keep the fast logger and the Batch 3 rest/CTA ordering unchanged. */
+.session-strip{border-radius:var(--surface-radius)}
+.session-strip h2{margin:0 0 6px}
+.session-strip p{font-size:14px;line-height:1.6}
+.session-strip>span,.rest-timer strong,.weekly-duration,.stats-grid strong,td{font-variant-numeric:tabular-nums}
+.exercise-card{border-radius:var(--surface-radius)}
+.exercise-row{margin:0;border-radius:0}
+.exercise-row>span{gap:3px}
+.exercise-row strong{color:var(--foreground);font-size:16px;font-weight:700}
+.exercise-row span span{color:var(--muted-foreground);line-height:1.5}
+.exercise-actions{padding-block:4px}
+[data-slot=dialog-content]{border-radius:var(--surface-radius);gap:12px}
+[data-slot=dialog-title]{font-size:1.25rem;line-height:1.45;text-align:start;margin:0}
+[data-slot=dialog-header]{text-align:start}
+[data-slot=dialog-description]{line-height:1.6}
+[data-slot=dialog-close]{color:var(--muted-foreground);border-radius:var(--control-radius)}
+.logging-controls>.row{margin-block:8px 12px}
+.logging-controls .form-grid.two{gap:12px}
+#log-weight,#log-reps{font-size:1.25rem;font-weight:700;font-variant-numeric:tabular-nums}
+.logging-controls fieldset{margin-block:12px}
+.logging-controls fieldset p{margin-block-start:8px;font-size:14px}
+.logging-controls legend{margin-block:0 8px}
+.rest-timer{margin-block:0 12px;padding:12px;border-radius:var(--control-radius)}
+.rest-timer strong{font-size:2.5rem;line-height:1.2;display:block}
+.rest-timer p{font-size:14px;margin-block:4px 8px}
+.rest-timer .row{gap:8px}
+.rest-timer .row button:first-child{direction:ltr;unicode-bidi:isolate}
+.log-layout details.panel{padding:16px;border-color:var(--divider);border-radius:var(--control-radius)}
+.pr-toast{top:0;padding:6px 12px;font-size:14px;line-height:1.5;align-items:center;border-radius:0 0 12px 12px;pointer-events:none}
+.pr-toast svg{width:18px;height:18px;flex-shrink:0}
+
+.weekly-session{padding-block:16px}
+.weekly-weekday{font-weight:700;font-size:1rem;margin-block-end:2px}
+.weekly-session-title{font-weight:400;font-size:1rem}
+.weekly-duration{font-weight:700;line-height:1.5}
+.weekly-duration small{font-weight:400;font-size:13px;margin-block-start:4px}
+.weekly-muscles{margin-block-start:4px;font-size:13px}
+.weekly-session .weekly-exercises{margin-block:4px 0}
+.weekly-exercises summary{font-size:14px;font-weight:600}
+.weekly-exercises li{margin-block:6px}
+.weekly-settings>.weekly-advanced{border-top:1px solid var(--divider);padding-block-start:12px;margin-block-start:20px}
+.split-card,.split-card.selected{padding:16px;border-radius:var(--control-radius)}
+.stats-grid{margin-block:16px;gap:12px}
+.stats-grid>div{border:0;border-radius:var(--control-radius);background:var(--background);padding:16px;gap:4px}
+.stats-grid small,.stats-grid span{color:var(--muted-foreground);font-size:13px}
+.stats-grid strong{font-size:1.875rem;line-height:1.3}
+.chart figcaption{font-size:1rem;line-height:1.5}
+.chart figcaption small{font-weight:400;color:var(--muted-foreground)}
+.chart details{margin-block:4px 0}
+.chart table{margin-block-start:8px}
+.macro-grid>div{border-radius:var(--control-radius)}
+.report-saved{font-size:14px;gap:10px}
+.report-editor{gap:24px}
+.report-editor .form-grid{margin-block:16px}
+.report-editor .option{margin-block:16px}
+.profile-settings .secondary{text-align:start;justify-content:flex-start}
+::selection{background:var(--primary);color:var(--action-primary-foreground)}
+@media(prefers-reduced-motion:no-preference){.primary,.secondary,.subtle,.chip,.option,[data-slot=button]{transition:background-color 140ms ease-out,border-color 140ms ease-out,color 140ms ease-out}}
+@media(max-width:640px){
+ .panel{padding:18px;margin-block-end:20px}
+ .page-heading{margin-block-end:20px}
+ .choices{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+ .choices .option{padding:12px;min-width:0}
+ .form-grid{gap:14px}
+ .stats-grid{gap:8px}
+ .stats-grid>div{padding:12px}
+ .body-picker{padding:16px}
+ .report-editor{gap:16px}
+ .onboarding .intro{margin-block:20px}
+ .onboarding .nav-row{margin-block-start:24px;border-top:1px solid var(--divider)}
+}

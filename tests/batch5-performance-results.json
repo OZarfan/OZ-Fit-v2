@@ -82,7 +82,7 @@
       "status": "passed"
     },
     {
-      "name": "Progress DOM equals pre-optimization output",
+      "name": "Progress DOM equals pre-optimization output except the approved Batch8 export style",
       "status": "passed"
     },
     {

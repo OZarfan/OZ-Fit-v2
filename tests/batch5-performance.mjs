@@ -61,7 +61,12 @@ const progressBefore=x.doc.querySelector('[role=tabpanel][data-state=active]').i
 x.reset();for(let i=0;i<10;i++)await x.tick();measurements.progressTenTicks=x.counts();
 check('Progress contents remain identical across ten clock ticks',()=>assert.equal(x.doc.querySelector('[role=tabpanel][data-state=active]').innerHTML,progressBefore));
 if(baseline)fs.writeFileSync(path.join(cache,'progress.html'),progressBefore);
-else check('Progress DOM equals pre-optimization output',()=>assert.equal(progressBefore,fs.readFileSync(path.join(cache,'progress.html'),'utf8')));
+else check('Progress DOM equals pre-optimization output except the approved Batch8 export style',()=>{
+ // Batch 8 changes only this export's visual hierarchy; all output and semantics still match.
+ const previous=fs.readFileSync(path.join(cache,'progress.html'),'utf8');
+ assert.equal(previous.split('<button class="primary">JSON</button>').length,2);
+ assert.equal(progressBefore,previous.replace('<button class="primary">JSON</button>','<button class="secondary">JSON</button>'));
+});
 await tab(x,'Today');x.reset();
 const search=x.doc.querySelector('.search-label input');
 for(const value of ['a','ab','abc']){input(x,search,value);await wait()}

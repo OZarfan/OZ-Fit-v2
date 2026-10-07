@@ -1,5 +1,13 @@
 # Oz Fit v2 — تقرير التنفيذ والمراجعة
 
+## Batch 8 — visual polish · 2026-10-07
+
+Refined the existing application with consistent heading hierarchy, panel/form rhythm, square selection indicators within large labels, clear action grouping, quieter Progress stats/exports, readable rest-day text and unobscured rest feedback. Arabic tracking, logical dialog alignment and mobile option wrapping are preserved. The green/lime identity, semantic color pairs, navigation, onboarding/profile flows, Weekly Plan hierarchy, logging, data contracts and Batch 5 performance remain intact. Two independent review perspectives were reconciled before the bounded correction/confirmation pass.
+
+Validation: typecheck/build pass; **16 logic passes plus the unchanged partial alternative-coverage result (574 gaps)**, **238 DOM passes**, **3 simulated PWA passes**, **4 color guards** and **25 derived/performance checks**. All Batch 1–7 DOM regressions remain passing. AR/EN browser evidence covers **360/390/430/1280px × 20 states**, with 160 final captures and 80 before/after pairs. Measured close controls remain 44×44px without title collisions; rest/input controls stay reachable. Finish-session, eyebrow and validation contrast remain 13.24/6.18/5.48:1; rest-day text improves to 5.77:1. Timer-driven root/plan work remains zero across ten measured ticks.
+
+See [Batch8-Visual-Polish.md](docs/Batch8-Visual-Polish.md) for every changed/generated file, screenshot gallery, exact test scope, reduced-motion fixture method and real-device limits. No final audit or adversarial review was started. Batch 8 stops here.
+
 ## Batch 7 — weekly outcome before configuration · 2026-10-04
 
 Plan now leads with the selected training days, their actual generated sessions, estimated durations and available time. Optional exercise details make each session understandable without duplicating logging. The existing recommendation explanation follows, distinguishing a user's saved split from an unapplied recommendation. Schedule/direct availability editing stays available below the outcome, and all split/stage controls remain inside a native disclosure. Planning algorithms, stored schemas, selected-day ownership and Today execution are unchanged.

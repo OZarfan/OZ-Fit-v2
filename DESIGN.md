@@ -1,6 +1,18 @@
 # Local Oz Fit v2 — current design and intended UX
 
-Inspected: 2026-09-30. This file distinguishes current CSS/flows from proposed work. [Product](PRODUCT.md) · [Development](AGENTS.md).
+Current presentation update: 2026-10-07 (Batch 8). The original inspection below is dated 2026-09-30; the current contracts and completed batch reports take precedence over its historical values and proposals. [Product](PRODUCT.md) · [Development](AGENTS.md).
+
+## Current Batch 8 presentation contracts
+
+- Preserve the existing green/lime identity, Arial/Tahoma/system font stack and Batch 4 semantic foreground/background pairs. There is no new theme.
+- Shared geometry/rhythm in `app.css`: surface radius 16px, control radius 12px, section spacing 24px, form gap 16px, with compact mobile overrides. Standard input text remains at least 16px; inputs have a 46px minimum height.
+- Headings use clear 700-weight hierarchy; Arabic headings use normal tracking. Logging values use 20px bold tabular numerals. Supporting text retains semantic contrast.
+- Form grids own inter-field spacing. Option labels remain large interactive targets around square 20px indicators; choices use three columns on desktop and two on mobile. Wrap gym/allergen options without compressing their text.
+- Dialogs retain logical close-control space, localized names and 44×44px close targets. Mobile rest controls and load/reps remain reachable, and PR feedback must not obscure or intercept them.
+- Batch 6 direct profile editing and Batch 7 week-outcome-first hierarchy remain. The four-tab navigation is unchanged. Progress exports are secondary actions.
+- Transitions are limited to 140ms color/background/border feedback under `prefers-reduced-motion:no-preference`; retain the existing reduced-motion override.
+
+See [Batch8-Visual-Polish.md](docs/Batch8-Visual-Polish.md) for intentional changes, review reconciliation, 8-case AR/EN verification, screenshot comparisons and device limits. The following original inspection is retained as historical context, not a request to implement its remaining proposals.
 
 ## Identity and visual priorities
 
