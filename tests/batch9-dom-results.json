@@ -1,0 +1,353 @@
+{
+  "environment": "Synthetic jsdom; no layout or device claims",
+  "results": [
+    {
+      "name": "Batch9 profile switch exposes only the destination profile drafts",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 attempted saves in B cannot submit A prescription/report/gym data",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 returning to A restores all draft fields and report confirmation",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 successful draft saves write only the owner and preserve B draft",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 quota keeps every owner draft and does not write",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 quota retry retains editable values for the same owner",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 quota retry saves to A only",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 conflict-owner-change keeps every owner draft and does not write",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 conflict reload changing activeId isolates retained A drafts",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 conflict-owner-change retry retains editable values for the same owner",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 conflict-owner-change retry saves to A only",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 delayed gym file read cannot populate B",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 delayed file read remains reviewable and savable by A",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 report preview and confirmation return to their owner with URL cleanup",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar unsupported stored priority names the field and preserves the raw account",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar unsupported backup priority names the field without replacing data",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en unsupported stored priority names the field and preserves the raw account",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en unsupported backup priority names the field without replacing data",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar new priority balanced round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar new priority chest round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar new priority back round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar new priority legs round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar new priority shoulders round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar new priority arms round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar new priority core round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar edit priority balanced round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar edit priority chest round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar edit priority back round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar edit priority legs round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar edit priority shoulders round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar edit priority arms round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar edit priority core round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en new priority balanced round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en new priority chest round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en new priority back round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en new priority legs round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en new priority shoulders round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en new priority arms round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en new priority core round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en edit priority balanced round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en edit priority chest round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en edit priority back round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en edit priority legs round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en edit priority shoulders round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en edit priority arms round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en edit priority core round-trips without changing supported goals",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar wizard unsupported mobility has associated priority feedback",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar wizard unsupported external-unknown has associated priority feedback",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar equipment unsupported mobility has associated priority feedback",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar equipment unsupported external-unknown has associated priority feedback",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en wizard unsupported mobility has associated priority feedback",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en wizard unsupported external-unknown has associated priority feedback",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en equipment unsupported mobility has associated priority feedback",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en equipment unsupported external-unknown has associated priority feedback",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 shared dialog CSS bounds height and scrolls without overriding logging containment",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish with 0 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish 0 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish with 1 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish 1 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish with 2 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish 2 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish with 3 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish 3 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish with 4 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish 4 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish with 5 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish 5 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish with 6 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish 6 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish with 7 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 ar Finish 7 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish with 0 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish 0 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish with 1 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish 1 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish with 2 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish 2 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish with 3 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish 3 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish with 4 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish 4 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish with 5 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish 5 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish with 6 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish 6 preserves failure/retry with additional error content",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish with 7 injury areas uses the shared dialog with a named close and all injury fields",
+      "status": "passed"
+    },
+    {
+      "name": "Batch9 en Finish 7 preserves failure/retry with additional error content",
+      "status": "passed"
+    }
+  ]
+}

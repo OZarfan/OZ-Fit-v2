@@ -1,5 +1,13 @@
 # Oz Fit v2 — تقرير التنفيذ والمراجعة
 
+## Batch 9 — final P1 release blockers · 2026-10-10
+
+Bound gym, prescription and report drafts to stable profile IDs, including delayed file reads and owner-matched blob previews. Supported muscle-priority choices now come from the existing schema; Mobility remains a goal and invalid priorities receive localized field-specific feedback. Shared dialogs are viewport-bounded and vertically scrollable while retaining logging/rest containment, 44px close targets and RTL title spacing. Storage schemas, planner output and prior save/retry contracts remain unchanged.
+
+Validation: typecheck/build and generated/source consistency pass; **16 logic passes plus the unchanged partial alternative-coverage result (574 gaps)**, **325 DOM passes (87 new Batch 9)**, **3 simulated PWA passes**, **4 color guards** and **25 derived/performance checks**. CUA browser verification covers AR/EN at **360/390/430/1280px**, including **136 Finish cases at 800/480px heights**, priority validation, logging/rest controls, profile-owned drafts and decoded report previews. Existing timer-driven root/plan work remains zero.
+
+See [Batch9-P1-Release-Blockers.md](docs/Batch9-P1-Release-Blockers.md) for every changed/generated file, browser evidence scope and real-device limitations. No P2/P3 fixes, visual polish or documentation cleanup were performed. Batch 9 stops here.
+
 ## Batch 8 — visual polish · 2026-10-07
 
 Refined the existing application with consistent heading hierarchy, panel/form rhythm, square selection indicators within large labels, clear action grouping, quieter Progress stats/exports, readable rest-day text and unobscured rest feedback. Arabic tracking, logical dialog alignment and mobile option wrapping are preserved. The green/lime identity, semantic color pairs, navigation, onboarding/profile flows, Weekly Plan hierarchy, logging, data contracts and Batch 5 performance remain intact. Two independent review perspectives were reconciled before the bounded correction/confirmation pass.

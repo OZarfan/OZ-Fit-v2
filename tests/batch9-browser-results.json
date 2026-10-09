@@ -1,0 +1,72 @@
+{
+  "batch": 9,
+  "recordedOn": "2026-10-10",
+  "environment": "Desktop browser automation through CUA against synthetic fixtures at http://127.0.0.1:4197; emulated viewport sizes, not physical phones or an installed PWA.",
+  "recordType": "Aggregate record of completed browser observations; not a replay of individual raw measurement rows.",
+  "languages": ["ar", "en"],
+  "widths": [360, 390, 430, 1280],
+  "finishDialog": {
+    "status": "passed",
+    "normalCases": 128,
+    "matrix": "2 languages x 4 widths x 2 heights x 8 injury counts",
+    "heights": [800, 480],
+    "injuryCounts": [0, 1, 2, 3, 4, 5, 6, 7],
+    "quotaFailureCases": 8,
+    "quotaFailureMatrix": "2 languages x 4 widths at height 480 with 7 injury areas and persistence error content",
+    "observations": [
+      "Dialog bounds remain inside the viewport with no horizontal overflow.",
+      "Close retains a 44 x 44 target, a localized name and RTL-safe title space.",
+      "Tab from Notes reaches Save and scrolls it into view; the following Tab reaches Close and scrolls it into view.",
+      "Enter on Close dismisses the dialog.",
+      "Pointer scrolling reaches Save; successful saving opens the existing success/share dialog.",
+      "Quota error content does not make Save or Close unreachable."
+    ],
+    "maximumObservedDialogHeight": {"viewport800": 768, "viewport480": 448},
+    "sourceTiming": "The dialog CSS and shared component were unchanged throughout this matrix. Some cases preceded the final, unrelated report-preview ownership guard and priority-error additions; the final generated build was separately verified."
+  },
+  "priorityEditor": {
+    "status": "passed",
+    "cases": 8,
+    "height": 800,
+    "observations": [
+      "Seven schema-supported choices appear in Arabic and English.",
+      "Unsupported priority has a named group, aria-invalid and associated localized feedback.",
+      "Selecting Balanced removes obsolete feedback and updates the pressed state.",
+      "No horizontal overflow at any required width."
+    ]
+  },
+  "loggingAndRest": {
+    "status": "passed",
+    "cases": 8,
+    "height": 800,
+    "observations": [
+      "Countdown, rest actions, load and reps remain visible and hit-testable.",
+      "Rest actions meet the 44px target standard.",
+      "Invalid load and reps produce two associated errors inside the dialog and focus the load field.",
+      "Correcting to 25kg and 8 reps logs successfully, clears stale validation feedback and activates rest.",
+      "No horizontal overflow at any required width."
+    ]
+  },
+  "sharedColors": {"status": "passed", "componentCases": 28, "enabledTextPairsBelow4_5": 0},
+  "profileOwnership": {
+    "status": "passed",
+    "languages": ["en", "ar"],
+    "width": 360,
+    "fixture": "Two synthetic profiles; bundled public logo used as a report image.",
+    "observations": [
+      "Profile A created a gym draft, prescription draft and confirmed report with weight 71.",
+      "Switching to B displayed none of A's draft fields or report editor.",
+      "Returning to A restored the gym name, prescription, report weight and confirmation.",
+      "The report blob URL decoded successfully before and after switching.",
+      "Arabic switching and returning preserved the same owner association."
+    ],
+    "failureAndConflictEvidence": "tests/batch9-dom-results.json covers quota, revision conflicts including activeId changes, editable retry, delayed file reads and saves to the original owner."
+  },
+  "screenshot": ".cache/batch9/finish-ar-390x480.jpg",
+  "limitations": [
+    "No real-device, screen-reader, Safari, installed-PWA or physical on-screen-keyboard verification is claimed.",
+    "The browser kernel later exited because the sandbox helper could not refresh. The screenshot and this aggregate record remain; individual in-memory measurement arrays were not exported.",
+    "These checks do not establish notification delivery or offline installation/startup on real devices."
+  ],
+  "status": "passed"
+}

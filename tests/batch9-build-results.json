@@ -1,0 +1,12 @@
+{
+  "appSha256": "1aa46317c756531221bdddd6e8c0ab2a2100b6f21497d0b7acf916639180e8a8",
+  "htmlSha256": "3ac5d434c67c719ed438c400cfa4bf9495340a2d4d06f1b529414cf032097a1c",
+  "assets": 221,
+  "checks": [
+    "Generated JS equals fresh in-memory build",
+    "Standalone and PWA embed current JS/CSS",
+    "PWA assets equal public sources",
+    "Every embedded asset equals its source"
+  ],
+  "status": "passed"
+}
